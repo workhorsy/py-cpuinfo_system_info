@@ -1,0 +1,496 @@
+sys.executable:
+===============================================================================
+/usr/bin/python
+
+
+
+sys.version_info:
+===============================================================================
+sys.version_info(major=2, minor=7, micro=12, releaselevel='final', serial=0)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+4
+
+
+
+platform.uname:
+===============================================================================
+('Linux', 'odroid64', '3.14.79-108', '#1 SMP PREEMPT Mon Feb 27 23:18:26 BRT 2017', 'aarch64', 'aarch64')
+
+
+
+platform.architecture:
+===============================================================================
+('64bit', 'ELF')
+
+
+
+platform.system:
+===============================================================================
+Linux
+
+
+
+platform.machine:
+===============================================================================
+aarch64
+
+
+
+cpufreq-info:
+===============================================================================
+cpufrequtils 008: cpufreq-info (C) Dominik Brodowski 2004-2009
+Report errors and bugs to cpufreq@vger.kernel.org, please.
+analyzing CPU 0:
+  driver: meson_cpufreq
+  CPUs which run at the same hardware frequency: 0 1 2 3
+  CPUs which need to have their frequency coordinated by software: 0 1 2 3
+  maximum transition latency: 200 us.
+  hardware limits: 100.0 MHz - 1.54 GHz
+  available frequency steps: 100.0 MHz, 250 MHz, 500 MHz, 1000 MHz, 1.30 GHz, 1.54 GHz
+  available cpufreq governors: hotplug, interactive, conservative, ondemand, userspace, powersave, performance
+  current policy: frequency should be within 100.0 MHz and 1.54 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.54 GHz.
+  cpufreq stats: 100.0 MHz:0.00%, 250 MHz:0.00%, 500 MHz:0.00%, 1000 MHz:0.00%, 1.30 GHz:0.00%, 1.54 GHz:100.00%  (439)
+analyzing CPU 1:
+  driver: meson_cpufreq
+  CPUs which run at the same hardware frequency: 0 1 2 3
+  CPUs which need to have their frequency coordinated by software: 0 1 2 3
+  maximum transition latency: 200 us.
+  hardware limits: 100.0 MHz - 1.54 GHz
+  available frequency steps: 100.0 MHz, 250 MHz, 500 MHz, 1000 MHz, 1.30 GHz, 1.54 GHz
+  available cpufreq governors: hotplug, interactive, conservative, ondemand, userspace, powersave, performance
+  current policy: frequency should be within 100.0 MHz and 1.54 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.54 GHz.
+  cpufreq stats: 100.0 MHz:0.00%, 250 MHz:0.00%, 500 MHz:0.00%, 1000 MHz:0.00%, 1.30 GHz:0.00%, 1.54 GHz:100.00%  (439)
+analyzing CPU 2:
+  driver: meson_cpufreq
+  CPUs which run at the same hardware frequency: 0 1 2 3
+  CPUs which need to have their frequency coordinated by software: 0 1 2 3
+  maximum transition latency: 200 us.
+  hardware limits: 100.0 MHz - 1.54 GHz
+  available frequency steps: 100.0 MHz, 250 MHz, 500 MHz, 1000 MHz, 1.30 GHz, 1.54 GHz
+  available cpufreq governors: hotplug, interactive, conservative, ondemand, userspace, powersave, performance
+  current policy: frequency should be within 100.0 MHz and 1.54 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.54 GHz.
+  cpufreq stats: 100.0 MHz:0.00%, 250 MHz:0.00%, 500 MHz:0.00%, 1000 MHz:0.00%, 1.30 GHz:0.00%, 1.54 GHz:100.00%  (439)
+analyzing CPU 3:
+  driver: meson_cpufreq
+  CPUs which run at the same hardware frequency: 0 1 2 3
+  CPUs which need to have their frequency coordinated by software: 0 1 2 3
+  maximum transition latency: 200 us.
+  hardware limits: 100.0 MHz - 1.54 GHz
+  available frequency steps: 100.0 MHz, 250 MHz, 500 MHz, 1000 MHz, 1.30 GHz, 1.54 GHz
+  available cpufreq governors: hotplug, interactive, conservative, ondemand, userspace, powersave, performance
+  current policy: frequency should be within 100.0 MHz and 1.54 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.54 GHz.
+  cpufreq stats: 100.0 MHz:0.00%, 250 MHz:0.00%, 500 MHz:0.00%, 1000 MHz:0.00%, 1.30 GHz:0.00%, 1.54 GHz:100.00%  (439)
+
+
+
+
+cat /proc/cpuinfo:
+===============================================================================
+processor	: 0
+BogoMIPS	: 2.00
+Features	: fp asimd crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 2.00
+Features	: fp asimd crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 2.00
+Features	: fp asimd crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 2.00
+Features	: fp asimd crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+Hardware	: ODROID-C2
+Revision	: 020c
+
+
+
+
+sysctl machdep.cpu hw.cpufrequency:
+===============================================================================
+
+
+
+
+sysctl hw.model hw.machine:
+===============================================================================
+
+
+
+
+lscpu:
+===============================================================================
+Architecture:          aarch64
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             4
+CPU max MHz:           1536.0000
+CPU min MHz:           100.0000
+
+
+
+
+dmesg:
+===============================================================================
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.14.79-108 (root@a53_b1) (gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~16.04.1) ) #1 SMP PREEMPT Mon Feb 27 23:18:26 BRT 2017
+[    0.000000] CPU: AArch64 Processor [410fd034] revision 4
+[    0.000000] secmon: share mem setup
+[    0.000000] Reserved memory: initialized node linux,secmon, compatible id aml_secmon_memory
+[    0.000000] __reserved_mem_alloc_size: linux,meson-fb
+[    0.000000] fb: Reserved memory: created fb at 0x0000000078000000, size 128 MiB
+[    0.000000] Reserved memory: initialized node linux,meson-fb, compatible id amlogic, fb-memory
+[    0.000000] __reserved_mem_alloc_size: linux,di
+[    0.000000] DI reserved memory: created CMA memory pool at 0x0000000076200000, size 30 MiB
+[    0.000000] Reserved memory: initialized node linux,di, compatible id amlogic, di-mem
+[    0.000000] __reserved_mem_alloc_size: linux,ion-dev
+[    0.000000] linux,ion-dev add multi user:ffffffc001d20568
+[    0.000000] ion_dev mem setup
+[    0.000000] Reserved memory: initialized node linux,ion-dev, compatible id amlogic, idev-mem
+[    0.000000] ppmgr share mem setup
+[    0.000000] linux,ion-dev add multi user:ffffffc001d290f0
+[    0.000000] Reserved memory: initialized node linux,ion-dev, compatible id amlogic, idev-mem
+[    0.000000] __reserved_mem_alloc_size: linux,codec_mm_cma
+[    0.000000] Reserved memory: created CMA memory pool at 0x0000000067800000, size 188 MiB
+[    0.000000] Reserved memory: initialized node linux,codec_mm_cma, compatible id shared-dma-pool
+[    0.000000] __reserved_mem_alloc_size: linux,picdec
+[    0.000000] Reserved memory: created CMA memory pool at 0x0000000064800000, size 48 MiB
+[    0.000000] Reserved memory: initialized node linux,picdec, compatible id shared-dma-pool
+[    0.000000] __reserved_mem_alloc_size: linux,codec_mm_reserved
+[    0.000000] codec_mm:vdec: reserved mem setup
+[    0.000000] Reserved memory: initialized node linux,codec_mm_reserved, compatible id amlogic, codec-mm-reserved
+[    0.000000] cma: Reserved 8 MiB at 5fc00000
+[    0.000000] On node 0 totalpages: 486912
+[    0.000000]   Normal zone: 8568 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 486912 pages, LIFO batch:31
+[    0.000000] psci: probing function IDs from device-tree
+[    0.000000] PERCPU: Embedded 12 pages/cpu @ffffffc074195000 s19584 r8192 d21376 u49152
+[    0.000000] pcpu-alloc: s19584 r8192 d21376 u49152 alloc=12*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 478344
+[    0.000000] Kernel command line: root=UUID=e139ce78-9841-40fe-8823-96a304a09859 rootwait ro console=ttyS0,115200n8 console=tty0 no_console_suspend hdmimode=1080p60hz  m_bpp=32 vout=dvi fsck.repair=yes net.ifnames=0 elevator=noop disablehpd=true max_freq=1536 maxcpus=4 monitor_onoff=false disableuhs=false mmc_removable=true usbmulticam=false
+[    0.000000] logo: get hdmimode: 1080p60hz
+[    0.000000] dvfs [get_max_freq] - max_freq : 1536000000
+[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Memory: 1498460K/1947648K available (8304K kernel code, 900K rwdata, 3036K rodata, 907K init, 4228K bss, 449188K reserved)
+[    0.000000] Virtual kernel memory layout:
+                   vmalloc : 0xffffff8000000000 - 0xffffff8040000000   (  1024 MB)
+                   vmemmap : 0xffffff8040010000 - 0xffffff80421d0000   (    33 MB)
+                   modules : 0xffffffbffc000000 - 0xffffffc000000000   (    64 MB)
+                   memory  : 0xffffffc000000000 - 0xffffffc078000000   (  1920 MB)
+                     .init : 0xffffffc001b95000 - 0xffffffc001c77c80   (   908 kB)
+                     .text : 0xffffffc001080000 - 0xffffffc001b94204   ( 11345 kB)
+                     .data : 0xffffffc001c78000 - 0xffffffc001d59280   (   901 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-1, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] NR_IRQS:64 nr_irqs:64 0
+[    0.000005] sched_clock: 32 bits at 1000kHz, resolution 1000ns, wraps every 2147483648000ns
+[    0.000025] mclk->mux_reg =ffffff8000002990,mclk->reg =ffffff800000a994
+[    0.000073] local timer MESON TIMER-G mclk->mux_reg =ffffff8000002990,mclk->reg =ffffff800000c998
+[    0.000094] local timer MESON TIMER-H mclk->mux_reg =ffffff8000002990,mclk->reg =ffffff800000e99c
+[    0.000115] local timer MESON TIMER-I mclk->mux_reg =ffffff8000002990,mclk->reg =ffffff80000109a0
+[    0.000126] Switching to timer-based delay loop
+[    0.000359] Console: colour dummy device 80x25
+[    0.000864] console [tty0] enabled
+[    0.003220] allocated 8388608 bytes of page_cgroup
+[    0.003229] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+[    0.003248] Calibrating delay loop (skipped), value calculated using timer frequency.. 2.00 BogoMIPS (lpj=10000)
+[    0.003266] pid_max: default: 32768 minimum: 301
+[    0.003348] Security Framework initialized
+[    0.003376] AppArmor: AppArmor initialized
+[    0.003414] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.003427] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.003858] Initializing cgroup subsys debug
+[    0.003873] Initializing cgroup subsys memory
+[    0.003892] Initializing cgroup subsys devices
+[    0.003904] Initializing cgroup subsys freezer
+[    0.003915] Initializing cgroup subsys net_cls
+[    0.003924] Initializing cgroup subsys blkio
+[    0.003933] Initializing cgroup subsys perf_event
+[    0.003945] Initializing cgroup subsys net_prio
+[    0.003955] Initializing cgroup subsys hugetlb
+[    0.003996] ftrace: allocating 29798 entries in 117 pages
+[    0.029760] /cpus/cpu@0: Missing clock-frequency property
+[    0.029791] /cpus/cpu@1: Missing clock-frequency property
+[    0.029803] /cpus/cpu@2: Missing clock-frequency property
+[    0.029815] /cpus/cpu@3: Missing clock-frequency property
+[    0.029829] hw perfevents: enabled with arm/armv8-pmuv3 PMU driver, 7 counters available
+[    0.061849] Meson chip version = RevC (1F:C - 0:0)
+[    0.080805] CPU1: Booted secondary processor
+[    0.100785] CPU2: Booted secondary processor
+[    0.120775] CPU3: Booted secondary processor
+[    0.120829] Brought up 4 CPUs
+[    0.120858] SMP: Total of 4 processors activated.
+[    0.121358] devtmpfs: initialized
+[    0.133560] pinctrl core: initialized pinctrl subsystem
+[    0.133832] regulator-dummy: no parameters
+[    0.135611] device-tree: Duplicate name in efusekey, renamed to "key0#1"
+[    0.135641] device-tree: Duplicate name in efusekey, renamed to "key1#1"
+[    0.135671] device-tree: Duplicate name in efusekey, renamed to "key2#1"
+[    0.135698] device-tree: Duplicate name in efusekey, renamed to "key3#1"
+[    0.137618] NET: Registered protocol family 16
+[    0.138439] register canvas platform driver
+[    0.138450] codec:ignore bus ops for cpu=25
+[    0.138457] codec:ignore bus ops for cpu=29
+[    0.138466] codec:register amports ops for bus[0]
+[    0.138474] codec:register amports ops for bus[4]
+[    0.138482] codec:register amports ops for bus[3]
+[    0.138490] codec:register amports ops for bus[2]
+[    0.138497] codec:register amports ops for bus[1]
+[    0.138505] codec:register amports ops for bus[13]
+[    0.138513] codec:register amports ops for bus[2]
+[    0.138521] codec:register amports ops for bus[14]
+[    0.138549] register rdma platform driver
+[    0.139029] vdso: 2 pages (1 code, 1 data) at base ffffffc001c7e000
+[    0.139061] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    0.139590] DMA: preallocated 256 KiB pool for atomic allocations
+[    0.140868] software IO TLB [mem 0x5c400000-0x5c800000] (4MB) mapped at [ffffffc05c400000-ffffffc05c7fffff]
+[    0.140883] Serial: AMBA PL011 UART driver
+[    0.140970] hdmitx: system: amhdmitx_init
+[    0.140979] hdmitx: system: Ver: 2014May6
+[    0.141010] tv_vout: tv_init_module
+[    0.141021] tv_vout: major number 254 for disp
+[    0.141030] vout_notify: vout_register_server
+[    0.141037] tv_vout: register tv module server ok
+[    0.141065] codec_mm:codec_mm_module_init
+[    0.141187] gxbb clk HIU base is 0xffffff800005a000
+[    0.141196] gxbb clk ao base is 0xffffff800005c000
+[    0.141234] register mpll_clk_out0 success done
+[    0.141245] register mpll_clk_out1 success done
+[    0.141256] register mpll_clk_out2 success done
+[    0.141423] register sys pll success done
+[    0.141465] clkrate [ xtal 	] : 24000000Hz
+[    0.141474] clkrate [ 32Khz 	] : 32000Hz
+[    0.141482] clkrate [ clk81 	] : 166666666Hz
+[    0.141490] clkrate [ fixed_pll 	] : 2000000000Hz
+[    0.141498] clkrate [ fclk_div2 	] : 1000000000Hz
+[    0.141506] clkrate [ fclk_div3 	] : 666666000Hz
+[    0.141514] clkrate [ fclk_div4 	] : 500000000Hz
+[    0.141522] clkrate [ fclk_div5 	] : 400000000Hz
+[    0.141530] clkrate [ fclk_div7 	] : 285714000Hz
+[    0.141559] gxbb clock initialization complete
+[    0.141667] msr_clk_reg0=ffffff800005e75c,msr_clk_reg2=ffffff800006a764
+[    0.142531] amlogic iomap probe done
+[    0.142781] Init pinux probe!
+[    0.143522] pinmux-gxbb c1109880.pinmux: Probed amlogic pinctrl driver
+[    0.143775] genirq: Setting trigger mode 8 for irq 241 failed (gic_set_type+0x0/0xb8)
+[    0.143795] genirq: Setting trigger mode 8 for irq 242 failed (gic_set_type+0x0/0xb8)
+[    0.143858] genirq: Setting trigger mode 8 for irq 241 failed (gic_set_type+0x0/0xb8)
+[    0.143878] genirq: Setting trigger mode 8 for irq 242 failed (gic_set_type+0x0/0xb8)
+[    0.144062] dvfs [scpi_dvfs_get_opps] - new count 6, max_freq 1536000000
+[    0.144498] codec:codec map io source 0x00000000c1100000,size=1048576 to 0xffffff8000680000
+[    0.144519] codec:codec map io source 0x00000000c8820000,size=65536 to 0xffffff80000a0000
+[    0.144537] codec:codec map io source 0x00000000c883c000,size=8192 to 0xffffff8000094000
+[    0.144566] codec:codec map io source 0x00000000c8100000,size=1048576 to 0xffffff8000800000
+[    0.144586] codec:codec map io source 0x00000000d0100000,size=262144 to 0xffffff8000980000
+[    0.144603] codec:codec map io source 0x00000000c8838000,size=1024 to 0xffffff8000092000
+[    0.144664] codec_mm has 2 memory regions
+[    0.144679] codec_mm codec_mm: assigned reserved memory node linux,codec_mm_cma ok
+[    0.144694] codec_mm:codec_mm_reserved_init 0000000060700000->0000000064800000
+[    0.144707] codec_mm codec_mm: assigned reserved memory node linux,codec_mm_reserved ok
+[    0.144718] codec_mm:codec_mm_probe mem init done
+[    0.144728] codec_mm:add reserve memory 0000000060700000(aligned 0000000060700000) size=4100000(aligned 4100000)
+[    0.144755] codec_mm has 2 memory regions
+[    0.144766] codec_mm codec_mm: assigned reserved memory node linux,codec_mm_cma ok
+[    0.144779] codec_mm:codec_mm_reserved_init 0000000060700000->0000000064800000
+[    0.144792] codec_mm codec_mm: assigned reserved memory node linux,codec_mm_reserved ok
+[    0.144803] codec_mm:codec_mm reserved memory probed done
+[    0.144811] codec_mm:codec_mm_probe ok
+[    0.145381] VPU driver version: v01
+[    0.145391] vpu driver detect cpu type: gxbaby
+[    0.145407] load vpu_clk in dts: 666667000Hz(7)
+[    0.145432] vpu_probe OK
+[    0.145620] hdmitx: system: amhdmitx_probe
+[    0.145837] hdmitx hpd irq = 89
+[    0.146029] hdmitx20: Mapped PHY: 0xc0800000
+[    0.146040] hdmitx20: Mapped PHY: 0xc1104400
+[    0.146062] hdmitx20: Mapped PHY: 0xc8100000
+[    0.146071] hdmitx20: Mapped PHY: 0xc8834000
+[    0.146080] hdmitx20: Mapped PHY: 0xc883a000
+[    0.146088] hdmitx20: Mapped PHY: 0xc883c000
+[    0.146101] hdmitx20: Mapped PHY: 0xd0100000
+[    0.146110] hdmitx20: Mapped PHY: 0xda83a000
+[    0.146125] hdmitx: alread display in uboot 0x10
+[    0.146150] avmute set to 1
+[    0.146484] canvas_probe reg=00000000c8838000,size=400
+[    0.146500] canvas maped reg_base =ffffff800009e000
+[    0.149914] rdma_probe
+[    0.181418] bio: create slab <bio-0> at 0
+[    0.181876] SCSI subsystem initialized
+[    0.182025] usbcore: registered new interface driver usbfs
+[    0.182064] usbcore: registered new interface driver hub
+[    0.182128] usbcore: registered new device driver usb
+[    0.182195] media: Linux media interface: v0.10
+[    0.182225] Linux video capture interface: v2.00
+[    0.182273] pps_core: LinuxPPS API ver. 1 registered
+[    0.182282] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.182303] PTP clock support registered
+[    0.182463] logo: logo_init
+[    0.182512] Advanced Linux Sound Architecture Driver Initialized.
+[    0.182818] Bluetooth: Core ver 2.18
+[    0.182841] NET: Registered protocol family 31
+[    0.182850] Bluetooth: HCI device and connection manager initialized
+[    0.182864] Bluetooth: HCI socket layer initialized
+[    0.182875] Bluetooth: L2CAP socket layer initialized
+[    0.182899] Bluetooth: SCO socket layer initialized
+[    0.182913] NetLabel: Initializing
+[    0.182920] NetLabel:  domain hash size = 128
+[    0.182928] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.182967] NetLabel:  unlabeled traffic allowed by default
+[    0.183616] Switched to clocksource Timer-E
+[    0.206120] AppArmor: AppArmor Filesystem Enabled
+[    0.210480] NET: Registered protocol family 2
+[    0.210963] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.211060] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+[    0.211278] TCP: Hash tables configured (established 16384 bind 16384)
+[    0.211349] TCP: reno registered
+[    0.211361] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+[    0.211403] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+[    0.211573] NET: Registered protocol family 1
+[    0.211770] RPC: Registered named UNIX socket transport module.
+[    0.211780] RPC: Registered udp transport module.
+[    0.211789] RPC: Registered tcp transport module.
+[    0.211797] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.211955] Unpacking initramfs...
+[    0.473783] hdmitx: plugin
+[    0.504934] Freeing initrd memory: 9392K (ffffffc0735fb000 - ffffffc073f27000)
+[    0.509182] kvm [1]: Using HYP init bounce page @5bd0c000
+[    0.509379] kvm [1]: interrupt-controller@c4304000 IRQ25
+[    0.509591] kvm [1]: kvm_arch_timer: can't find DT node
+[    0.509623] kvm [1]: error initializing Hyp mode: -19
+[    0.510133] futex hash table entries: 1024 (order: 5, 131072 bytes)
+[    0.510243] audit: initializing netlink subsys (disabled)
+[    0.510313] audit: type=2000 audit(0.500:1): initialized
+[    0.510871] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[    0.515073] VFS: Disk quotas dquot_6.5.2
+[    0.515227] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.517004] NFS: Registering the id_resolver key type
+[    0.517052] Key type id_resolver registered
+[    0.517061] Key type id_legacy registered
+[    0.517077] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    0.517107] msgmni has been set to 3433
+[    0.518026] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+[    0.518104] io scheduler noop registered (default)
+[    0.518115] io scheduler deadline registered
+[    0.518140] io scheduler cfq registered
+[    0.538267] hdmitx: edid: raw data are all zeroes
+[    0.538290] EDID Parser:
+[    0.538329] EDID BlockCount=0
+[    0.538335] hdmitx: edid: HDMI: set default vic
+[    0.538350] hdmitx: video: get current mode: null
+[    0.538359] hdmtix: set audio
+[    0.538372] hdmitx tx_aud_src = 0
+[    0.538405] hdmitx aud_n_para = 24576
+[    0.538427] hdmitx set channel status
+[    0.540595] meson-rng c8834000.rng: hwrng registered
+[    0.540735] [drm] Initialized drm 1.1.0 20060810
+[    0.540772] mali-utgard d00c0000.mali: max pp is 3
+[    0.540783] mali-utgard d00c0000.mali: min pp is 3
+[    0.540793] mali-utgard d00c0000.mali: min clk  is 4
+[    0.540809] mali-utgard d00c0000.mali: hiu io source  0xffffff80000d2000
+[    0.540824] mali-utgard d00c0000.mali: hiu io source  0xffffff80000e8000
+[    0.540836] mali-utgard d00c0000.mali: num of pp used most of time 3
+[    0.540847] mali-utgard d00c0000.mali: clock dvfs table size is 6
+[    0.540858] mali-utgard d00c0000.mali: max clk set 4
+[    0.540867] mali-utgard d00c0000.mali: max clk  is 4
+[    0.540877] mali-utgard d00c0000.mali: turbo clk set to 5
+[    0.540887] mali-utgard d00c0000.mali: turbo clk  is 5
+[    0.540897] mali-utgard d00c0000.mali: default clk  is 4
+[    0.540956] mali-utgard d00c0000.mali: ====================0====================
+               clk_freq= 125000000, clk_parent=fclk_div4, voltage=1150, keep_count=5, threshod=<30 120>, clk_sample=125
+[    0.540982] mali-utgard d00c0000.mali: ====================1====================
+               clk_freq= 285000000, clk_parent=fclk_div7, voltage=1150, keep_count=5, threshod=<100 190>, clk_sample=285
+[    0.541007] mali-utgard d00c0000.mali: ====================2====================
+               clk_freq= 400000000, clk_parent=fclk_div5, voltage=1150, keep_count=5, threshod=<152 207>, clk_sample=400
+[    0.541033] mali-utgard d00c0000.mali: ====================3====================
+               clk_freq= 500000000, clk_parent=fclk_div4, voltage=1150, keep_count=5, threshod=<180 220>, clk_sample=500
+[    0.541058] mali-utgard d00c0000.mali: ====================4====================
+               clk_freq= 666000000, clk_parent=fclk_div3, voltage=1150, keep_count=5, threshod=<210 236>, clk_sample=666
+[    0.541083] mali-utgard d00c0000.mali: ====================5====================
+               clk_freq= 792000000, clk_parent=  gp0_pll, voltage=1150, keep_count=5, threshod=<230 255>, clk_sample=792
+[    0.542529] gpu cooling register okay with err=0
+[    0.542572] gpu core cooling register okay with err=0
+[    0.542733] Mali: Mali device driver loaded
+[    0.542857] UMP: UMP device driver -jenkins-deb_s905_kernel-108 loaded
+[    0.545176] loop: module loaded
+[    0.545491] mtdoops: mtd device (mtddev=name/number) must be supplied
+[    0.553721] libphy: stmmac: probed
+[    0.553745] eth0: PHY ID 001cc916 at 0 IRQ POLL (stmmac-0:00) active
+[    0.553756] eth0: PHY ID 001cc916 at 7 IRQ POLL (stmmac-0:07)
+[    0.554053] usbcore: registered new interface driver cdc_ether
+[    0.554106] usbcore: registered new interface driver cdc_ncm
+[    0.554205] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.554217] ehci-h20ahb: H20AHB-EHCI Host Controller driver
+[    0.554297] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.554356] usbcore: registered new interface driver cdc_acm
+[    0.554365] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    0.554409] usbcore: registered new interface driver usb-storage
+[    0.554497] usbcore: registered new interface driver usbserial
+[    0.554528] usbcore: registered new interface driver usbserial_generic
+[    0.554555] usbserial: USB Serial support registered for generic
+[    0.554779] mousedev: PS/2 mouse device common for all mice
+[    0.555022] i2c /dev entries driver
+[    0.555565] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.555619] hidraw: raw HID events driver (C) Jiri Kosina
+[    0.555749] usbcore: registered new interface driver usbhid
+[    0.555758] usbhid: USB HID core driver
+[    0.555889] ==uart0 reg addr = ffffff80002244c0
+[    0.555914] c81004c0.serial: ttyS0 at MMIO 0xc81004c0 (irq = 225, base_baud = 1500000) is a meson_uart
+[    2.255683] console [ttyS0] enabled
+[    2.259300] ==uart1 reg addr = ffffff80002264c0
+[    2.263629] c11084c0.serial: ttyS1 at MMIO 0xc11084c0 (irq = 58, base_baud = 1500000) is a meson_uart
+[    2.272955] enter  cpufreq
+[    2.275444] probe  cpufreq okay
+[    2.278638] dvfs [scpi_dvfs_get_opps] - new count 6, max_freq 1536000000
+[    2.326102] dwc_otg: usb1: type: 1 speed: 0, config: 0, dma: 0, id: 1, phy: c0000020, ctrl: 0
+[    2.331630] dwc_otg: Core Release: 3.10a
+[    2.332842] dwc_otg: Setting default values for core params
+[    2.338379] dwc_otg: curmode: 1, host_only: 1
+[    2.344863] dwc_otg: Using Buffer DMA mode
+[    2.346728] dwc_otg: OTG VER PARAM: 1, OTG VER

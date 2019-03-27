@@ -1,0 +1,313 @@
+sys.version_info:
+===============================================================================
+sys.version_info(major=2, minor=7, micro=9, releaselevel='final', serial=0)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+1
+
+
+
+platform.uname:
+===============================================================================
+('Linux', 'recorder', '3.2.0-4-rpi', '#1 Debian 3.2.51-1+rpi1', 'armv6l', '')
+
+
+
+platform.architecture:
+===============================================================================
+('32bit', 'ELF')
+
+
+
+platform.system:
+===============================================================================
+Linux
+
+
+
+platform.machine:
+===============================================================================
+armv6l
+
+
+
+cat /proc/cpuinfo:
+===============================================================================
+Processor	: ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS	: 697.95
+Features	: swp half thumb fastmult vfp edsp java tls
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xb76
+CPU revision	: 7
+
+Hardware	: BCM2708
+Revision	: 000d
+Serial		: 0000000066564a8f
+
+
+
+
+sysctl machdep.cpu hw.cpufrequency:
+===============================================================================
+
+
+
+
+lscpu:
+===============================================================================
+Architecture:          armv6l
+Byte Order:            Little Endian
+CPU(s):                1
+On-line CPU(s) list:   0
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             1
+CPU max MHz:           700.0000
+CPU min MHz:           700.0000
+
+
+
+
+dmesg:
+===============================================================================
+[    0.000000] 0041cac>] (kthread+0x7c/0x84)
+[452218.190200] [<c0041cac>] (kthread+0x7c/0x84) from [<c000e508>] (kernel_thread_exit+0x0/0x8)
+[452218.190216] Mem-info:
+[452218.190225] Normal per-cpu:
+[452218.190238] CPU    0: hi:  186, btch:  31 usd: 151
+[452218.190269] active_anon:15804 inactive_anon:29014 isolated_anon:0
+[452218.190277]  active_file:26593 inactive_file:39129 isolated_file:0
+[452218.190286]  unevictable:4 dirty:11066 writeback:186 unstable:0
+[452218.190295]  free:4463 slab_reclaimable:3960 slab_unreclaimable:3254
+[452218.190304]  mapped:5713 shmem:7258 pagetables:615 bounce:0
+[452218.190356] Normal free:17852kB min:8192kB low:10240kB high:12288kB active_anon:63216kB inactive_anon:116056kB active_file:106372kB inactive_file:156516kB unevictable:16kB isolated(anon):0kB isolated(file):0kB present:503936kB mlocked:16kB dirty:44264kB writeback:744kB mapped:22852kB shmem:29032kB slab_reclaimable:15840kB slab_unreclaimable:13016kB kernel_stack:1664kB pagetables:2460kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[452218.190408] lowmem_reserve[]: 0 0
+[452218.190421] Normal: 3563*4kB 318*8kB 40*16kB 1*32kB 0*64kB 1*128kB 1*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 17852kB
+[452218.190468] 72981 total pagecache pages
+[452218.190479] 1 pages in swap cache
+[452218.190491] Swap cache stats: add 1, delete 0, find 0/0
+[452218.190503] Free swap  = 1015800kB
+[452218.190512] Total swap = 1015804kB
+[452218.216522] 126976 pages of RAM
+[452218.216532] 5008 free pages
+[452218.216541] 2385 reserved pages
+[452218.216550] 7214 slab pages
+[452218.216558] 86826 pages shared
+[452218.216567] 1 pages swap cached
+[452218.216597] smsc95xx 1-1.1:1.0: eth0: kevent 2 may have been dropped
+[452218.216838] flush-8:0: page allocation failure: order:3, mode:0x20
+[452218.216913] [<c00132f4>] (unwind_backtrace+0x0/0xe0) from [<c008e5c4>] (warn_alloc_failed+0xec/0x118)
+[452218.216957] [<c008e5c4>] (warn_alloc_failed+0xec/0x118) from [<c0090850>] (__alloc_pages_nodemask+0x634/0x718)
+[452218.216997] [<c0090850>] (__alloc_pages_nodemask+0x634/0x718) from [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8)
+[452218.217047] [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8) from [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158)
+[452218.217089] [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158) from [<c0280478>] (__alloc_skb+0x50/0xf0)
+[452218.217131] [<c0280478>] (__alloc_skb+0x50/0xf0) from [<c020d660>] (rx_submit+0x24/0x1c0)
+[452218.217164] [<c020d660>] (rx_submit+0x24/0x1c0) from [<c020e324>] (usbnet_bh+0x1a8/0x25c)
+[452218.217206] [<c020e324>] (usbnet_bh+0x1a8/0x25c) from [<c002cd34>] (tasklet_action+0x70/0x100)
+[452218.217244] [<c002cd34>] (tasklet_action+0x70/0x100) from [<c002d7c8>] (__do_softirq+0xe0/0x1dc)
+[452218.217279] [<c002d7c8>] (__do_softirq+0xe0/0x1dc) from [<c002dc04>] (irq_exit+0x40/0x90)
+[452218.217321] [<c002dc04>] (irq_exit+0x40/0x90) from [<c000e488>] (handle_IRQ+0x64/0x84)
+[452218.217353] [<c000e488>] (handle_IRQ+0x64/0x84) from [<c000d134>] (__irq_svc+0x34/0xa8)
+[452218.217386] [<c000d134>] (__irq_svc+0x34/0xa8) from [<c030b5f0>] (__schedule+0x344/0x4b0)
+[452218.217432] [<c030b5f0>] (__schedule+0x344/0x4b0) from [<c0021998>] (__cond_resched+0x24/0x34)
+[452218.217464] [<c0021998>] (__cond_resched+0x24/0x34) from [<c030b7e8>] (_cond_resched+0x34/0x44)
+[452218.217499] [<c030b7e8>] (_cond_resched+0x34/0x44) from [<c01219b4>] (write_cache_pages_da+0x130/0x378)
+[452218.217534] [<c01219b4>] (write_cache_pages_da+0x130/0x378) from [<c0121f00>] (ext4_da_writepages+0x304/0x558)
+[452218.217569] [<c0121f00>] (ext4_da_writepages+0x304/0x558) from [<c0092ea0>] (do_writepages+0x24/0x38)
+[452218.217611] [<c0092ea0>] (do_writepages+0x24/0x38) from [<c00e16b0>] (writeback_single_inode+0x120/0x2ec)
+[452218.217648] [<c00e16b0>] (writeback_single_inode+0x120/0x2ec) from [<c00e1b2c>] (writeback_sb_inodes+0x150/0x1ec)
+[452218.217683] [<c00e1b2c>] (writeback_sb_inodes+0x150/0x1ec) from [<c00e1c24>] (__writeback_inodes_wb+0x5c/0xa4)
+[452218.217716] [<c00e1c24>] (__writeback_inodes_wb+0x5c/0xa4) from [<c00e1dc4>] (wb_writeback+0x158/0x270)
+[452218.217749] [<c00e1dc4>] (wb_writeback+0x158/0x270) from [<c00e2338>] (wb_do_writeback+0x1d8/0x214)
+[452218.217782] [<c00e2338>] (wb_do_writeback+0x1d8/0x214) from [<c00e2428>] (bdi_writeback_thread+0xb4/0x254)
+[452218.217831] [<c00e2428>] (bdi_writeback_thread+0xb4/0x254) from [<c0041cac>] (kthread+0x7c/0x84)
+[452218.217870] [<c0041cac>] (kthread+0x7c/0x84) from [<c000e508>] (kernel_thread_exit+0x0/0x8)
+[452218.217886] Mem-info:
+[452218.217896] Normal per-cpu:
+[452218.217910] CPU    0: hi:  186, btch:  31 usd: 151
+[452218.217940] active_anon:15804 inactive_anon:29014 isolated_anon:0
+[452218.217949]  active_file:26593 inactive_file:39129 isolated_file:0
+[452218.217957]  unevictable:4 dirty:11066 writeback:186 unstable:0
+[452218.217966]  free:4463 slab_reclaimable:3960 slab_unreclaimable:3254
+[452218.217975]  mapped:5713 shmem:7258 pagetables:615 bounce:0
+[452218.218028] Normal free:17852kB min:8192kB low:10240kB high:12288kB active_anon:63216kB inactive_anon:116056kB active_file:106372kB inactive_file:156516kB unevictable:16kB isolated(anon):0kB isolated(file):0kB present:503936kB mlocked:16kB dirty:44264kB writeback:744kB mapped:22852kB shmem:29032kB slab_reclaimable:15840kB slab_unreclaimable:13016kB kernel_stack:1664kB pagetables:2460kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[452218.218080] lowmem_reserve[]: 0 0
+[452218.218093] Normal: 3563*4kB 318*8kB 40*16kB 1*32kB 0*64kB 1*128kB 1*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 17852kB
+[452218.218139] 72981 total pagecache pages
+[452218.218150] 1 pages in swap cache
+[452218.218163] Swap cache stats: add 1, delete 0, find 0/0
+[452218.218174] Free swap  = 1015800kB
+[452218.218184] Total swap = 1015804kB
+[452218.244177] 126976 pages of RAM
+[452218.244188] 5008 free pages
+[452218.244196] 2385 reserved pages
+[452218.244205] 7214 slab pages
+[452218.244214] 86826 pages shared
+[452218.244223] 1 pages swap cached
+[452218.244396] smsc95xx 1-1.1:1.0: eth0: kevent 2 may have been dropped
+[452218.244498] flush-8:0: page allocation failure: order:3, mode:0x20
+[452218.244571] [<c00132f4>] (unwind_backtrace+0x0/0xe0) from [<c008e5c4>] (warn_alloc_failed+0xec/0x118)
+[452218.244616] [<c008e5c4>] (warn_alloc_failed+0xec/0x118) from [<c0090850>] (__alloc_pages_nodemask+0x634/0x718)
+[452218.244657] [<c0090850>] (__alloc_pages_nodemask+0x634/0x718) from [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8)
+[452218.244707] [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8) from [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158)
+[452218.244750] [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158) from [<c0280478>] (__alloc_skb+0x50/0xf0)
+[452218.244792] [<c0280478>] (__alloc_skb+0x50/0xf0) from [<c020d660>] (rx_submit+0x24/0x1c0)
+[452218.244826] [<c020d660>] (rx_submit+0x24/0x1c0) from [<c020e324>] (usbnet_bh+0x1a8/0x25c)
+[452218.244868] [<c020e324>] (usbnet_bh+0x1a8/0x25c) from [<c002cd34>] (tasklet_action+0x70/0x100)
+[452218.244905] [<c002cd34>] (tasklet_action+0x70/0x100) from [<c002d7c8>] (__do_softirq+0xe0/0x1dc)
+[452218.244939] [<c002d7c8>] (__do_softirq+0xe0/0x1dc) from [<c002dc04>] (irq_exit+0x40/0x90)
+[452218.244981] [<c002dc04>] (irq_exit+0x40/0x90) from [<c000e488>] (handle_IRQ+0x64/0x84)
+[452218.245013] [<c000e488>] (handle_IRQ+0x64/0x84) from [<c000d134>] (__irq_svc+0x34/0xa8)
+[452218.245046] [<c000d134>] (__irq_svc+0x34/0xa8) from [<c030b5f0>] (__schedule+0x344/0x4b0)
+[452218.245092] [<c030b5f0>] (__schedule+0x344/0x4b0) from [<c0021998>] (__cond_resched+0x24/0x34)
+[452218.245126] [<c0021998>] (__cond_resched+0x24/0x34) from [<c030b7e8>] (_cond_resched+0x34/0x44)
+[452218.245161] [<c030b7e8>] (_cond_resched+0x34/0x44) from [<c01219b4>] (write_cache_pages_da+0x130/0x378)
+[452218.245195] [<c01219b4>] (write_cache_pages_da+0x130/0x378) from [<c0121f00>] (ext4_da_writepages+0x304/0x558)
+[452218.245230] [<c0121f00>] (ext4_da_writepages+0x304/0x558) from [<c0092ea0>] (do_writepages+0x24/0x38)
+[452218.245273] [<c0092ea0>] (do_writepages+0x24/0x38) from [<c00e16b0>] (writeback_single_inode+0x120/0x2ec)
+[452218.245309] [<c00e16b0>] (writeback_single_inode+0x120/0x2ec) from [<c00e1b2c>] (writeback_sb_inodes+0x150/0x1ec)
+[452218.245344] [<c00e1b2c>] (writeback_sb_inodes+0x150/0x1ec) from [<c00e1c24>] (__writeback_inodes_wb+0x5c/0xa4)
+[452218.245377] [<c00e1c24>] (__writeback_inodes_wb+0x5c/0xa4) from [<c00e1dc4>] (wb_writeback+0x158/0x270)
+[452218.245410] [<c00e1dc4>] (wb_writeback+0x158/0x270) from [<c00e2338>] (wb_do_writeback+0x1d8/0x214)
+[452218.245443] [<c00e2338>] (wb_do_writeback+0x1d8/0x214) from [<c00e2428>] (bdi_writeback_thread+0xb4/0x254)
+[452218.245491] [<c00e2428>] (bdi_writeback_thread+0xb4/0x254) from [<c0041cac>] (kthread+0x7c/0x84)
+[452218.245531] [<c0041cac>] (kthread+0x7c/0x84) from [<c000e508>] (kernel_thread_exit+0x0/0x8)
+[452218.245547] Mem-info:
+[452218.245557] Normal per-cpu:
+[452218.245571] CPU    0: hi:  186, btch:  31 usd: 151
+[452218.245601] active_anon:15804 inactive_anon:29014 isolated_anon:0
+[452218.245610]  active_file:26593 inactive_file:39129 isolated_file:0
+[452218.245619]  unevictable:4 dirty:11066 writeback:186 unstable:0
+[452218.245628]  free:4463 slab_reclaimable:3960 slab_unreclaimable:3254
+[452218.245637]  mapped:5713 shmem:7258 pagetables:615 bounce:0
+[452218.245690] Normal free:17852kB min:8192kB low:10240kB high:12288kB active_anon:63216kB inactive_anon:116056kB active_file:106372kB inactive_file:156516kB unevictable:16kB isolated(anon):0kB isolated(file):0kB present:503936kB mlocked:16kB dirty:44264kB writeback:744kB mapped:22852kB shmem:29032kB slab_reclaimable:15840kB slab_unreclaimable:13016kB kernel_stack:1664kB pagetables:2460kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[452218.245742] lowmem_reserve[]: 0 0
+[452218.245755] Normal: 3563*4kB 318*8kB 40*16kB 1*32kB 0*64kB 1*128kB 1*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 17852kB
+[452218.245801] 72981 total pagecache pages
+[452218.245811] 1 pages in swap cache
+[452218.245823] Swap cache stats: add 1, delete 0, find 0/0
+[452218.245835] Free swap  = 1015800kB
+[452218.245844] Total swap = 1015804kB
+[452218.271875] 126976 pages of RAM
+[452218.271887] 5008 free pages
+[452218.271895] 2385 reserved pages
+[452218.271905] 7214 slab pages
+[452218.271913] 86826 pages shared
+[452218.271923] 1 pages swap cached
+[452218.272093] smsc95xx 1-1.1:1.0: eth0: kevent 2 may have been dropped
+[452218.272146] flush-8:0: page allocation failure: order:3, mode:0x20
+[452218.272218] [<c00132f4>] (unwind_backtrace+0x0/0xe0) from [<c008e5c4>] (warn_alloc_failed+0xec/0x118)
+[452218.272261] [<c008e5c4>] (warn_alloc_failed+0xec/0x118) from [<c0090850>] (__alloc_pages_nodemask+0x634/0x718)
+[452218.272302] [<c0090850>] (__alloc_pages_nodemask+0x634/0x718) from [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8)
+[452218.272351] [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8) from [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158)
+[452218.272394] [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158) from [<c0280478>] (__alloc_skb+0x50/0xf0)
+[452218.272435] [<c0280478>] (__alloc_skb+0x50/0xf0) from [<c020d660>] (rx_submit+0x24/0x1c0)
+[452218.272468] [<c020d660>] (rx_submit+0x24/0x1c0) from [<c020e324>] (usbnet_bh+0x1a8/0x25c)
+[452218.272510] [<c020e324>] (usbnet_bh+0x1a8/0x25c) from [<c002cd34>] (tasklet_action+0x70/0x100)
+[452218.272547] [<c002cd34>] (tasklet_action+0x70/0x100) from [<c002d7c8>] (__do_softirq+0xe0/0x1dc)
+[452218.272581] [<c002d7c8>] (__do_softirq+0xe0/0x1dc) from [<c002dc04>] (irq_exit+0x40/0x90)
+[452218.272622] [<c002dc04>] (irq_exit+0x40/0x90) from [<c000e488>] (handle_IRQ+0x64/0x84)
+[452218.272654] [<c000e488>] (handle_IRQ+0x64/0x84) from [<c000d134>] (__irq_svc+0x34/0xa8)
+[452218.272687] [<c000d134>] (__irq_svc+0x34/0xa8) from [<c030b5f0>] (__schedule+0x344/0x4b0)
+[452218.272733] [<c030b5f0>] (__schedule+0x344/0x4b0) from [<c0021998>] (__cond_resched+0x24/0x34)
+[452218.272767] [<c0021998>] (__cond_resched+0x24/0x34) from [<c030b7e8>] (_cond_resched+0x34/0x44)
+[452218.272802] [<c030b7e8>] (_cond_resched+0x34/0x44) from [<c01219b4>] (write_cache_pages_da+0x130/0x378)
+[452218.272836] [<c01219b4>] (write_cache_pages_da+0x130/0x378) from [<c0121f00>] (ext4_da_writepages+0x304/0x558)
+[452218.272869] [<c0121f00>] (ext4_da_writepages+0x304/0x558) from [<c0092ea0>] (do_writepages+0x24/0x38)
+[452218.272913] [<c0092ea0>] (do_writepages+0x24/0x38) from [<c00e16b0>] (writeback_single_inode+0x120/0x2ec)
+[452218.272949] [<c00e16b0>] (writeback_single_inode+0x120/0x2ec) from [<c00e1b2c>] (writeback_sb_inodes+0x150/0x1ec)
+[452218.272983] [<c00e1b2c>] (writeback_sb_inodes+0x150/0x1ec) from [<c00e1c24>] (__writeback_inodes_wb+0x5c/0xa4)
+[452218.273016] [<c00e1c24>] (__writeback_inodes_wb+0x5c/0xa4) from [<c00e1dc4>] (wb_writeback+0x158/0x270)
+[452218.273050] [<c00e1dc4>] (wb_writeback+0x158/0x270) from [<c00e2338>] (wb_do_writeback+0x1d8/0x214)
+[452218.273083] [<c00e2338>] (wb_do_writeback+0x1d8/0x214) from [<c00e2428>] (bdi_writeback_thread+0xb4/0x254)
+[452218.273131] [<c00e2428>] (bdi_writeback_thread+0xb4/0x254) from [<c0041cac>] (kthread+0x7c/0x84)
+[452218.273169] [<c0041cac>] (kthread+0x7c/0x84) from [<c000e508>] (kernel_thread_exit+0x0/0x8)
+[452218.273185] Mem-info:
+[452218.273194] Normal per-cpu:
+[452218.273208] CPU    0: hi:  186, btch:  31 usd: 151
+[452218.273238] active_anon:15804 inactive_anon:29014 isolated_anon:0
+[452218.273247]  active_file:26593 inactive_file:39129 isolated_file:0
+[452218.273256]  unevictable:4 dirty:11066 writeback:186 unstable:0
+[452218.273265]  free:4463 slab_reclaimable:3960 slab_unreclaimable:3254
+[452218.273274]  mapped:5713 shmem:7258 pagetables:615 bounce:0
+[452218.273326] Normal free:17852kB min:8192kB low:10240kB high:12288kB active_anon:63216kB inactive_anon:116056kB active_file:106372kB inactive_file:156516kB unevictable:16kB isolated(anon):0kB isolated(file):0kB present:503936kB mlocked:16kB dirty:44264kB writeback:744kB mapped:22852kB shmem:29032kB slab_reclaimable:15840kB slab_unreclaimable:13016kB kernel_stack:1664kB pagetables:2460kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:0 all_unreclaimable? no
+[452218.273378] lowmem_reserve[]: 0 0
+[452218.273391] Normal: 3563*4kB 318*8kB 40*16kB 1*32kB 0*64kB 1*128kB 1*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 17852kB
+[452218.273437] 72981 total pagecache pages
+[452218.273448] 1 pages in swap cache
+[452218.273460] Swap cache stats: add 1, delete 0, find 0/0
+[452218.273472] Free swap  = 1015800kB
+[452218.273481] Total swap = 1015804kB
+[452218.299490] 126976 pages of RAM
+[452218.299502] 5008 free pages
+[452218.299511] 2385 reserved pages
+[452218.299520] 7214 slab pages
+[452218.299528] 86826 pages shared
+[452218.299537] 1 pages swap cached
+[452218.299731] smsc95xx 1-1.1:1.0: eth0: kevent 2 may have been dropped
+[452218.299786] smsc95xx 1-1.1:1.0: eth0: kevent 2 may have been dropped
+[452224.248217] warn_alloc_failed: 22679 callbacks suppressed
+[452224.248246] homegear: page allocation failure: order:3, mode:0x20
+[452224.248316] [<c00132f4>] (unwind_backtrace+0x0/0xe0) from [<c008e5c4>] (warn_alloc_failed+0xec/0x118)
+[452224.248358] [<c008e5c4>] (warn_alloc_failed+0xec/0x118) from [<c0090850>] (__alloc_pages_nodemask+0x634/0x718)
+[452224.248399] [<c0090850>] (__alloc_pages_nodemask+0x634/0x718) from [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8)
+[452224.248449] [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8) from [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158)
+[452224.248491] [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158) from [<c0280478>] (__alloc_skb+0x50/0xf0)
+[452224.248534] [<c0280478>] (__alloc_skb+0x50/0xf0) from [<c020d660>] (rx_submit+0x24/0x1c0)
+[452224.248575] [<c020d660>] (rx_submit+0x24/0x1c0) from [<c0213b54>] (usb_hcd_giveback_urb+0xa0/0xec)
+[452224.248625] [<c0213b54>] (usb_hcd_giveback_urb+0xa0/0xec) from [<c023bb20>] (_complete+0x1a4/0x1b8)
+[452224.248665] [<c023bb20>] (_complete+0x1a4/0x1b8) from [<c023da60>] (handle_hc_xfercomp_intr+0x294/0x374)
+[452224.248703] [<c023da60>] (handle_hc_xfercomp_intr+0x294/0x374) from [<c023e0ac>] (dwc_otg_hcd_handle_hc_n_intr+0x188/0x5d4)
+[452224.248741] [<c023e0ac>] (dwc_otg_hcd_handle_hc_n_intr+0x188/0x5d4) from [<c023e53c>] (dwc_otg_hcd_handle_hc_intr+0x44/0x68)
+[452224.248778] [<c023e53c>] (dwc_otg_hcd_handle_hc_intr+0x44/0x68) from [<c023e69c>] (dwc_otg_hcd_handle_intr+0x13c/0x238)
+[452224.248813] [<c023e69c>] (dwc_otg_hcd_handle_intr+0x13c/0x238) from [<c023c0f4>] (dwc_otg_hcd_irq+0xc/0x18)
+[452224.248848] [<c023c0f4>] (dwc_otg_hcd_irq+0xc/0x18) from [<c02136bc>] (usb_hcd_irq+0x34/0x88)
+[452224.248897] [<c02136bc>] (usb_hcd_irq+0x34/0x88) from [<c0067180>] (handle_irq_event_percpu+0x7c/0x22c)
+[452224.248933] [<c0067180>] (handle_irq_event_percpu+0x7c/0x22c) from [<c0067358>] (handle_irq_event+0x28/0x38)
+[452224.248966] [<c0067358>] (handle_irq_event+0x28/0x38) from [<c0069438>] (handle_level_irq+0xac/0xbc)
+[452224.248999] [<c0069438>] (handle_level_irq+0xac/0xbc) from [<c0066b40>] (generic_handle_irq+0x30/0x48)
+[452224.249044] [<c0066b40>] (generic_handle_irq+0x30/0x48) from [<c000e484>] (handle_IRQ+0x60/0x84)
+[452224.249076] [<c000e484>] (handle_IRQ+0x60/0x84) from [<c000d338>] (__irq_usr+0x38/0xc0)
+[452224.249091] Mem-info:
+[452224.249101] Normal per-cpu:
+[452224.249114] CPU    0: hi:  186, btch:  31 usd: 178
+[452224.249144] active_anon:16100 inactive_anon:29014 isolated_anon:0
+[452224.249153]  active_file:26655 inactive_file:38974 isolated_file:0
+[452224.249162]  unevictable:4 dirty:10237 writeback:1240 unstable:0
+[452224.249171]  free:4200 slab_reclaimable:3946 slab_unreclaimable:3282
+[452224.249180]  mapped:5836 shmem:7258 pagetables:626 bounce:0
+[452224.249233] Normal free:16800kB min:8192kB low:10240kB high:12288kB active_anon:64400kB inactive_anon:116056kB active_file:106620kB inactive_file:155896kB unevictable:16kB isolated(anon):0kB isolated(file):0kB present:503936kB mlocked:16kB dirty:40948kB writeback:4960kB mapped:23344kB shmem:29032kB slab_reclaimable:15784kB slab_unreclaimable:13128kB kernel_stack:1680kB pagetables:2504kB unstable:0kB bounce:0kB writeback_tmp:0kB pages_scanned:6 all_unreclaimable? no
+[452224.249285] lowmem_reserve[]: 0 0
+[452224.249298] Normal: 2098*4kB 783*8kB 108*16kB 1*32kB 0*64kB 1*128kB 1*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 16800kB
+[452224.249344] 72888 total pagecache pages
+[452224.249354] 1 pages in swap cache
+[452224.249367] Swap cache stats: add 1, delete 0, find 0/0
+[452224.249378] Free swap  = 1015800kB
+[452224.249388] Total swap = 1015804kB
+[452224.275431] 126976 pages of RAM
+[452224.275442] 4777 free pages
+[452224.275451] 2385 reserved pages
+[452224.275459] 7228 slab pages
+[452224.275468] 91102 pages shared
+[452224.275478] 1 pages swap cached
+[452224.276091] homegear: page allocation failure: order:3, mode:0x20
+[452224.276168] [<c00132f4>] (unwind_backtrace+0x0/0xe0) from [<c008e5c4>] (warn_alloc_failed+0xec/0x118)
+[452224.276212] [<c008e5c4>] (warn_alloc_failed+0xec/0x118) from [<c0090850>] (__alloc_pages_nodemask+0x634/0x718)
+[452224.276253] [<c0090850>] (__alloc_pages_nodemask+0x634/0x718) from [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8)
+[452224.276302] [<c030a1c0>] (cache_alloc_refill+0x25c/0x4d8) from [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158)
+[452224.276345] [<c00b93c0>] (__kmalloc_track_caller+0x9c/0x158) from [<c0280478>] (__alloc_skb+0x50/0xf0)
+[452224.276387] [<c0280478>] (__alloc_skb+0x50/0xf0) from [<c020d660>] (rx_submit+0x24/0x1c0)
+[452224.276427] [<c020d660>] (rx_submit+0x24/0x1c0) from [<c0213b54>] (usb_hcd_giveback_urb+0xa0/0xec)
+[452224.276478] [<c0213b54>] (usb_hcd_giveback_urb+0xa0/0xec) from [<c023bb20>] (_complete+0x1a4/0x1b8)
+[452224.276518] [<c023bb20>] (_complete+0x1a4/0x1b8) from [<c023da60>] (handle_hc_xfercomp_intr+0x294/0x374)
+[452224.276557] [<c023da60>] (handle_hc_xfercomp_intr+0x294/0x374) from [<c023e0ac>] (dwc_otg_hcd_handle_hc_n_intr+0x188/0x5d4)
+[452224.276595] [<c023e0ac>] (dwc_otg_hcd_handle_hc_n_intr+0x188/0x5d4) from [<c023e53c>] (dwc_otg_hcd_handle_hc_intr+0x44/0x68)
+[452224.276633] [<c023e53c>] (dwc_otg_hcd_handle_hc_intr+0x44/0x68) from [<c023e69c>] (dwc_otg_hcd_handle_intr+0x13c/0x238)
+[452224.276670] [<c023e69c>] (dwc_otg_hcd_handle_intr+0x13c/0x238) from [<c023c0f4>] (dwc_otg_hcd_irq+0xc/0x18)
+[452224.276706] [<c023c0f4>] (dwc_otg_hcd_irq+0xc/0x18) from [<c02136bc>] (usb_hcd_irq+0x34/0x88)
+[452224.276755] [<c02136bc>] (usb_hcd_irq+0x34/0x88) from [<c0067180

@@ -1,0 +1,229 @@
+sys.executable:
+===============================================================================
+/usr/local/bin/python
+
+
+
+sys.version_info:
+===============================================================================
+sys.version_info(major=2, minor=7, micro=11, releaselevel='final', serial=0)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+8
+
+
+
+platform.uname:
+===============================================================================
+('FreeBSD', 'flare', '10.3-RELEASE', 'FreeBSD 10.3-RELEASE #0 r297824: Sun Apr 24 08:08:25 CEST 2016     root@flame.euknetworks.com:/usr/obj/usr/src/sys/IPFWKERNEL', 'amd64', 'amd64')
+
+
+
+platform.architecture:
+===============================================================================
+('64bit', 'ELF')
+
+
+
+platform.system:
+===============================================================================
+FreeBSD
+
+
+
+platform.machine:
+===============================================================================
+amd64
+
+
+
+sysctl machdep.cpu hw.cpufrequency:
+===============================================================================
+
+
+
+
+dmesg:
+===============================================================================
+I Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ00._TMP] (Node 0xfffff8000d530cc0), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: Method parse/execution failed [\134_TZ_.TZ01._TMP] (Node 0xfffff8000d530b80), AE_NOT_FOUND (20150515/psparse-552)
+ACPI Error: [\134_SB_.PCI0.LPCB.H_EC.ECAV] Namespace lookup failure, AE_NOT_FOUND (20150515/psargs-391)
+ACPI Error: M

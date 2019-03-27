@@ -1,0 +1,526 @@
+sys.executable:
+===============================================================================
+XXXXXXXXXXXXXXX (it is anaconda python 3.5)
+
+
+
+sys.version_info:
+===============================================================================
+sys.version_info(major=3, minor=5, micro=1, releaselevel='final', serial=0)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+16
+
+
+
+platform.uname:
+===============================================================================
+uname_result(system='Linux', node='XXXXXXXXXXXXX', release='3.10.0-327.13.1.el7.x86_64', version='#1 SMP Thu Mar 31 11:10:31 CDT 2016', machine='x86_64', processor='x86_64')
+
+
+
+platform.architecture:
+===============================================================================
+('64bit', 'ELF')
+
+
+
+platform.system:
+===============================================================================
+Linux
+
+
+
+platform.machine:
+===============================================================================
+x86_64
+
+
+
+sestatus:
+===============================================================================
+SELinux status:                 disabled
+
+
+
+
+cat /proc/cpuinfo:
+===============================================================================
+processor   : 0
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 0
+siblings    : 8
+core id     : 0
+cpu cores   : 4
+apicid      : 32
+initial apicid  : 0
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.90
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 1
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 0
+siblings    : 8
+core id     : 1
+cpu cores   : 4
+apicid      : 33
+initial apicid  : 1
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.90
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 2
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 0
+siblings    : 8
+core id     : 2
+cpu cores   : 4
+apicid      : 34
+initial apicid  : 2
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.90
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 3
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 0
+siblings    : 8
+core id     : 3
+cpu cores   : 4
+apicid      : 35
+initial apicid  : 3
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.90
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 4
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 0
+siblings    : 8
+core id     : 0
+cpu cores   : 4
+apicid      : 36
+initial apicid  : 4
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.90
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 5
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 0
+siblings    : 8
+core id     : 1
+cpu cores   : 4
+apicid      : 37
+initial apicid  : 5
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.90
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 6
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 0
+siblings    : 8
+core id     : 2
+cpu cores   : 4
+apicid      : 38
+initial apicid  : 6
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.90
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 7
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 0
+siblings    : 8
+core id     : 3
+cpu cores   : 4
+apicid      : 39
+initial apicid  : 7
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.90
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 8
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 1
+siblings    : 8
+core id     : 0
+cpu cores   : 4
+apicid      : 64
+initial apicid  : 32
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.15
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 9
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 1
+siblings    : 8
+core id     : 1
+cpu cores   : 4
+apicid      : 65
+initial apicid  : 33
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.15
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 10
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 1
+siblings    : 8
+core id     : 2
+cpu cores   : 4
+apicid      : 66
+initial apicid  : 34
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.15
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 11
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 1
+siblings    : 8
+core id     : 3
+cpu cores   : 4
+apicid      : 67
+initial apicid  : 35
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.15
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 12
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 1
+siblings    : 8
+core id     : 0
+cpu cores   : 4
+apicid      : 68
+initial apicid  : 36
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.15
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 13
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 1
+siblings    : 8
+core id     : 1
+cpu cores   : 4
+apicid      : 69
+initial apicid  : 37
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.15
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 14
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 1
+siblings    : 8
+core id     : 2
+cpu cores   : 4
+apicid      : 70
+initial apicid  : 38
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.15
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor   : 15
+vendor_id   : AuthenticAMD
+cpu family  : 21
+model       : 1
+model name  : AMD Opteron(TM) Processor 6220
+stepping    : 2
+microcode   : 0x600063d
+cpu MHz     : 2999.954
+cache size  : 2048 KB
+physical id : 1
+siblings    : 8
+core id     : 3
+cpu cores   : 4
+apicid      : 71
+initial apicid  : 39
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 13
+wp      : yes
+flags       : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid amd_dcm aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb arat cpb hw_pstate npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bogomips    : 5999.15
+TLB size    : 1536 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+
+
+
+
+sysctl machdep.cpu hw.cpufrequency:
+===============================================================================
+
+
+
+
+lscpu:
+===============================================================================
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    2
+Core(s) per socket:    4
+Socket(s):             2
+NUMA node(s):          4
+Vendor ID:             AuthenticAMD
+CPU family:            21
+Model:                 1
+Model name:            AMD Opteron(TM) Processor 6220
+Stepping:              2
+CPU MHz:               2999.954
+BogoMIPS:              5999.15
+Virtualization:        AMD-V
+L1d cache:             16K
+L1i cache:             64K
+L2 cache:              2048K
+L3 cache:              6144K
+NUMA node0 CPU(s):     0-3
+NUMA node1 CPU(s):     4-7
+NUMA node2 CPU(s):     8-11
+NUMA node3 CPU(s):     12-15
+
+
+
+
+dmesg:
+===============================================================================

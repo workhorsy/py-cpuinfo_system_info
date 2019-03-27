@@ -1,0 +1,576 @@
+sys.version_info:
+===============================================================================
+sys.version_info(major=2, minor=7, micro=10, releaselevel='final', serial=0)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+8
+
+
+
+platform.uname:
+===============================================================================
+('Linux', 'odroidHTPC', '3.10.96-82', '#1 SMP PREEMPT Mon Apr 11 23:29:39 BRT 2016', 'armv7l', 'armv7l')
+
+
+
+platform.architecture:
+===============================================================================
+('32bit', 'ELF')
+
+
+
+platform.system:
+===============================================================================
+Linux
+
+
+
+platform.machine:
+===============================================================================
+armv7l
+
+
+
+cpufreq-info:
+===============================================================================
+cpufrequtils 008: cpufreq-info (C) Dominik Brodowski 2004-2009
+Report errors and bugs to cpufreq@vger.kernel.org, please.
+analyzing CPU 0:
+  driver: exynos_cpufreq
+  CPUs which run at the same hardware frequency: 0 1 2 3
+  CPUs which need to have their frequency coordinated by software: 0 1 2 3
+  maximum transition latency: 100.0 us.
+  hardware limits: 200 MHz - 1.40 GHz
+  available cpufreq governors: interactive, conservative, ondemand, powersave, performance
+  current policy: frequency should be within 200 MHz and 1.40 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.40 GHz (asserted by call to hardware).
+  cpufreq stats: 1.40 GHz:33.77%, 1.30 GHz:0.04%, 1.20 GHz:0.03%, 1.10 GHz:0.02%, 1000 MHz:0.03%, 900 MHz:0.04%, 800 MHz:0.06%, 700 MHz:0.10%, 600 MHz:0.13%, 500 MHz:0.19%, 400 MHz:0.31%, 300 MHz:2.09%, 200 MHz:63.20%  (880901)
+analyzing CPU 1:
+  driver: exynos_cpufreq
+  CPUs which run at the same hardware frequency: 0 1 2 3
+  CPUs which need to have their frequency coordinated by software: 0 1 2 3
+  maximum transition latency: 100.0 us.
+  hardware limits: 200 MHz - 1.40 GHz
+  available cpufreq governors: interactive, conservative, ondemand, powersave, performance
+  current policy: frequency should be within 200 MHz and 1.40 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.40 GHz (asserted by call to hardware).
+  cpufreq stats: 1.40 GHz:33.77%, 1.30 GHz:0.04%, 1.20 GHz:0.03%, 1.10 GHz:0.02%, 1000 MHz:0.03%, 900 MHz:0.04%, 800 MHz:0.06%, 700 MHz:0.10%, 600 MHz:0.13%, 500 MHz:0.19%, 400 MHz:0.31%, 300 MHz:2.09%, 200 MHz:63.20%  (880901)
+analyzing CPU 2:
+  driver: exynos_cpufreq
+  CPUs which run at the same hardware frequency: 0 1 2 3
+  CPUs which need to have their frequency coordinated by software: 0 1 2 3
+  maximum transition latency: 100.0 us.
+  hardware limits: 200 MHz - 1.40 GHz
+  available cpufreq governors: interactive, conservative, ondemand, powersave, performance
+  current policy: frequency should be within 200 MHz and 1.40 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.40 GHz (asserted by call to hardware).
+  cpufreq stats: 1.40 GHz:33.77%, 1.30 GHz:0.04%, 1.20 GHz:0.03%, 1.10 GHz:0.02%, 1000 MHz:0.03%, 900 MHz:0.04%, 800 MHz:0.06%, 700 MHz:0.10%, 600 MHz:0.13%, 500 MHz:0.19%, 400 MHz:0.31%, 300 MHz:2.09%, 200 MHz:63.20%  (880901)
+analyzing CPU 3:
+  driver: exynos_cpufreq
+  CPUs which run at the same hardware frequency: 0 1 2 3
+  CPUs which need to have their frequency coordinated by software: 0 1 2 3
+  maximum transition latency: 100.0 us.
+  hardware limits: 200 MHz - 1.40 GHz
+  available cpufreq governors: interactive, conservative, ondemand, powersave, performance
+  current policy: frequency should be within 200 MHz and 1.40 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 1.40 GHz (asserted by call to hardware).
+  cpufreq stats: 1.40 GHz:33.77%, 1.30 GHz:0.04%, 1.20 GHz:0.03%, 1.10 GHz:0.02%, 1000 MHz:0.03%, 900 MHz:0.04%, 800 MHz:0.06%, 700 MHz:0.10%, 600 MHz:0.13%, 500 MHz:0.19%, 400 MHz:0.31%, 300 MHz:2.09%, 200 MHz:63.20%  (880901)
+analyzing CPU 4:
+  driver: exynos_cpufreq
+  CPUs which run at the same hardware frequency: 4 5 6 7
+  CPUs which need to have their frequency coordinated by software: 4 5 6 7
+  maximum transition latency: 100.0 us.
+  hardware limits: 200 MHz - 2.00 GHz
+  available cpufreq governors: interactive, conservative, ondemand, powersave, performance
+  current policy: frequency should be within 200 MHz and 2.00 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 2.00 GHz (asserted by call to hardware).
+  cpufreq stats: 2.00 GHz:22.57%, 1.90 GHz:0.02%, 1.80 GHz:0.01%, 1.70 GHz:0.02%, 1.60 GHz:0.09%, 1.50 GHz:0.11%, 1.40 GHz:0.01%, 1.30 GHz:0.00%, 1.20 GHz:0.01%, 1.10 GHz:0.00%, 1000 MHz:0.00%, 900 MHz:0.13%, 800 MHz:0.00%, 700 MHz:0.01%, 600 MHz:0.01%, 500 MHz:0.03%, 400 MHz:0.14%, 300 MHz:0.18%, 200 MHz:76.65%  (316653)
+analyzing CPU 5:
+  driver: exynos_cpufreq
+  CPUs which run at the same hardware frequency: 4 5 6 7
+  CPUs which need to have their frequency coordinated by software: 4 5 6 7
+  maximum transition latency: 100.0 us.
+  hardware limits: 200 MHz - 2.00 GHz
+  available cpufreq governors: interactive, conservative, ondemand, powersave, performance
+  current policy: frequency should be within 200 MHz and 2.00 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 2.00 GHz (asserted by call to hardware).
+  cpufreq stats: 2.00 GHz:22.57%, 1.90 GHz:0.02%, 1.80 GHz:0.01%, 1.70 GHz:0.02%, 1.60 GHz:0.09%, 1.50 GHz:0.11%, 1.40 GHz:0.01%, 1.30 GHz:0.00%, 1.20 GHz:0.01%, 1.10 GHz:0.00%, 1000 MHz:0.00%, 900 MHz:0.13%, 800 MHz:0.00%, 700 MHz:0.01%, 600 MHz:0.01%, 500 MHz:0.03%, 400 MHz:0.14%, 300 MHz:0.18%, 200 MHz:76.65%  (316653)
+analyzing CPU 6:
+  driver: exynos_cpufreq
+  CPUs which run at the same hardware frequency: 4 5 6 7
+  CPUs which need to have their frequency coordinated by software: 4 5 6 7
+  maximum transition latency: 100.0 us.
+  hardware limits: 200 MHz - 2.00 GHz
+  available cpufreq governors: interactive, conservative, ondemand, powersave, performance
+  current policy: frequency should be within 200 MHz and 2.00 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 2.00 GHz (asserted by call to hardware).
+  cpufreq stats: 2.00 GHz:22.57%, 1.90 GHz:0.02%, 1.80 GHz:0.01%, 1.70 GHz:0.02%, 1.60 GHz:0.09%, 1.50 GHz:0.11%, 1.40 GHz:0.01%, 1.30 GHz:0.00%, 1.20 GHz:0.01%, 1.10 GHz:0.00%, 1000 MHz:0.00%, 900 MHz:0.13%, 800 MHz:0.00%, 700 MHz:0.01%, 600 MHz:0.01%, 500 MHz:0.03%, 400 MHz:0.14%, 300 MHz:0.18%, 200 MHz:76.65%  (316653)
+analyzing CPU 7:
+  driver: exynos_cpufreq
+  CPUs which run at the same hardware frequency: 4 5 6 7
+  CPUs which need to have their frequency coordinated by software: 4 5 6 7
+  maximum transition latency: 100.0 us.
+  hardware limits: 200 MHz - 2.00 GHz
+  available cpufreq governors: interactive, conservative, ondemand, powersave, performance
+  current policy: frequency should be within 200 MHz and 2.00 GHz.
+                  The governor "interactive" may decide which speed to use
+                  within this range.
+  current CPU frequency is 2.00 GHz (asserted by call to hardware).
+  cpufreq stats: 2.00 GHz:22.57%, 1.90 GHz:0.02%, 1.80 GHz:0.01%, 1.70 GHz:0.02%, 1.60 GHz:0.09%, 1.50 GHz:0.11%, 1.40 GHz:0.01%, 1.30 GHz:0.00%, 1.20 GHz:0.01%, 1.10 GHz:0.00%, 1000 MHz:0.00%, 900 MHz:0.13%, 800 MHz:0.00%, 700 MHz:0.01%, 600 MHz:0.01%, 500 MHz:0.03%, 400 MHz:0.14%, 300 MHz:0.18%, 200 MHz:76.65%  (316653)
+
+
+
+
+cat /proc/cpuinfo:
+===============================================================================
+processor	: 0
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 84.00
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 3
+
+processor	: 1
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 84.00
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 3
+
+processor	: 2
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 84.00
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 3
+
+processor	: 3
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 84.00
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 3
+
+processor	: 4
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 36.00
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x2
+CPU part	: 0xc0f
+CPU revision	: 3
+
+processor	: 5
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 36.00
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x2
+CPU part	: 0xc0f
+CPU revision	: 3
+
+processor	: 6
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 36.00
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x2
+CPU part	: 0xc0f
+CPU revision	: 3
+
+processor	: 7
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 36.00
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x2
+CPU part	: 0xc0f
+CPU revision	: 3
+
+Hardware	: ODROID-XU3
+Revision	: 0100
+Serial		: 0000000000000000
+
+
+
+
+sysctl machdep.cpu hw.cpufrequency:
+===============================================================================
+
+
+
+
+lscpu:
+===============================================================================
+Architecture:          armv7l
+Byte Order:            Little Endian
+CPU(s):                8
+On-line CPU(s) list:   0-7
+Thread(s) per core:    1
+Core(s) per socket:    4
+Socket(s):             2
+Model name:            ARMv7 Processor rev 3 (v7l)
+CPU max MHz:           1400.0000
+CPU min MHz:           200.0000
+
+
+
+
+dmesg:
+===============================================================================
+[    0.000000] [c0] Booting Linux on physical CPU 0x100
+[    0.000000] [c0] Initializing cgroup subsys cpuset
+[    0.000000] [c0] Initializing cgroup subsys cpu
+[    0.000000] [c0] Initializing cgroup subsys cpuacct
+[    0.000000] [c0] Linux version 3.10.96-82 (root@odroid) (gcc version 4.6.4 (Ubuntu/Linaro 4.6.4-6ubuntu3) ) #1 SMP PREEMPT Mon Apr 11 23:29:39 BRT 2016
+[    0.000000] [c0] CPU: ARMv7 Processor [410fc073] revision 3 (ARMv7), cr=10c5387d
+[    0.000000] [c0] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] [c0] Machine: ODROID-XU3, model: Hardkernel odroid-xu3 board based on EXYNOS5422
+[    0.000000] [c0] ION: Contiguous 0x6650000 bytes @ 0x0 defined for 0:common
+[    0.000000] [c0] ION: Contiguous 0x400000 bytes @ 0x0 defined for 2:mfc_sh
+[    0.000000] [c0] ION: Contiguous 0x800000 bytes @ 0x0 defined for 10:g2d_wfd
+[    0.000000] [c0] ION: Contiguous 0x6000000 bytes @ 0x0 defined for 11:video
+[    0.000000] [c0] ION: Contiguous 0x1000000 bytes @ 0x0 defined for 7:mfc_input
+[    0.000000] [c0] ION: Contiguous 0x400000 bytes @ 0x0 defined for 9:sectbl
+[    0.000000] [c0] ION: Contiguous 0x400000 bytes @ 0x0 defined for 8:mfc_fw
+[    0.000000] [c0] ION: Contiguous 0x400000 bytes @ 0x0 defined for 12:mfc_nfw
+[    0.000000] [c0] ION: Contiguous 0x400000 bytes @ 0x0 defined for 13:secdma
+[    0.000000] [c0] cma: CMA: reserved 104 MiB at b8000000
+[    0.000000] [c0] cma: CMA: reserved 4 MiB at b7c00000
+[    0.000000] [c0] cma: CMA: reserved 8 MiB at b7400000
+[    0.000000] [c0] cma: CMA: reserved 96 MiB at b1400000
+[    0.000000] [c0] cma: CMA: reserved 16 MiB at b0400000
+[    0.000000] [c0] cma: CMA: reserved 4 MiB at b0000000
+[    0.000000] [c0] cma: CMA: reserved 4 MiB at afc00000
+[    0.000000] [c0] cma: CMA: reserved 4 MiB at af800000
+[    0.000000] [c0] cma: CMA: reserved 4 MiB at af400000
+[    0.000000] [c0] cma: CMA: reserved 256 MiB at 5f800000
+[    0.000000] [c0] Memory policy: ECC disabled, Data cache writealloc
+[    0.000000] [c0] create_mapping_memory: section: 40000000 ~ 6f800000
+[    0.000000] [c0] CPU EXYNOS5422 (id 0xe5422001)
+[    0.000000] [c0] On node 0 totalpages: 518656
+[    0.000000] [c0] free_area_init_node: node 0, pgdat c0967040, node_mem_map c0dd5000
+[    0.000000] [c0]   Normal zone: 1520 pages used for memmap
+[    0.000000] [c0]   Normal zone: 0 pages reserved
+[    0.000000] [c0]   Normal zone: 194560 pages, LIFO batch:31
+[    0.000000] [c0]   HighMem zone: 2532 pages used for memmap
+[    0.000000] [c0]   HighMem zone: 324096 pages, LIFO batch:31
+[    0.000000] [c0] PERCPU: Embedded 9 pages/cpu @c1de3000 s14912 r8192 d13760 u36864
+[    0.000000] [c0] pcpu-alloc: s14912 r8192 d13760 u36864 alloc=9*4096
+[    0.000000] [c0] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 [0] 4 [0] 5 [0] 6 [0] 7
+[    0.000000] [c0] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 517136
+[    0.000000] [c0] Kernel command line: console=tty1 console=ttySAC2,115200n8 root=UUID=e139ce78-9841-40fe-8823-96a304a09859 rootwait ro fsck.repair=yes net.ifnames=0 smsc95xx.macaddr=00:1e:06:61:7a:39 governor=interactive hdmi_tx_amp_lvl=31 hdmi_tx_lvl_ch0=3 hdmi_tx_lvl_ch1=3 hdmi_tx_lvl_ch2=3 hdmi_tx_emp_lvl=6 hdmi_clk_amp_lvl=31 hdmi_tx_res=0 HPD=true vout=hdmi
+[    0.000000] [c0] hdmi: using HDMI Mode
+[    0.000000] [c0] PID hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] [c0] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+[    0.000000] [c0] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] [c0] allocated 4149248 bytes of page_cgroup
+[    0.000000] [c0] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+[    0.000000] [c0] Memory: 2026MB = 2026MB total
+[    0.000000] [c0] Memory: 1521528k/1521528k available, 553096k reserved, 1046528K highmem
+[    0.000000] [c0] Virtual kernel memory layout:
+                   vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+                   fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+                   vmalloc : 0xf0000000 - 0xff000000   ( 240 MB)
+                   lowmem  : 0xc0000000 - 0xef800000   ( 760 MB)
+                   pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+                   modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+                     .text : 0xc0008000 - 0xc088dff4   (8728 kB)
+                     .init : 0xc088e000 - 0xc08f6a40   ( 419 kB)
+                     .data : 0xc08f8000 - 0xc096b34c   ( 461 kB)
+                      .bss : 0xc096b34c - 0xc0dd4724   (4517 kB)
+[    0.000000] [c0] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+[    0.000000] [c0] Preemptible hierarchical RCU implementation.
+[    0.000000] [c0] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] [c0] apll 800000000
+[    0.000000] [c0] bpll 825000000
+[    0.000000] [c0] cpll 666000000
+[    0.000000] [c0] dpll 600000000
+[    0.000000] [c0] epll 180633609
+[    0.000000] [c0] rpll 66000000
+[    0.000000] [c0] ipll 432000000
+[    0.000000] [c0] spll 800000000
+[    0.000000] [c0] dout_spll_ctrl_div2 400000000
+[    0.000000] [c0] vpll 400000000
+[    0.000000] [c0] mpll 532000000
+[    0.000000] [c0] Clock enables : TOP, MIF
+[    0.000000] [c0] mmc0: dout_mmc0 666000000
+[    0.000000] [c0] mmc1: dout_mmc1 800000000
+[    0.000000] [c0] mmc2: dout_mmc2 666000000
+[    0.000000] [c0] scaler: dout_aclk_400_mscl 333000000 aclk_400_mscl 333000000
+[    0.000000] [c0] [g2d_init_clock:319] aclk_333_g2d:333000000
+[    0.000000] [c0] gscaler: dout_aclk_300_gscl 300000000 aclk_300_gscl 300000000
+[    0.000000] [c0] [jpeg_clock_init:374]jpeg: dout_aclk_300_jpeg 300000000 aclk_300_jpeg 300000000
+[    0.000000] [c0] mfc: aclk_333 400000000
+[    0.000000] [c0] Exynos5422: clock setup completed
+[    0.000000] [c0] Exynos: pwm: clock setup completed
+[    0.000000] [c0] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+[    0.000000] [c0] Switching to timer-based delay loop
+[    0.000000] [c0] EXYNOS5422 PMU Initialize
+[    0.000000] [c0] Console: colour dummy device 80x30
+[    0.000000] [c0] console [tty1] enabled
+[    0.000000] [c0] Lock dependency validator: Copyright (c) 2006 Red Hat, Inc., Ingo Molnar
+[    0.000000] [c0] ... MAX_LOCKDEP_SUBCLASSES:  8
+[    0.000000] [c0] ... MAX_LOCK_DEPTH:          48
+[    0.000000] [c0] ... MAX_LOCKDEP_KEYS:        8191
+[    0.000000] [c0] ... CLASSHASH_SIZE:          4096
+[    0.000000] [c0] ... MAX_LOCKDEP_ENTRIES:     16384
+[    0.000000] [c0] ... MAX_LOCKDEP_CHAINS:      32768
+[    0.000000] [c0] ... CHAINHASH_SIZE:          16384
+[    0.000000] [c0]  memory used by lock dependency info: 3679 kB
+[    0.000000] [c0]  per task-struct memory footprint: 1152 bytes
+[    0.007105] [c0] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=120000)
+[    0.007200] [c0] pid_max: default: 32768 minimum: 301
+[    0.007720] [c0] Mount-cache hash table entries: 512
+[    0.043151] [c0] Initializing cgroup subsys debug
+[    0.043225] [c0] Initializing cgroup subsys memory
+[    0.043345] [c0] Initializing cgroup subsys devices
+[    0.043415] [c0] Initializing cgroup subsys freezer
+[    0.043477] [c0] Initializing cgroup subsys blkio
+[    0.043527] [c0] Initializing cgroup subsys perf_event
+[    0.043792] [c0] CPU: Testing write buffer coherency: ok
+[    0.043893] [c0] ftrace: allocating 22652 entries in 67 pages
+[    0.093673] [c0] /cpus/cpu@0 missing clock-frequency property
+[    0.093742] [c0] /cpus/cpu@1 missing clock-frequency property
+[    0.093789] [c0] /cpus/cpu@2 missing clock-frequency property
+[    0.093835] [c0] /cpus/cpu@3 missing clock-frequency property
+[    0.093880] [c0] /cpus/cpu@4 missing clock-frequency property
+[    0.093924] [c0] /cpus/cpu@5 missing clock-frequency property
+[    0.093969] [c0] /cpus/cpu@6 missing clock-frequency property
+[    0.094013] [c0] /cpus/cpu@7 missing clock-frequency property
+[    0.094109] [c0] CPU0: thread -1, cpu 0, socket 1, mpidr 80000100
+[    0.094315] [c0] Running under secure firmware.
+[    0.094388] [c0] Setting up static identity map for 0xc060fa30 - 0xc060fa88
+[    0.094445] [c0] Exynos-SnapShot: exynos_ss_init failed
+[    0.114840] [c0] ftrace: Allocated trace_printk buffers
+[    0.136579] [c0] cpu1: SWRESET
+[    0.136834] [c1] CPU1: Booted secondary processor
+[    0.136863] [c1] CPU1: thread -1, cpu 1, socket 1, mpidr 80000101
+[    0.146514] [c0] cpu2: SWRESET
+[    0.146831] [c2] CPU2: Booted secondary processor
+[    0.146859] [c2] CPU2: thread -1, cpu 2, socket 1, mpidr 80000102
+[    0.156495] [c0] cpu3: SWRESET
+[    0.156808] [c3] CPU3: Booted secondary processor
+[    0.156836] [c3] CPU3: thread -1, cpu 3, socket 1, mpidr 80000103
+[    0.165777] [c4] CPU4: Booted secondary processor
+[    0.166532] [c4] CPU4: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.175751] [c5] CPU5: Booted secondary processor
+[    0.176515] [c5] CPU5: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.185763] [c6] CPU6: Booted secondary processor
+[    0.186540] [c6] CPU6: thread -1, cpu 2, socket 0, mpidr 80000002
+[    0.195777] [c7] CPU7: Booted secondary processor
+[    0.196532] [c7] CPU7: thread -1, cpu 3, socket 0, mpidr 80000003
+[    0.196812] [c0] Brought up 8 CPUs
+[    0.197136] [c0] SMP: Total of 8 processors activated (384.00 BogoMIPS).
+[    0.197178] [c0] CPU: All CPU(s) started in HYP mode.
+[    0.197214] [c0] CPU: Virtualization extensions available.
+[    0.199779] [c0] devtmpfs: initialized
+[    0.239236] [c6] sched: registering cpufreq notifiers for scale-invariant loads
+[    0.241664] [c6] pinctrl core: initialized pinctrl subsystem
+[    0.242726] [c6] regulator-dummy: no parameters
+[    0.253951] [c6] NET: Registered protocol family 16
+[    0.254439] [c6] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.261099] [c6] gpiochip_add: registered GPIOs 0 to 7 on device: gpy7
+[    0.261276] [c6] gpiochip_add: registered GPIOs 8 to 15 on device: gpx0
+[    0.261446] [c6] gpiochip_add: registered GPIOs 16 to 23 on device: gpx1
+[    0.261646] [c6] gpiochip_add: registered GPIOs 24 to 31 on device: gpx2
+[    0.261823] [c6] gpiochip_add: registered GPIOs 32 to 39 on device: gpx3
+[    0.263730] [c6] gpiochip_add: registered GPIOs 40 to 47 on device: gpc0
+[    0.263907] [c6] gpiochip_add: registered GPIOs 48 to 55 on device: gpc1
+[    0.264075] [c6] gpiochip_add: registered GPIOs 56 to 62 on device: gpc2
+[    0.264241] [c6] gpiochip_add: registered GPIOs 63 to 66 on device: gpc3
+[    0.264415] [c6] gpiochip_add: registered GPIOs 67 to 68 on device: gpc4
+[    0.264592] [c6] gpiochip_add: registered GPIOs 69 to 76 on device: gpd1
+[    0.264761] [c6] gpiochip_add: registered GPIOs 77 to 82 on device: gpy0
+[    0.264933] [c6] gpiochip_add: registered GPIOs 83 to 86 on device: gpy1
+[    0.265098] [c6] gpiochip_add: registered GPIOs 87 to 92 on device: gpy2
+[    0.265271] [c6] gpiochip_add: registered GPIOs 93 to 100 on device: gpy3
+[    0.265445] [c6] gpiochip_add: registered GPIOs 101 to 108 on device: gpy4
+[    0.265614] [c6] gpiochip_add: registered GPIOs 109 to 116 on device: gpy5
+[    0.265791] [c6] gpiochip_add: registered GPIOs 117 to 124 on device: gpy6
+[    0.267554] [c6] gpiochip_add: registered GPIOs 125 to 132 on device: gpe0
+[    0.267732] [c6] gpiochip_add: registered GPIOs 133 to 134 on device: gpe1
+[    0.267904] [c6] gpiochip_add: registered GPIOs 135 to 140 on device: gpf0
+[    0.268073] [c6] gpiochip_add: registered GPIOs 141 to 148 on device: gpf1
+[    0.268249] [c6] gpiochip_add: registered GPIOs 149 to 156 on device: gpg0
+[    0.268420] [c6] gpiochip_add: registered GPIOs 157 to 164 on device: gpg1
+[    0.268590] [c6] gpiochip_add: registered GPIOs 165 to 166 on device: gpg2
+[    0.268765] [c6] gpiochip_add: registered GPIOs 167 to 170 on device: gpj4
+[    0.270189] [c6] gpiochip_add: registered GPIOs 171 to 178 on device: gpa0
+[    0.270375] [c6] gpiochip_add: registered GPIOs 179 to 184 on device: gpa1
+[    0.270547] [c6] gpiochip_add: registered GPIOs 185 to 192 on device: gpa2
+[    0.270724] [c6] gpiochip_add: registered GPIOs 193 to 197 on device: gpb0
+[    0.270895] [c6] gpiochip_add: registered GPIOs 198 to 202 on device: gpb1
+[    0.271114] [c6] gpiochip_add: registered GPIOs 203 to 206 on device: gpb2
+[    0.271295] [c6] gpiochip_add: registered GPIOs 207 to 214 on device: gpb3
+[    0.271470] [c6] gpiochip_add: registered GPIOs 215 to 216 on device: gpb4
+[    0.271679] [c6] gpiochip_add: registered GPIOs 217 to 224 on device: gph0
+[    0.273593] [c6] gpiochip_add: registered GPIOs 225 to 231 on device: gpz
+[    0.293247] [c6] syscon 10040000.system-controller: regmap [mem 0x10040000-0x10044fff] registered
+[    0.293743] [c6] syscon 10050000.syscon: regmap [mem 0x10050000-0x10054fff] registered
+[    0.301543] [c6] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.301591] [c6] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.303461] [c6] S3C Power Management, Copyright 2004 Simtec Electronics
+[    0.307652] [c6] PM DOMAIN: pd-cam has a new child pd-isp.
+[    0.308519] [c6] PM DOMAIN: pd-gscl has a new child pd-cam.
+[    0.308567] [c6] EXYNOS5: PM Domain Initialize
+[    0.308861] [c6]    pd-gscl   - on
+[    0.309046] [c6]    pd-isp    - on
+[    0.309229] [c6]    pd-mfc    - on
+[    0.309261] [c6]    pd-g3d    - on,  always
+[    0.309293] [c6]    pd-disp1  - on,  always
+[    0.309481] [c6]    pd-maudio - on
+[    0.309512] [c6]    pd-g2d    - on,  always
+[    0.309699] [c6]    pd-mscl   - on
+[    0.309731] [c6]    pd-fsys   - on,  always
+[    0.309765] [c6]    pd-psgen  - on,  always
+[    0.309798] [c6]    pd-peric  - on,  always
+[    0.309829] [c6]    pd-wcore  - on,  always
+[    0.310018] [c6]    pd-cam    - on
+[    0.310056] [c6] EXYNOS: Initializing architecture
+[    0.311644] [c6] exynos-sysmmu 10a60000.sysmmu: --> 10850000.fimg2d
+[    0.311688] [c6] exynos-sysmmu 10a60000.sysmmu: [OK]
+[    0.312028] [c6] exynos-sysmmu 10a70000.sysmmu: --> 10850000.fimg2d
+[    0.312070] [c6] exynos-sysmmu 10a70000.sysmmu: [OK]
+[    0.312427] [c6] exynos-sysmmu 14650000.sysmmu: --> 14450000.mixer
+[    0.312467] [c6] exynos-sysmmu 14650000.sysmmu: [OK]
+[    0.312791] [c6] exynos-sysmmu 13e80000.sysmmu: --> 13e00000.gsc
+[    0.312831] [c6] exynos-sysmmu 13e80000.sysmmu: [OK]
+[    0.313155] [c6] exynos-sysmmu 13e90000.sysmmu: --> 13e10000.gsc
+[    0.313195] [c6] exynos-sysmmu 13e90000.sysmmu: [OK]
+[    0.313526] [c6] exynos-sysmmu 12880000.sysmmu: --> 12800000.scaler
+[    0.313567] [c6] exynos-sysmmu 12880000.sysmmu: [OK]
+[    0.313902] [c6] exynos-sysmmu 12890000.sysmmu: --> 12810000.scaler
+[    0.313942] [c6] exynos-sysmmu 12890000.sysmmu: [OK]
+[    0.314284] [c6] exynos-sysmmu 128a0000.sysmmu: --> 12820000.scaler
+[    0.314324] [c6] exynos-sysmmu 128a0000.sysmmu: [OK]
+[    0.314652] [c6] exynos-sysmmu 128c0000.sysmmu: --> 12800000.scaler
+[    0.314693] [c6] exynos-sysmmu 128c0000.sysmmu: [OK]
+[    0.315021] [c6] exynos-sysmmu 128d0000.sysmmu: --> 12810000.scaler
+[    0.315061] [c6] exynos-sysmmu 128d0000.sysmmu: [OK]
+[    0.315394] [c6] exynos-sysmmu 128e0000.sysmmu: --> 12820000.scaler
+[    0.315433] [c6] exynos-sysmmu 128e0000.sysmmu: [OK]
+[    0.315759] [c6] exynos-sysmmu 11f10000.sysmmu: --> 11f50000.jpeg
+[    0.315799] [c6] exynos-sysmmu 11f10000.sysmmu: [OK]
+[    0.316134] [c6] exynos-sysmmu 11f20000.sysmmu: --> 11f60000.jpeg
+[    0.316174] [c6] exynos-sysmmu 11f20000.sysmmu: [OK]
+[    0.316490] [c6] exynos-sysmmu 11200000.sysmmu: --> 11000000.mfc
+[    0.316531] [c6] exynos-sysmmu 11200000.sysmmu: [OK]
+[    0.316884] [c6] exynos-sysmmu 11210000.sysmmu: --> 11000000.mfc
+[    0.316924] [c6] exynos-sysmmu 11210000.sysmmu: [OK]
+[    0.317288] [c6] exynos-sysmmu 14640000.sysmmu: --> 14400000.fimd
+[    0.317328] [c6] exynos-sysmmu 14640000.sysmmu: [OK]
+[    0.317681] [c6] exynos-sysmmu 14680000.sysmmu: --> 14400000.fimd
+[    0.317721] [c6] exynos-sysmmu 14680000.sysmmu: [OK]
+[    0.318159] [c6] CPU Info : Samsung Exynos5422 Soc is BIN1
+[    0.318193] [c6] Exynos5422 ASV : Use Fusing Speed Group 4
+[    0.318223] [c6] Exynos5422 ASV : invalid IDS value
+[    0.318253] [c6] EXYNOS5422 ASV :  IDS : 0 HPM : 0
+[    0.318311] [c6] VDD_ARM ASV group is 4
+[    0.318343] [c6] VDD_KFC ASV group is 4
+[    0.318373] [c6] VDD_INT ASV group is 4
+[    0.318402] [c6] VDD_MIF ASV group is 4
+[    0.318431] [c6] VDD_G3D ASV group is 4
+[    0.318459] [c6] VDD_ISP ASV group is 4
+[    0.332158] [c7] bio: create slab <bio-0> at 0
+[    0.333977] [c7] of_get_named_gpio_flags exited with status 119
+[    0.334231] [c7] VUSB_BOOST_5V: 5000 mV
+[    0.334536] [c7] of_get_named_gpio_flags: can't parse gpios property
+[    0.334755] [c7] MAIN_DC: no parameters
+[    0.335021] [c7] of_get_named_gpio_flags: can't parse gpios property
+[    0.335239] [c7] hdmi-en: no parameters
+[    0.336429] [c7] SCSI subsystem initialized
+[    0.336866] [c7] usbcore: registered new interface driver usbfs
+[    0.337001] [c7] usbcore: registered new interface driver hub
+[    0.337253] [c7] usbcore: registered new device driver usb
+[    0.343466] [c4] vdd_mif: 700 <--> 1300 mV at 1100 mV
+[    0.344755] [c4] vdd_eagle: 800 <--> 1500 mV at 1000 mV
+[    0.346035] [c4] vdd_int: 800 <--> 1400 mV at 1000 mV
+[    0.347313] [c4] vdd_g3d: 700 <--> 1400 mV at 1000 mV
+[    0.348595] [c4] vdd_kfc: 800 <--> 1500 mV at 1025 mV
+[    0.350427] [c4] vddf_2v85: 3300 mV
+[    0.351852] [c4] vdd_adc: 1800 mV
+[    0.353332] [c4] vdd_pll: 1800 mV
+[    0.354751] [c4] vdd_ldo6: 1000 mV
+[    0.356171] [c4] vdd_ldo7: 1800 mV
+[    0.357653] [c4] vdd_ldo8: 1800 mV
+[    0.359075] [c4] vdd_ldo9: 3300 mV
+[    0.360504] [c4] vdd_ldo10: 1800 mV
+[    0.361951] [c4] vdd_ldo11: 1000 mV
+[    0.363068] [c4] vdd_ldo13: 1800 <--> 3300 mV at 3300 mV
+[    0.364554] [c4] vdd_ldo15: 3300 mV
+[    0.365977] [c4] vdd_eth: 3300 mV
+[    0.367531] [c4] vdd_ldo18: 1850 mV
+[    0.368650] [c4] vdd_ldo19: 2800 <--> 3300 mV at 3300 mV
+[    0.369762] [c4] vdd_mifs: 800 <--> 1100 mV at 1100 mV
+[    0.371190] [c4] vdd_ldo26: 3000 mV
+[    0.372338] [c4] vdd_g3ds: 800 <--> 1100 mV at 1000 mV
+[    0.373828] [c4] vdd_ldo28: 3300 mV
+[    0.376810] [c4] of_get_named_gpio_flags exited with status 177
+[    0.376841] [c4] of_get_named_gpio_flags exited with status 178
+[    0.377750] [c4] i2c-gpio i2c_gpio.8: using pins 177 (SDA) and 178 (SCL)
+[    0.377908] [c4] media: Linux media interface: v0.10
+[    0.378012] [c4] Linux video capture interface: v2.00
+[    0.380085] [c5] IOVMMU: Created debugfs entry at debugfs/iovmm
+[    0.380648] [c5] Advanced Linux Sound Architecture Driver Initialized.
+[    0.381287] [c5] PM DOMAIN: pd-maudio, Device : 3810000.lpass Registered
+[    0.381346] [c5] Samsung Low Power Audio Subsystem driver, (c)2013 Samsung Electronics
+[    0.383420] [c5] Loading modules backported from Linux version next-20150222-0-g53e418f1
+[    0.383466] [c5] Backport integrated by backports.git backports-20150222-0-g2745ccd
+[    0.385201] [c5] Switching to clocksource mct-frc
+[    0.463313] [c5] NET: Registered protocol family 2
+[    0.465088] [c5] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.465644] [c5] TCP bind hash table entries: 8192 (order: 6, 294912 bytes)
+[    0.467652] [c5] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.467786] [c5] TCP: reno registered
+[    0.467832] [c5] UDP hash table entries: 512 (order: 3, 40960 bytes)
+[    0.468134] [c5] UDP-Lite hash table entries: 512 (order: 3, 40960 bytes)
+[    0.469226] [c5] NET: Registered protocol family 1
+[    0.469775] [c5] Unpacking initramfs...
+[    0.840245] [c4] Freeing initrd memory: 4740K (c2001000 - c24a2000)
+[    0.853677] [c4] bounce pool size: 64 pages
+[    0.862367] [c4] VFS: Disk quotas dquot_6.5.2
+[    0.862772] [c4] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.865790] [c4] ROMFS MTD (C) 2007 Red Hat, Inc.
+[    0.866341] [c4] msgmni has been set to 1448
+[    0.870827] [c4] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+[    0.871275] [c4] io scheduler noop registered
+[    0.871310] [c4] io scheduler deadline registered
+[    0.871550] [c4] io scheduler cfq registered (default)
+[    0.879842] [c4] dma-pl330 10800000.mdma: Loaded driver for PL330 DMAC-241330
+[    0.879888] [c4] dma-pl330 10800000.mdma: 	DBUFF-64x8bytes Num_Chans-8 Num_Peri-1 Num_Events-32
+[    0.885943] [c4] dma-pl330 121a0000.pdma: Loaded driver for PL330 DMAC-241330
+[    0.885990] [c4] dma-pl330 121a0000.pdma: 	DBUFF-

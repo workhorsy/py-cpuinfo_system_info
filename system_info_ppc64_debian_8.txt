@@ -1,0 +1,392 @@
+sys.version_info:
+===============================================================================
+sys.version_info(major=2, minor=7, micro=9, releaselevel='final', serial=0)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+1
+
+
+
+platform.uname:
+===============================================================================
+('Linux', 'debian', '3.16.0-4-powerpc64', '#1 SMP Debian 3.16.7-ckt11-1 (2015-05-24)', 'ppc64', '')
+
+
+
+platform.architecture:
+===============================================================================
+('32bit', 'ELF')
+
+
+
+platform.system:
+===============================================================================
+Linux
+
+
+
+platform.machine:
+===============================================================================
+ppc64
+
+
+
+cat /proc/cpuinfo:
+===============================================================================
+processor   : 0
+cpu     : POWER7 (raw), altivec supported
+clock       : 1000.000000MHz
+revision    : 2.3 (pvr 003f 0203)
+
+timebase    : 512000000
+platform    : pSeries
+model       : IBM pSeries (emulated by qemu)
+machine     : CHRP IBM pSeries (emulated by qemu)
+
+
+
+
+lscpu:
+===============================================================================
+Architecture:          ppc64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Big Endian
+CPU(s):                1
+On-line CPU(s) list:   0
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             1
+NUMA node(s):          1
+Model:                 IBM pSeries (emulated by qemu)
+L1d cache:             32K
+L1i cache:             32K
+NUMA node0 CPU(s):     0
+
+
+
+
+dmesg:
+===============================================================================
+[    0.000000] Allocated 131072 bytes for 32 pacas at c00000000ffe0000
+[    0.000000] Using pSeries machine description
+[    0.000000] Page sizes from device-tree:
+[    0.000000] base_shift=12: shift=12, sllp=0x0000, avpnm=0x00000000, tlbiel=1, penc=0
+[    0.000000] base_shift=24: shift=24, sllp=0x0100, avpnm=0x00000001, tlbiel=0, penc=0
+[    0.000000] Page orders: linear mapping = 24, virtual = 12, io = 12, vmemmap = 24
+[    0.000000] Using 1TB segments
+[    0.000000] kvm_cma: CMA: reserved 128 MiB
+[    0.000000] Found initrd at 0xc000000001a00000:0xc0000000029ee000
+[    0.000000] CPU maps initialized for 1 thread per core
+[    0.000000]  (thread shift is 0)
+[    0.000000] Freed 65536 bytes for unused pacas
+[    0.000000] Starting Linux PPC64 #1 SMP Debian 3.16.7-ckt11-1 (2015-05-24)
+[    0.000000] -----------------------------------------------------
+[    0.000000] ppc64_pft_size                = 0x18
+[    0.000000] physicalMemorySize            = 0x80000000
+[    0.000000] htab_hash_mask                = 0x1ffff
+[    0.000000] -----------------------------------------------------
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.16.0-4-powerpc64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) ) #1 SMP Debian 3.16.7-ckt11-1 (2015-05-24)
+[    0.000000] [boot]0012 Setup Arch
+[    0.000000] Node 0 Memory: 0x0-0x80000000
+[    0.000000] PCI host bridge /pci@800000020000000  ranges:
+[    0.000000]   IO 0x0000010080000000..0x000001008000ffff -> 0x0000000000000000
+[    0.000000]  MEM 0x00000100a0000000..0x00000100bfffffff -> 0x0000000080000000
+[    0.000000] PPC64 nvram contains 65536 bytes
+[    0.000000] Unable to enable relocation on exceptions: -55
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x00000000-0x7fffffff]
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00000000-0x7fffffff]
+[    0.000000] On node 0 totalpages: 32768
+[    0.000000]   DMA zone: 28 pages used for memmap
+[    0.000000]   DMA zone: 0 pages reserved
+[    0.000000]   DMA zone: 32768 pages, LIFO batch:1
+[    0.000000] [boot]0015 Setup Done
+[    0.000000] PERCPU: Embedded 2 pages/cpu @c000000002c00000 s101120 r0 d29952 u1048576
+[    0.000000] pcpu-alloc: s101120 r0 d29952 u1048576 alloc=1*1048576
+[    0.000000] pcpu-alloc: [0] 0
+[    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 32740
+[    0.000000] Policy zone: DMA
+[    0.000000] Kernel command line: root=UUID=84ad8b3c-ac17-4eca-874b-d7855046b757 ro
+[    0.000000] PID hash table entries: 4096 (order: -1, 32768 bytes)
+[    0.000000] Sorting __ex_table...
+[    0.000000] Memory: 1917888K/2097152K available (7360K kernel code, 1792K rwdata, 1840K rodata, 960K init, 2071K bss, 179264K reserved)
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000]  CONFIG_RCU_FANOUT set to non-default value of 32
+[    0.000000]  RCU dyntick-idle grace-period acceleration is enabled.
+[    0.000000]  RCU restricting CPUs from NR_CPUS=32 to nr_cpu_ids=1.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+[    0.000000] NR_IRQS:512 nr_irqs:512 16
+[    0.000000] pic: no ISA interrupt controller
+[    0.000000] time_init: decrementer frequency = 512.000000 MHz
+[    0.000000] time_init: processor frequency   = 1000.000000 MHz
+[    0.000338] clocksource: timebase mult[1f40000] shift[24] registered
+[    0.000750] clockevent: decrementer mult[83126e98] shift[32] cpu[0]
+[    0.013218] Console: colour dummy device 80x25
+[    0.015593] console [tty0] enabled
+[    0.017420] mempolicy: Disabling automatic NUMA balancing. Configure with numa_balancing= or the kernel.numa_balancing sysctl
+[    0.017729] pid_max: default: 32768 minimum: 301
+[    0.019187] Security Framework initialized
+[    0.023142] AppArmor: AppArmor disabled by boot time parameter
+[    0.023224] Yama: disabled by default; enable with sysctl kernel.yama.*
+[    0.029627] Dentry cache hash table entries: 262144 (order: 5, 2097152 bytes)
+[    0.043535] Inode-cache hash table entries: 131072 (order: 4, 1048576 bytes)
+[    0.050477] Mount-cache hash table entries: 8192 (order: 0, 65536 bytes)
+[    0.050614] Mountpoint-cache hash table entries: 8192 (order: 0, 65536 bytes)
+[    0.073705] Initializing cgroup subsys memory
+[    0.075024] Initializing cgroup subsys devices
+[    0.075235] Initializing cgroup subsys freezer
+[    0.075374] Initializing cgroup subsys net_cls
+[    0.075510] Initializing cgroup subsys blkio
+[    0.075624] Initializing cgroup subsys perf_event
+[    0.075726] Initializing cgroup subsys net_prio
+[    0.076624] ftrace: allocating 20397 entries in 8 pages
+[    0.180925] EEH: pSeries platform initialized
+[    0.182432] POWER7 performance monitor hardware support registered
+[    0.216199] Brought up 1 CPUs
+[    0.216565] Node 0 CPUs: 0
+[    0.217809] Enabling Asymmetric SMT scheduling
+[    0.238355] devtmpfs: initialized
+[    0.475164] EEH: devices created
+[    0.490432] NET: Registered protocol family 16
+[    0.492082] pseries_eeh_init: RTAS service <ibm,set-eeh-option> invalid
+[    0.492164] eeh_init: Failed to call platform init function (-22)
+[    0.492906] IBM eBus Device Driver
+[    0.500355] cpuidle: using governor ladder
+[    0.500577] cpuidle: using governor menu
+[    0.514124] PCI: Probing PCI hardware
+[    0.516020] no ibm,pcie-link-speed-stats property
+[    0.517060] PCI host bridge to bus 0000:00
+[    0.517530] pci_bus 0000:00: root bus resource [io  0x10000-0x1ffff] (bus address [0x0000-0xffff])
+[    0.517720] pci_bus 0000:00: root bus resource [mem 0x100a0000000-0x100bfffffff] (bus address [0x80000000-0x9fffffff])
+[    0.517998] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.529972] IOMMU table initialized, virtual merging enabled
+[    0.535544] PCI: Probing PCI hardware done
+[    0.535796] opal: Node not found
+[    0.535906] opal_async_comp_init: Opal node not found
+[    0.568544] vgaarb: setting as boot device: PCI:0000:00:05.0
+[    0.568732] vgaarb: device added: PCI:0000:00:05.0,decodes=io+mem,owns=io+mem,locks=none
+[    0.568806] vgaarb: loaded
+[    0.568890] vgaarb: bridge control possible 0000:00:05.0
+[    0.571371] SCSI subsystem initialized
+[    0.574171] libata version 3.00 loaded.
+[    0.584615] Switched to clocksource timebase
+[    0.682958] NET: Registered protocol family 2
+[    0.691143] TCP established hash table entries: 16384 (order: 1, 131072 bytes)
+[    0.693487] TCP bind hash table entries: 16384 (order: 2, 262144 bytes)
+[    0.695364] TCP: Hash tables configured (established 16384 bind 16384)
+[    0.696479] TCP: reno registered
+[    0.696677] UDP hash table entries: 2048 (order: 0, 65536 bytes)
+[    0.697367] UDP-Lite hash table entries: 2048 (order: 0, 65536 bytes)
+[    0.699732] NET: Registered protocol family 1
+[    0.759620] PCI: CLS 0 bytes, default 128
+[    0.771028] Unpacking initramfs...
+[    2.818760] Freeing initrd memory: 16256K (c000000001a00000 - c0000000029e0000)
+[    2.821404] rtasd: No event-scan on system
+[    2.826593] Hypercall H_BEST_ENERGY not supported
+[    2.831685] futex hash table entries: 256 (order: -1, 32768 bytes)
+[    2.833086] audit: initializing netlink subsys (disabled)
+[    2.834153] audit: type=2000 audit(1434845386.768:1): initialized
+[    2.847896] HugeTLB registered 16 MB page size, pre-allocated 0 pages
+[    2.848975] zbud: loaded
+[    2.852820] VFS: Disk quotas dquot_6.5.2
+[    2.853282] Dquot-cache hash table entries: 8192 (order 0, 65536 bytes)
+[    2.855917] msgmni has been set to 4032
+[    2.874595] alg: No test for stdrng (krng)
+[    2.875106] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    2.882461] io scheduler noop registered
+[    2.882590] io scheduler deadline registered
+[    2.883273] io scheduler cfq registered (default)
+[    2.885314] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    2.885501] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+[    2.888998] Using unsupported 800x600 vga at 100a0000000, depth=32, pitch=3200
+[    2.929217] Console: switching to colour frame buffer device 100x37
+[    2.958001] fb0: Open Firmware frame buffer device on /pci@800000020000000/vga@5
+[    2.972934] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    2.982778] pmac_zilog: 0.6 (Benjamin Herrenschmidt <benh@kernel.crashing.org>)
+[    2.983220] Linux agpgart interface v0.103
+[    2.990064] mousedev: PS/2 mouse device common for all mice
+[    2.999249] rtc-generic rtc-generic: rtc core: registered rtc-generic as rtc0
+[    3.002253] pseries_idle_driver registered
+[    3.002512] ledtrig-cpu: registered to indicate activity on CPUs
+[    3.006670] TCP: cubic registered
+[    3.007437] NET: Registered protocol family 10
+[    3.015231] mip6: Mobile IPv6
+[    3.015572] NET: Registered protocol family 17
+[    3.016076] mpls_gso: MPLS GSO support
+[    3.058871] registered taskstats version 1
+[    3.132072] rtc-generic rtc-generic: setting system clock to 2015-06-21 00:09:47 UTC (1434845387)
+[    3.152822] PM: Hibernation image not present or could not be loaded.
+[    3.201971] Freeing unused kernel memory: 960K (c000000000910000 - c000000000a00000)
+[    3.857868] systemd-udevd[54]: starting version 215
+[    3.976523] random: systemd-udevd urandom read with 0 bits of entropy available
+[    4.485673] virtio-pci 0000:00:03.0: enabling device (0100 -> 0103)
+[    4.577771] 8139cp: 8139cp: 10/100 PCI Ethernet driver v1.3 (Mar 22, 2004)
+[    4.674459] virtio-pci 0000:00:04.0: enabling device (0100 -> 0101)
+[    4.808995] 8139cp 0000:00:01.0: enabling device (0100 -> 0103)
+[    4.894915] 8139cp 0000:00:01.0 eth0: RTL-8139C+ at 0xd000080080020000, 52:54:00:9c:51:be, IRQ 17
+[    5.034371] usbcore: registered new interface driver usbfs
+[    5.137852] usbcore: registered new interface driver hub
+[    5.162930] usbcore: registered new device driver usb
+[    5.358128] 8139too: 8139too Fast Ethernet driver 0.9.28
+[    5.526195] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    5.675013] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    5.793057] ehci-pci: EHCI PCI platform driver
+[    5.954774] ohci-pci: OHCI PCI platform driver
+[    5.999513] ohci-pci 0000:00:02.0: OHCI PCI host controller
+[    6.160999] ohci-pci 0000:00:02.0: new USB bus registered, assigned bus number 1
+[    6.198668] ohci-pci 0000:00:02.0: irq 18, io mem 0x100b0080000
+[    6.334102] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+[    6.344445] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    6.370182] usb usb1: Product: OHCI PCI host controller
+[    6.422685] usb usb1: Manufacturer: Linux 3.16.0-4-powerpc64 ohci_hcd
+[    6.443604] usb usb1: SerialNumber: 0000:00:02.0
+[    6.481621] hub 1-0:1.0: USB hub found
+[    6.503912] hub 1-0:1.0: 3 ports detected
+[    6.887747] ibmvscsi 2000: SRP_VERSION: 16.a
+[    6.935841] scsi0 : IBM POWER Virtual SCSI Adapter 1.5.9
+[    7.045662] ibmvscsi 2000: partner initialization complete
+[    7.052689] ibmvscsi 2000: host srp version: 16.a, host partition qemu (0), OS 2, max io 2097152
+[    7.059445] ibmvscsi 2000: sent SRP login
+[    7.072480] ibmvscsi 2000: SRP_LOGIN succeeded
+[    7.137106] usb 1-1: new full-speed USB device number 2 using ohci-pci
+[    7.229950] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.1. PQ: 0 ANSI: 5
+[    7.273151] scsi 0:0:0:1: CD-ROM            QEMU     QEMU CD-ROM      2.1. PQ: 0 ANSI: 5
+[    7.382183] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+[    7.389307] usb 1-1: New USB device strings: Mfr=1, Product=4, SerialNumber=5
+[    7.398348] usb 1-1: Product: QEMU USB Keyboard
+[    7.405680] usb 1-1: Manufacturer: QEMU
+[    7.412039] usb 1-1: SerialNumber: 42
+[    7.656746] usb 1-2: new full-speed USB device number 3 using ohci-pci
+[    7.889962] usb 1-2: New USB device found, idVendor=0627, idProduct=0001
+[    7.896408] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=5
+[    7.902478] usb 1-2: Product: QEMU USB Mouse
+[    7.908508] usb 1-2: Manufacturer: QEMU
+[    7.916774] usb 1-2: SerialNumber: 42
+[    8.129574] usb 1-3: new full-speed USB device number 4 using ohci-pci
+[    8.357746] usb 1-3: New USB device found, idVendor=0409, idProduct=55aa
+[    8.366230] usb 1-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    8.372658] usb 1-3: Product: QEMU USB Hub
+[    8.378536] usb 1-3: Manufacturer: QEMU
+[    8.384303] usb 1-3: SerialNumber: 314159-pci@800000020000000:02.0-3
+[    8.402720] hub 1-3:1.0: USB hub found
+[    8.429339] hub 1-3:1.0: 8 ports detected
+[    8.658809] hidraw: raw HID events driver (C) Jiri Kosina
+[    8.784980] usbcore: registered new interface driver usbhid
+[    8.790942] usbhid: USB HID core driver
+[    8.950803] input: QEMU QEMU USB Keyboard as /devices/pci0000:00/0000:00:02.0/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input0
+[    8.994951] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v1.11 Keyboard [QEMU QEMU USB Keyboard] on usb-0000:00:02.0-1/input0
+[    9.033828] input: QEMU QEMU USB Mouse as /devices/pci0000:00/0000:00:02.0/usb1/1-2/1-2:1.0/0003:0627:0001.0002/input/input1
+[    9.068020] hid-generic 0003:0627:0001.0002: input,hidraw1: USB HID v0.01 Mouse [QEMU QEMU USB Mouse] on usb-0000:00:02.0-2/input0
+[    9.381865] sr0: scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+[    9.389259] cdrom: Uniform CD-ROM driver Revision: 3.20
+[    9.435680] sr 0:0:0:1: Attached scsi CD-ROM sr0
+[    9.486014] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[    9.535375] sd 0:0:0:0: [sda] 41943040 512-byte logical blocks: (21.4 GB/20.0 GiB)
+[    9.604207] sr 0:0:0:1: Attached scsi generic sg1 type 5
+[    9.653865] sd 0:0:0:0: [sda] Write Protect is off
+[    9.682220] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+[    9.749941] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    9.920104]  sda: sda1 sda2 sda3 < sda5 >
+[   10.050321] sd 0:0:0:0: [sda] Attached SCSI disk
+[   11.175024] PM: Starting manual resume from disk
+[   11.190676] PM: Hibernation image partition 8:5 present
+[   11.190746] PM: Looking for hibernation image.
+[   11.198262] PM: Image not found (code -22)
+[   11.198324] PM: Hibernation image not present or could not be loaded.
+[   12.494780] random: nonblocking pool is initialized
+[   12.750809] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+[   15.120892] systemd[1]: systemd 215 running in system mode. (+PAM +AUDIT +SELINUX +IMA +SYSVINIT +LIBCRYPTSETUP +GCRYPT +ACL +XZ -SECCOMP -APPARMOR)
+[   15.142440] systemd[1]: Detected architecture 'ppc64'.
+[   15.814452] systemd[1]: Inserted module 'autofs4'
+[   15.898747] systemd[1]: Set hostname to <debian>.
+[   18.422145] systemd[1]: Cannot add dependency job for unit display-manager.service, ignoring: Unit display-manager.service failed to load: No such file or directory.
+[   18.515978] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[   18.532444] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[   18.558689] systemd[1]: Expecting device dev-hvc0.device...
+[   18.640782] systemd[1]: Starting Remote File Systems (Pre).
+[   18.717491] systemd[1]: Reached target Remote File Systems (Pre).
+[   18.754095] systemd[1]: Starting Dispatch Password Requests to Console Directory Watch.
+[   18.776799] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[   18.801412] systemd[1]: Starting Paths.
+[   18.863431] systemd[1]: Reached target Paths.
+[   18.923173] systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+[   18.978686] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[   19.101439] systemd[1]: Starting Encrypted Volumes.
+[   19.125756] systemd[1]: Reached target Encrypted Volumes.
+[   19.134240] systemd[1]: Expecting device dev-disk-by\x2duuid-a4777552\x2df0b8\x2d4142\x2da317\x2d006f17dab95a.device...
+[   19.161656] systemd[1]: Starting Root Slice.
+[   19.248627] systemd[1]: Created slice Root Slice.
+[   19.291804] systemd[1]: Starting User and Session Slice.
+[   19.322701] systemd[1]: Created slice User and Session Slice.
+[   19.330439] systemd[1]: Starting Delayed Shutdown Socket.
+[   19.413472] systemd[1]: Listening on Delayed Shutdown Socket.
+[   19.445803] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[   19.585431] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[   19.596454] systemd[1]: Starting Journal Socket (/dev/log).
+[   19.631236] systemd[1]: Listening on Journal Socket (/dev/log).
+[   19.682394] systemd[1]: Starting udev Control Socket.
+[   19.750469] systemd[1]: Listening on udev Control Socket.
+[   19.812504] systemd[1]: Starting udev Kernel Socket.
+[   19.877174] systemd[1]: Listening on udev Kernel Socket.
+[   19.903520] systemd[1]: Starting Journal Socket.
+[   20.002695] systemd[1]: Listening on Journal Socket.
+[   20.050923] systemd[1]: Starting System Slice.
+[   20.099507] systemd[1]: Created slice System Slice.
+[   20.107974] systemd[1]: Started File System Check on Root Device.
+[   20.117367] systemd[1]: Starting system-getty.slice.
+[   20.139229] systemd[1]: Created slice system-getty.slice.
+[   20.148527] systemd[1]: Starting system-serial\x2dgetty.slice.
+[   20.171004] systemd[1]: Created slice system-serial\x2dgetty.slice.
+[   20.186239] systemd[1]: Starting Increase datagram queue length...
+[   20.286511] systemd[1]: Mounting Debug File System...
+[   20.374204] systemd[1]: Mounting Huge Pages File System...
+[   20.546084] systemd[1]: Starting udev Coldplug all Devices...
+[   20.746615] systemd[1]: Mounting POSIX Message Queue File System...
+[   21.060772] systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[   21.323414] systemd[1]: Starting Load Kernel Modules...
+[   21.638407] systemd[1]: Started Set Up Additional Binary Formats.
+[   21.709523] systemd[1]: Starting Slices.
+[   21.819351] systemd[1]: Reached target Slices.
+[   22.101414] systemd[1]: Mounted POSIX Message Queue File System.
+[   22.331827] systemd[1]: Mounted Huge Pages File System.
+[   22.556322] systemd[1]: Mounted Debug File System.
+[   22.779283] systemd[1]: Started Increase datagram queue length.
+[   23.046896] systemd[1]: Started Create list of required static device nodes for the current kernel.
+[   23.181896] systemd[1]: systemd-modules-load.service: main process exited, code=exited, status=1/FAILURE
+[   23.499792] systemd[1]: Failed to start Load Kernel Modules.
+[   23.612063] systemd[1]: Unit systemd-modules-load.service entered failed state.
+[   24.213869] systemd[1]: Started udev Coldplug all Devices.
+[   24.452517] systemd[1]: Mounted FUSE Control File System.
+[   24.481206] systemd[1]: Mounted Configuration File System.
+[   24.514689] systemd[1]: Starting Apply Kernel Variables...
+[   24.642428] systemd[1]: Starting Create Static Device Nodes in /dev...
+[   24.877158] systemd[1]: Starting Syslog Socket.
+[   25.057667] systemd[1]: Listening on Syslog Socket.
+[   25.141763] systemd[1]: Starting Journal Service...
+[   25.420621] systemd[1]: Started Journal Service.
+[   27.011217] systemd-udevd[144]: starting version 215
+[   29.812994] [drm] Initialized drm 1.1.0 20060810
+[   30.630630] checking generic (100a0000000 1d4c00) vs hw (100a0000000 1000000)
+[   30.630695] fb: switching to bochsdrmfb from OFfb vga
+[   30.733738] Console: switching to colour dummy device 80x25
+[   30.782441] [drm] Found bochs VGA, ID 0xb0c5.
+[   30.782544] [drm] Framebuffer size 16384 kB @ 0x100a0000000, mmio @ 0x100b0082000.
+[   30.803721] [TTM] Zone  kernel: Available graphics memory: 1033568 kiB
+[   30.803859] [TTM] Initializing pool allocator
+[   31.027553] Console: switching to colour frame buffer device 128x48
+[   31.120041] bochs-drm 0000:00:05.0: fb0: bochsdrmfb frame buffer device
+[   31.120589] bochs-drm 0000:00:05.0: registered panic notifier
+[   31.134008] [drm] Initialized bochs-drm 1.0.0 20130925 for 0000:00:05.0 on minor 0
+[   34.761729] Adding 916416k swap on /dev/sda5.  Priority:-1 extents:1 across:916416k FS
+[   36.685694] EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
+[   37.515664] systemd-journald[141]: Received request to flush runtime journal from PID 1
+[   42.954002] 8139cp 0000:00:01.0 eth
