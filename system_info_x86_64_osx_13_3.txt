@@ -1,0 +1,80 @@
+sys.version_info:
+===============================================================================
+sys.version_info(major=2, minor=7, micro=5, releaselevel='final', serial=0)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+4
+
+
+
+platform.uname:
+===============================================================================
+('Darwin', 'matts-Mac-Pro.local', '13.3.0', 'Darwin Kernel Version 13.3.0: Tue Jun  3 21:27:35 PDT 2014; root:xnu-2422.110.17~1/RELEASE_X86_64', 'x86_64', 'i386')
+
+
+
+platform.architecture:
+===============================================================================
+('64bit', '')
+
+
+
+platform.system:
+===============================================================================
+Darwin
+
+
+
+platform.machine:
+===============================================================================
+x86_64
+
+
+
+sysctl machdep.cpu:
+===============================================================================
+machdep.cpu.max_basic: 5
+machdep.cpu.max_ext: 2147483656
+machdep.cpu.vendor: GenuineIntel
+machdep.cpu.brand_string: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+machdep.cpu.family: 6
+machdep.cpu.model: 58
+machdep.cpu.extmodel: 3
+machdep.cpu.extfamily: 0
+machdep.cpu.stepping: 9
+machdep.cpu.feature_bits: 395049983 2147484161
+machdep.cpu.leaf7_feature_bits: 832
+machdep.cpu.extfeature_bits: 672139264 1
+machdep.cpu.signature: 198313
+machdep.cpu.brand: 0
+machdep.cpu.features: FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT PSE36 CLFSH MMX FXSR SSE SSE2 HTT SSE3 SSSE3 VMM
+machdep.cpu.leaf7_features: ENFSTRG BMI2
+machdep.cpu.extfeatures: SYSCALL XD EM64T LAHF RDTSCP
+machdep.cpu.logical_per_package: 4
+machdep.cpu.cores_per_package: 4
+machdep.cpu.microcode_version: 25
+machdep.cpu.processor_flag: 1
+machdep.cpu.mwait.linesize_min: 0
+machdep.cpu.mwait.linesize_max: 0
+machdep.cpu.mwait.extensions: 3
+machdep.cpu.mwait.sub_Cstates: 0
+machdep.cpu.cache.linesize: 64
+machdep.cpu.cache.L2_associativity: 8
+machdep.cpu.cache.size: 256
+machdep.cpu.tlb.inst.large: 8
+machdep.cpu.tlb.data.small: 64
+machdep.cpu.tlb.data.small_level1: 128
+machdep.cpu.tlb.shared: 1024
+machdep.cpu.address_bits.physical: 39
+machdep.cpu.address_bits.virtual: 48
+machdep.cpu.core_count: 4
+machdep.cpu.thread_count: 4
+
+
+
+
+dmesg:
+===============================================================================

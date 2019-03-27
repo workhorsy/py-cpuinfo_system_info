@@ -1,0 +1,406 @@
+sys.version_info:
+===============================================================================
+(2, 6, 8, 'final', 0)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+4
+
+
+
+platform.uname:
+===============================================================================
+('SunOS', 'solaris', '5.11', '11.2', 'i86pc', 'i386')
+
+
+
+platform.architecture:
+===============================================================================
+('32bit', 'ELF')
+
+
+
+platform.system:
+===============================================================================
+SunOS
+
+
+
+platform.machine:
+===============================================================================
+i86pc
+
+
+
+isainfo -vb:
+===============================================================================
+64-bit amd64 applications
+    ssse3 tscp ahf sse3 sse2 sse fxsr mmx cmov amd_sysc cx8 tsc fpu
+
+
+
+
+kstat -m cpu_info:
+===============================================================================
+module: cpu_info                        instance: 0
+name:   cpu_info0                       class:    misc
+    brand                           Intel(r) Core(tm) i7 CPU         870  @ 2.93GHz
+    cache_id                        0
+    chip_id                         0
+    clock_MHz                       2931
+    clog_id                         0
+    core_id                         0
+    cpu_type                        i386
+    crtime                          20.105018108
+    cstates_count                   519253:519254
+    cstates_nsec                    3370827137067:327348735595
+    current_clock_Hz                2930505167
+    current_cstate                  0
+    current_pstate                  0
+    family                          6
+    fpu_type                        i387 compatible
+    implementation                  x86 (chipid 0x0 GenuineIntel 106E5 family 6 model 30 step 5 clock 2933 MHz)
+    max_ncpu_per_chip               4
+    max_ncpu_per_core               1
+    max_pwrcap                      0
+    model                           30
+    ncore_per_chip                  4
+    ncpu_per_chip                   4
+    pg_id                           1
+    pkg_core_id                     0
+    pstates_count                   null
+    pstates_nsec                    null
+    snaptime                        3678.092364544
+    socket_type                     Unknown
+    state                           on-line
+    state_begin                     1435089171
+    stepping                        5
+    supported_frequencies_Hz        2930505167
+    supported_max_cstates           1
+    supported_max_pstates           0
+    vendor_id                       GenuineIntel
+
+module: cpu_info                        instance: 1
+name:   cpu_info1                       class:    misc
+    brand                           Intel(r) Core(tm) i7 CPU         870  @ 2.93GHz
+    cache_id                        0
+    chip_id                         0
+    clock_MHz                       2931
+    clog_id                         1
+    core_id                         1
+    cpu_type                        i386
+    crtime                          21.805752555
+    cstates_count                   276453:276455
+    cstates_nsec                    3474684831018:225258961961
+    current_clock_Hz                2930505167
+    current_cstate                  1
+    current_pstate                  0
+    family                          6
+    fpu_type                        i387 compatible
+    implementation                  x86 (chipid 0x0 GenuineIntel 106E5 family 6 model 30 step 5 clock 2933 MHz)
+    max_ncpu_per_chip               4
+    max_ncpu_per_core               1
+    max_pwrcap                      0
+    model                           30
+    ncore_per_chip                  4
+    ncpu_per_chip                   4
+    pg_id                           1
+    pkg_core_id                     1
+    pstates_count                   null
+    pstates_nsec                    null
+    snaptime                        3678.092915226
+    socket_type                     Unknown
+    state                           on-line
+    state_begin                     1435089173
+    stepping                        5
+    supported_frequencies_Hz        2930505167
+    supported_max_cstates           1
+    supported_max_pstates           0
+    vendor_id                       GenuineIntel
+
+module: cpu_info                        instance: 2
+name:   cpu_info2                       class:    misc
+    brand                           Intel(r) Core(tm) i7 CPU         870  @ 2.93GHz
+    cache_id                        0
+    chip_id                         0
+    clock_MHz                       2931
+    clog_id                         2
+    core_id                         2
+    cpu_type                        i386
+    crtime                          21.832083525
+    cstates_count                   287718:287720
+    cstates_nsec                    3436663442882:263282350619
+    current_clock_Hz                2930505167
+    current_cstate                  1
+    current_pstate                  0
+    family                          6
+    fpu_type                        i387 compatible
+    implementation                  x86 (chipid 0x0 GenuineIntel 106E5 family 6 model 30 step 5 clock 2933 MHz)
+    max_ncpu_per_chip               4
+    max_ncpu_per_core               1
+    max_pwrcap                      0
+    model                           30
+    ncore_per_chip                  4
+    ncpu_per_chip                   4
+    pg_id                           1
+    pkg_core_id                     2
+    pstates_count                   null
+    pstates_nsec                    null
+    snaptime                        3678.093223825
+    socket_type                     Unknown
+    state                           on-line
+    state_begin                     1435089173
+    stepping                        5
+    supported_frequencies_Hz        2930505167
+    supported_max_cstates           1
+    supported_max_pstates           0
+    vendor_id                       GenuineIntel
+
+module: cpu_info                        instance: 3
+name:   cpu_info3                       class:    misc
+    brand                           Intel(r) Core(tm) i7 CPU         870  @ 2.93GHz
+    cache_id                        0
+    chip_id                         0
+    clock_MHz                       2931
+    clog_id                         3
+    core_id                         3
+    cpu_type                        i386
+    crtime                          21.856530077
+    cstates_count                   255665:255667
+    cstates_nsec                    3472070917983:227899083673
+    current_clock_Hz                2930505167
+    current_cstate                  1
+    current_pstate                  0
+    family                          6
+    fpu_type                        i387 compatible
+    implementation                  x86 (chipid 0x0 GenuineIntel 106E5 family 6 model 30 step 5 clock 2933 MHz)
+    max_ncpu_per_chip               4
+    max_ncpu_per_core               1
+    max_pwrcap                      0
+    model                           30
+    ncore_per_chip                  4
+    ncpu_per_chip                   4
+    pg_id                           1
+    pkg_core_id                     3
+    pstates_count                   null
+    pstates_nsec                    null
+    snaptime                        3678.093612046
+    socket_type                     Unknown
+    state                           on-line
+    state_begin                     1435089173
+    stepping                        5
+    supported_frequencies_Hz        2930505167
+    supported_max_cstates           1
+    supported_max_pstates           0
+    vendor_id                       GenuineIntel
+
+
+
+
+
+dmesg:
+===============================================================================
+
+Tuesday, June 23, 2015 01:53:47 PM PDT
+Jun 23 12:52:45 solaris ahci: [ID 657156 kern.warning] WARNING: ahci0: error recovery for port 0 succeed
+Jun 23 12:52:45 solaris scsi: [ID 583861 kern.info] sd0 at ahci0: target 0 lun 0
+Jun 23 12:52:45 solaris genunix: [ID 936769 kern.info] sd0 is /pci@0,0/pci8086,2829@d/disk@0,0
+Jun 23 12:52:45 solaris genunix: [ID 408114 kern.info] /pci@0,0/pci8086,2829@d/disk@0,0 (sd0) online
+Jun 23 12:52:45 solaris sata: [ID 663010 kern.info] /pci@0,0/pci8086,2829@d :
+Jun 23 12:52:45 solaris sata: [ID 761595 kern.info]     SATA CD/DVD (ATAPI) device at port 1
+Jun 23 12:52:45 solaris sata: [ID 846691 kern.info]     model VBOX CD-ROM
+Jun 23 12:52:45 solaris sata: [ID 693010 kern.info]     firmware 1.0
+Jun 23 12:52:45 solaris sata: [ID 163988 kern.info]     serial number VB1-1a2b3c4d
+Jun 23 12:52:45 solaris sata: [ID 594940 kern.info]     supported features:
+Jun 23 12:52:45 solaris sata: [ID 981177 kern.info]      DMA, Native Command Queueing
+Jun 23 12:52:45 solaris sata: [ID 643337 kern.info]     SATA Gen2 signaling speed (3.0Gbps)
+Jun 23 12:52:45 solaris sata: [ID 349649 kern.info]     Supported queue depth 32
+Jun 23 12:52:45 solaris scsi: [ID 583861 kern.info] sd1 at ahci0: target 1 lun 0
+Jun 23 12:52:45 solaris genunix: [ID 936769 kern.info] sd1 is /pci@0,0/pci8086,2829@d/cdrom@1,0
+Jun 23 12:52:45 solaris genunix: [ID 408114 kern.info] /pci@0,0/pci8086,2829@d/cdrom@1,0 (sd1) online
+Jun 23 12:52:45 solaris zfs: [ID 249136 kern.info] imported version 0 pool rpool using 35
+Jun 23 12:52:51 solaris genunix: [ID 308332 kern.info] root on rpool/ROOT/solaris fstype zfs
+Jun 23 12:52:52 solaris rootnex: [ID 349649 kern.info] acpinex0 at root
+Jun 23 12:52:52 solaris pseudo: [ID 129642 kern.info] pseudo-device: dld0
+Jun 23 12:52:52 solaris genunix: [ID 936769 kern.info] dld0 is /pseudo/dld@0
+Jun 23 12:52:52 solaris pcplusmp: [ID 805372 kern.info] pcplusmp: i8042 (i8042) instance 0 irq 0x1 vector 0x41 ioapic 0x4 intin 0x1 is bound to cpu 3
+Jun 23 12:52:52 solaris pcplusmp: [ID 805372 kern.info] pcplusmp: i8042 (i8042) instance 0 irq 0xc vector 0x42 ioapic 0x4 intin 0xc is bound to cpu 0
+Jun 23 12:52:52 solaris gfx_private: [ID 765636 kern.info] gfxp_fb: 1024x768 - 32 bit framebuffer mapped at ffffc10003f42000
+Jun 23 12:52:52 solaris gfx_private: [ID 887945 kern.info] gfxp_fb: shadow framebuffer mapped at ffffc10004242000
+Jun 23 12:52:52 solaris gfx_private: [ID 519062 kern.info] gfxp_fb: using 12x22 fonts
+Jun 23 12:52:52 solaris pcplusmp: [ID 805372 kern.info] pcplusmp: pciclass,0c0310 (ohci) instance 0 irq 0x16 vector 0x81 ioapic 0x4 intin 0x16 is bound to cpu 1
+Jun 23 12:52:53 solaris pci: [ID 370704 kern.info] PCI-device: pci106b,3f@6, ohci0
+Jun 23 12:52:53 solaris genunix: [ID 936769 kern.info] ohci0 is /pci@0,0/pci106b,3f@6
+Jun 23 12:52:53 solaris i8042: [ID 526150 kern.info] 8042 device:  keyboard@0, kb8042 # 0
+Jun 23 12:52:53 solaris genunix: [ID 936769 kern.info] kb80420 is /pci@0,0/isa@1/i8042@1,60/keyboard@0
+Jun 23 12:52:53 solaris i8042: [ID 526150 kern.info] 8042 device:  mouse@1, mouse8042 # 0
+Jun 23 12:52:53 solaris genunix: [ID 936769 kern.info] mouse80420 is /pci@0,0/isa@1/i8042@1,60/mouse@1
+Jun 23 12:52:53 solaris unix: [ID 950921 kern.info] cpu0: x86 (chipid 0x0 GenuineIntel 106E5 family 6 model 30 step 5 clock 2933 MHz)
+Jun 23 12:52:53 solaris unix: [ID 950921 kern.info] cpu0: Intel(r) Core(tm) i7 CPU         870  @ 2.93GHz
+Jun 23 12:52:53 solaris unix: [ID 950921 kern.info] cpu1: x86 (chipid 0x0 GenuineIntel 106E5 family 6 model 30 step 5 clock 2933 MHz)
+Jun 23 12:52:53 solaris unix: [ID 950921 kern.info] cpu1: Intel(r) Core(tm) i7 CPU         870  @ 2.93GHz
+Jun 23 12:52:53 solaris unix: [ID 557947 kern.info] cpu1 initialization complete - online
+Jun 23 12:52:53 solaris unix: [ID 950921 kern.info] cpu2: x86 (chipid 0x0 GenuineIntel 106E5 family 6 model 30 step 5 clock 2933 MHz)
+Jun 23 12:52:53 solaris unix: [ID 950921 kern.info] cpu2: Intel(r) Core(tm) i7 CPU         870  @ 2.93GHz
+Jun 23 12:52:53 solaris unix: [ID 557947 kern.info] cpu2 initialization complete - online
+Jun 23 12:52:53 solaris unix: [ID 950921 kern.info] cpu3: x86 (chipid 0x0 GenuineIntel 106E5 family 6 model 30 step 5 clock 2933 MHz)
+Jun 23 12:52:53 solaris unix: [ID 950921 kern.info] cpu3: Intel(r) Core(tm) i7 CPU         870  @ 2.93GHz
+Jun 23 12:52:53 solaris unix: [ID 557947 kern.info] cpu3 initialization complete - online
+Jun 23 12:52:53 solaris pseudo: [ID 129642 kern.info] pseudo-device: audio0
+Jun 23 12:52:53 solaris genunix: [ID 936769 kern.info] audio0 is /pseudo/audio@0
+Jun 23 12:52:54 solaris usba: [ID 912658 kern.info] USB 1.10 device (usb80ee,21) operating at full speed (USB 1.x) on USB 1.10 root hub: input@1, hid0 at bus address 2
+Jun 23 12:52:54 solaris usba: [ID 349649 kern.info]     VirtualBox USB Tablet
+Jun 23 12:52:54 solaris genunix: [ID 936769 kern.info] hid0 is /pci@0,0/pci106b,3f@6/input@1
+Jun 23 12:52:54 solaris genunix: [ID 408114 kern.info] /pci@0,0/pci106b,3f@6/input@1 (hid0) online
+Jun 23 12:54:36 solaris pseudo: [ID 129642 kern.info] pseudo-device: zfs0
+Jun 23 12:54:36 solaris genunix: [ID 936769 kern.info] zfs0 is /pseudo/zfs@0
+Jun 23 12:54:36 solaris pseudo: [ID 129642 kern.info] pseudo-device: devinfo0
+Jun 23 12:54:36 solaris genunix: [ID 936769 kern.info] devinfo0 is /pseudo/devinfo@0
+Jun 23 12:54:36 solaris pseudo: [ID 129642 kern.info] pseudo-device: dtrace0
+Jun 23 12:54:36 solaris genunix: [ID 936769 kern.info] dtrace0 is /pseudo/dtrace@0
+Jun 23 12:54:36 solaris rootnex: [ID 349649 kern.info] fcoe0 at root
+Jun 23 12:54:36 solaris genunix: [ID 936769 kern.info] fcoe0 is /fcoe
+Jun 23 12:54:37 solaris rootnex: [ID 349649 kern.info] iscsi0 at root
+Jun 23 12:54:37 solaris genunix: [ID 936769 kern.info] iscsi0 is /iscsi
+Jun 23 12:54:37 solaris vga_arbiter: [ID 197929 kern.info] vga_arbiter: device added: PCI:0:0:2.0,decodes=io+mem+IO+MEM,owns=io+mem+IO+MEM,legalocks=none,normlocks=none
+Jun 23 12:54:37 solaris vga_arbiter: [ID 254375 kern.info] 1 vga device(s) found
+Jun 23 12:54:37 solaris rootnex: [ID 349649 kern.info] vga_arbiter0 at root
+Jun 23 12:54:37 solaris genunix: [ID 936769 kern.info] vga_arbiter0 is /vga_arbiter
+Jun 23 12:54:37 solaris rootnex: [ID 349649 kern.info] xsvc0 at root: space 0 offset 0
+Jun 23 12:54:37 solaris genunix: [ID 936769 kern.info] xsvc0 is /xsvc@0,0
+Jun 23 12:54:37 solaris acpinex: [ID 328922 kern.info] acpinex: sb@0, acpinex1
+Jun 23 12:54:37 solaris pseudo: [ID 129642 kern.info] pseudo-device: pseudo1
+Jun 23 12:54:37 solaris genunix: [ID 936769 kern.info] pseudo1 is /pseudo/zconsnex@1
+Jun 23 12:54:37 solaris pseudo: [ID 129642 kern.info] pseudo-device: biosdrv0
+Jun 23 12:54:37 solaris genunix: [ID 936769 kern.info] biosdrv0 is /pseudo/biosdrv@0
+Jun 23 12:54:37 solaris mac: [ID 469746 kern.info] NOTICE: e1000g0 registered
+Jun 23 12:54:37 solaris pcplusmp: [ID 805372 kern.info] pcplusmp: pci8086,100e (e1000g) instance 0 irq 0x13 vector 0x60 ioapic 0x4 intin 0x13 is bound to cpu 2
+Jun 23 12:54:39 solaris pseudo: [ID 129642 kern.info] pseudo-device: fasttrap0
+Jun 23 12:54:39 solaris genunix: [ID 936769 kern.info] fasttrap0 is /pseudo/fasttrap@0
+Jun 23 12:54:39 solaris pseudo: [ID 129642 kern.info] pseudo-device: fbt0
+Jun 23 12:54:39 solaris genunix: [ID 936769 kern.info] fbt0 is /pseudo/fbt@0
+Jun 23 12:54:39 solaris pseudo: [ID 129642 kern.info] pseudo-device: fcp0
+Jun 23 12:54:39 solaris genunix: [ID 936769 kern.info] fcp0 is /pseudo/fcp@0
+Jun 23 12:54:39 solaris pseudo: [ID 129642 kern.info] pseudo-device: fcsm0
+Jun 23 12:54:39 solaris genunix: [ID 936769 kern.info] fcsm0 is /pseudo/fcsm@0
+Jun 23 12:54:39 solaris pseudo: [ID 129642 kern.info] pseudo-device: llc10
+Jun 23 12:54:39 solaris genunix: [ID 936769 kern.info] llc10 is /pseudo/llc1@0
+Jun 23 12:54:39 solaris pseudo: [ID 129642 kern.info] pseudo-device: lockstat0
+Jun 23 12:54:39 solaris genunix: [ID 936769 kern.info] lockstat0 is /pseudo/lockstat@0
+Jun 23 12:54:39 solaris pseudo: [ID 129642 kern.info] pseudo-device: lofi0
+Jun 23 12:54:39 solaris genunix: [ID 936769 kern.info] lofi0 is /pseudo/lofi@0
+Jun 23 12:54:40 solaris pseudo: [ID 129642 kern.info] pseudo-device: nvidia255
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] nvidia255 is /pseudo/nvidia@255
+Jun 23 12:54:40 solaris pseudo: [ID 129642 kern.info] pseudo-device: power0
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] power0 is /pseudo/power@0
+Jun 23 12:54:40 solaris pseudo: [ID 129642 kern.info] pseudo-device: profile0
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] profile0 is /pseudo/profile@0
+Jun 23 12:54:40 solaris pseudo: [ID 129642 kern.info] pseudo-device: ramdisk1024
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] ramdisk1024 is /pseudo/ramdisk@1024
+Jun 23 12:54:40 solaris pseudo: [ID 129642 kern.info] pseudo-device: sdt0
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] sdt0 is /pseudo/sdt@0
+Jun 23 12:54:40 solaris pseudo: [ID 129642 kern.info] pseudo-device: srn0
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] srn0 is /pseudo/srn@0
+Jun 23 12:54:40 solaris pseudo: [ID 129642 kern.info] pseudo-device: systrace0
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] systrace0 is /pseudo/systrace@0
+Jun 23 12:54:40 solaris pseudo: [ID 129642 kern.info] pseudo-device: ucode0
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] ucode0 is /pseudo/ucode@0
+Jun 23 12:54:40 solaris pseudo: [ID 129642 kern.info] pseudo-device: uvfs0
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] uvfs0 is /pseudo/uvfs@0
+Jun 23 12:54:40 solaris zvmm: [ID 163578 kern.info] NOTICE: kernel-zone virtual environment not supported: CPU doesn't have VMX
+Jun 23 12:54:40 solaris ac97: [ID 750319 kern.info] audio810#0: AC'97 codec id SigmaTel STAC9700 (83847600, 2 channels, caps 0)
+Jun 23 12:54:40 solaris pci: [ID 370704 kern.info] PCI-device: pci8086,0@5, audio8100
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] audio8100 is /pci@0,0/pci8086,0@5
+Jun 23 12:54:40 solaris pcplusmp: [ID 805372 kern.info] pcplusmp: lp (ecpp) instance 0 irq 0x7 vector 0x43 ioapic 0x4 intin 0x7 is bound to cpu 3
+Jun 23 12:54:40 solaris isa: [ID 202937 kern.info] ISA-device: ecpp0
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] ecpp0 is /pci@0,0/isa@1/lp@1,378
+Jun 23 12:54:40 solaris isa: [ID 202937 kern.info] ISA-device: pit_beep0
+Jun 23 12:54:40 solaris genunix: [ID 936769 kern.info] pit_beep0 is /pci@0,0/isa@1/pit_beep
+Jun 23 12:54:44 solaris zvmm: [ID 163578 kern.info] NOTICE: kernel-zone virtual environment not supported: CPU doesn't have VMX
+Jun 23 12:54:44 solaris pseudo: [ID 129642 kern.info] pseudo-device: bpf0
+Jun 23 12:54:44 solaris genunix: [ID 936769 kern.info] bpf0 is /pseudo/bpf@0
+Jun 23 12:54:45 solaris pseudo: [ID 129642 kern.info] pseudo-device: fssnap0
+Jun 23 12:54:45 solaris genunix: [ID 936769 kern.info] fssnap0 is /pseudo/fssnap@0
+Jun 23 12:54:45 solaris ipf: [ID 774698 kern.info] IP Filter: v4.1.9, running.
+Jun 23 12:54:45 solaris pseudo: [ID 129642 kern.info] pseudo-device: nsmb0
+Jun 23 12:54:45 solaris genunix: [ID 936769 kern.info] nsmb0 is /pseudo/nsmb@0
+Jun 23 12:54:45 solaris pseudo: [ID 129642 kern.info] pseudo-device: pm0
+Jun 23 12:54:45 solaris genunix: [ID 936769 kern.info] pm0 is /pseudo/pm@0
+Jun 23 12:54:45 solaris pseudo: [ID 129642 kern.info] pseudo-device: pool0
+Jun 23 12:54:45 solaris genunix: [ID 936769 kern.info] pool0 is /pseudo/pool@0
+Jun 23 12:54:45 solaris pseudo: [ID 129642 kern.info] pseudo-device: winlock0
+Jun 23 12:54:45 solaris genunix: [ID 936769 kern.info] winlock0 is /pseudo/winlock@0
+Jun 23 12:54:46 solaris genunix: [ID 227219 kern.info] This Solaris instance has UUID 2c6ad22b-9a1f-ee3c-8239-e34b028d2aef
+Jun 23 12:54:48 solaris genunix: [ID 454863 kern.info] dump on /dev/zvol/dsk/rpool/dump size 1024 MB
+Jun 23 12:55:41 solaris mac: [ID 435574 kern.info] NOTICE: e1000g0 link up, 1000 Mbps, full duplex
+Jun 23 12:55:42 solaris /sbin/dhcpagent[678]: [ID 778557 daemon.warning] configure_v4_lease: no IP broadcast specified for net0, making best guess
+Jun 23 12:56:57 solaris mac: [ID 435574 kern.info] NOTICE: e1000g0 link up, 1000 Mbps, full duplex
+Jun 23 12:57:04 solaris svc.ipfd[895]: [ID 117232 daemon.error] scf_pg_get_parent_instance failed: object has been deleted
+Jun 23 12:57:04 solaris svc.ipfd[895]: [ID 662829 daemon.error] Service may have incorrect IPfilter configuration
+Jun 23 12:57:04 solaris /sbin/dhcpagent[678]: [ID 778557 daemon.warning] configure_v4_lease: no IP broadcast specified for net0, making best guess
+Jun 23 12:57:07 solaris in.routed[1559]: [ID 667074 daemon.warning] Send bcast sendto(net0, 10.0.2.255.520): Network is unreachable
+Jun 23 12:57:09 solaris in.routed[1559]: [ID 606928 daemon.warning] sendto(net0, 224.0.0.2): Network is unreachable
+Jun 23 12:57:11 solaris sendmail[1873]: [ID 702911 mail.crit] My unqualified host name (solaris) unknown; sleeping for retry
+Jun 23 12:57:11 solaris sendmail[1874]: [ID 702911 mail.crit] My unqualified host name (solaris) unknown; sleeping for retry
+Jun 23 12:57:12 solaris in.routed[1559]: [ID 606928 daemon.warning] sendto(net0, 224.0.0.2): Network is unreachable
+Jun 23 12:57:12 solaris ipf: [ID 774698 kern.info] IP Filter: v4.1.9, running.
+Jun 23 12:57:13 solaris sendmail[2060]: [ID 702911 mail.crit] My unqualified host name (solaris) unknown; sleeping for retry
+Jun 23 12:57:14 solaris sendmail[2070]: [ID 702911 mail.crit] My unqualified host name (solaris) unknown; sleeping for retry
+Jun 23 12:57:16 solaris sendmail[2134]: [ID 702911 mail.crit] My unqualified host name (solaris) unknown; sleeping for retry
+Jun 23 12:57:18 solaris sendmail[2238]: [ID 702911 mail.crit] My unqualified host name (solaris) unknown; sleeping for retry
+Jun 23 12:57:18 solaris sendmail[2248]: [ID 702911 mail.crit] My unqualified host name (solaris) unknown; sleeping for retry
+Jun 23 12:57:20 solaris sendmail[2292]: [ID 702911 mail.crit] My unqualified host name (solaris) unknown; sleeping for retry
+Jun 23 12:58:11 solaris sendmail[1873]: [ID 702911 mail.alert] unable to qualify my own domain name (solaris) -- using short name
+Jun 23 12:58:12 solaris asr-notify[2368]: [ID 555615 daemon.warning] System is not registered with Auto Service Request. Please register system using asradm(1M) or visit http://www.oracle.com/asr for more information.
+Jun 23 12:58:19 solaris pseudo: [ID 129642 kern.info] pseudo-device: devinfo0
+Jun 23 12:58:19 solaris genunix: [ID 936769 kern.info] devinfo0 is /pseudo/devinfo@0
+Jun 23 12:58:19 solaris console-kit-daemon[1130]: [ID 702911 daemon.warning] GLib-GObject-WARNING: g_object_set_property: construct property "seat-id" for object `CkSession' can't be set after construction
+Jun 23 12:58:20 solaris sendmail[2292]: [ID 702911 mail.alert] unable to qualify my own domain name (solaris) -- using short name
+Jun 23 12:58:26 solaris gdm-simple-greeter[2790]: [ID 702911 daemon.warning] Gtk-WARNING: gtkwidget.c:5628: widget not within a GtkWindow
+Jun 23 12:58:31 solaris pseudo: [ID 129642 kern.info] pseudo-device: pm0
+Jun 23 12:58:31 solaris genunix: [ID 936769 kern.info] pm0 is /pseudo/pm@0
+Jun 23 13:47:50 solaris pseudo: [ID 129642 kern.info] pseudo-device: nvidia255
+Jun 23 13:47:50 solaris genunix: [ID 936769 kern.info] nvidia255 is /pseudo/nvidia@255
+Jun 23 13:47:50 solaris gdm-simple-greeter[2790]: [ID 702911 daemon.warning] WARNING: Failed to send buffer
+Jun 23 13:48:08 solaris pulseaudio[5061]: [ID 295310 user.error] [(null)] pid.c: Daemon already running.
+Jun 23 13:51:10 solaris vga_arbiter: [ID 197929 kern.info] vga_arbiter: device added: PCI:0:0:2.0,decodes=io+mem+IO+MEM,owns=io+mem+IO+MEM,legalocks=none,normlocks=none
+Jun 23 13:51:10 solaris vga_arbiter: [ID 254375 kern.info] 1 vga device(s) found
+Jun 23 13:51:10 solaris rootnex: [ID 349649 kern.info] vga_arbiter0 at root
+Jun 23 13:51:10 solaris genunix: [ID 936769 kern.info] vga_arbiter0 is /vga_arbiter
+Jun 23 13:51:10 solaris pcplusmp: [ID 805372 kern.info] pcplusmp: lp (ecpp) instance 0 irq 0x7 vector 0x43 ioapic 0x4 intin 0x7 is bound to cpu 0
+Jun 23 13:51:10 solaris isa: [ID 202937 kern.info] ISA-device: ecpp0
+Jun 23 13:51:10 solaris genunix: [ID 936769 kern.info] ecpp0 is /pci@0,0/isa@1/lp@1,378
+Jun 23 13:51:10 solaris pseudo: [ID 129642 kern.info] pseudo-device: biosdrv0
+Jun 23 13:51:10 solaris genunix: [ID 936769 kern.info] biosdrv0 is /pseudo/biosdrv@0
+Jun 23 13:51:12 solaris pseudo: [ID 129642 kern.info] pseudo-device: fbt0
+Jun 23 13:51:12 solaris genunix: [ID 936769 kern.info] fbt0 is /pseudo/fbt@0
+Jun 23 13:51:12 solaris pseudo: [ID 129642 kern.info] pseudo-device: fcp0
+Jun 23 13:51:12 solaris genunix: [ID 936769 kern.info] fcp0 is /pseudo/fcp@0
+Jun 23 13:51:12 solaris pseudo: [ID 129642 kern.info] pseudo-device: fcsm0
+Jun 23 13:51:12 solaris genunix: [ID 936769 kern.info] fcsm0 is /pseudo/fcsm@0
+Jun 23 13:51:12 solaris pseudo: [ID 129642 kern.info] pseudo-device: llc10
+Jun 23 13:51:12 solaris genunix: [ID 936769 kern.info] llc10 is /pseudo/llc1@0
+Jun 23 13:51:12 solaris pseudo: [ID 129642 kern.info] pseudo-device: lockstat0
+Jun 23 13:51:12 solaris genunix: [ID 936769 kern.info] lockstat0 is /pseudo/lockstat@0
+Jun 23 13:51:12 solaris pseudo: [ID 129642 kern.info] pseudo-device: lofi0
+Jun 23 13:51:12 solaris genunix: [ID 936769 kern.info] lofi0 is /pseudo/lofi@0
+Jun 23 13:51:12 solaris pseudo: [ID 129642 kern.info] pseudo-device: profile0
+Jun 23 13:51:12 solaris genunix: [ID 936769 kern.info] profile0 is /pseudo/profile@0
+Jun 23 13:51:13 solaris pseudo: [ID 129642 kern.info] pseudo-device: ramdisk1024
+Jun 23 13:51:13 solaris genunix: [ID 936769 kern.info] ramdisk1024 is /pseudo/ramdisk@1024
+Jun 23 13:51:13 solaris pseudo: [ID 129642 kern.info] pseudo-device: sdt0
+Jun 23 13:51:13 solaris genunix: [ID 936769 kern.info] sdt0 is /pseudo/sdt@0
+Jun 23 13:51:13 solaris pseudo: [ID 129642 kern.info] pseudo-device: systrace0
+Jun 23 13:51:13 solaris genunix: [ID 936769 kern.info] systrace0 is /pseudo/systrace@0
+Jun 23 13:51:13 solaris pseudo: [ID 129642 kern.info] pseudo-device: ucode0
+Jun 23 13:51:13 solaris genunix: [ID 936769 kern.info] ucode0 is /pseudo/ucode@0
+Jun 23 13:51:13 solaris pseudo: [ID 129642 kern.info] pseudo-device: bpf0
+Jun 23 13:51:13 solaris genunix: [ID 936769 kern.info] bpf0 is /pseudo/bpf@0
+Jun 23 13:51:13 solaris pseudo: [ID 129642 kern.info] pseudo-device: fssnap0
+Jun 23 13:51:13 solaris genunix: [ID 936769 kern.info] fssnap0 is /pseudo/fssnap@0
+Jun 23 13:51:13 solaris pseudo: [ID 129642 kern.info] pseudo-device: nsmb0
+Jun 23 13:51:13 solaris genunix: [ID 936769 kern.info] nsmb0 is /pseudo/nsmb@0
+Jun 23 13:51:13 solaris pseudo: [ID 129642 kern.info] pseudo-device: winlock0
+Jun 23 13:51:13 solaris genunix: [ID 936769 kern.info] winlock0 is /pseudo/winlock@0
