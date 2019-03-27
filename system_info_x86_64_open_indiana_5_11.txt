@@ -1,0 +1,512 @@
+sys.executable:
+===============================================================================
+/usr/bin/python3.5
+
+
+
+sys.version_info:
+===============================================================================
+sys.version_info(major=3, minor=5, micro=6, releaselevel='final', serial=0)
+
+
+
+sys.maxsize:
+===============================================================================
+9223372036854775807 (64 bit)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+8
+
+
+
+os.cpu_count:
+===============================================================================
+8
+
+
+
+os.sysconf('SC_NPROCESSORS_ONLN'):
+===============================================================================
+8
+
+
+
+platform.uname:
+===============================================================================
+uname_result(system='SunOS', node='openindiana', release='5.11', version='illumos-42a3762d01', machine='i86pc', processor='i386')
+
+
+
+platform.architecture:
+===============================================================================
+('64bit', 'ELF')
+
+
+
+platform.system:
+===============================================================================
+SunOS
+
+
+
+platform.machine:
+===============================================================================
+i86pc
+
+
+
+isainfo -vb:
+===============================================================================
+64-bit amd64 applications
+	rdseed avx2 rdrand avx xsave pclmulqdq aes movbe sse4.2 sse4.1
+	ssse3 amd_lzcnt popcnt amd_sse4a tscp ahf cx16 sse3 sse2 sse fxsr
+	amd_mmx mmx cmov amd_sysc cx8 tsc fpu
+
+
+
+
+kstat -m cpu_info:
+===============================================================================
+module: cpu_info                        instance: 0
+name:   cpu_info0                       class:    misc
+	brand                           AMD Ryzen 7 2700X Eight-Core Processor
+	cache_id                        0
+	chip_id                         0
+	clock_MHz                       3693
+	clog_id                         0
+	core_id                         0
+	cpu_type                        i386
+	crtime                          22.539390752
+	current_clock_Hz                3692643590
+	current_cstate                  1
+	family                          23
+	fpu_type                        i387 compatible
+	implementation                  x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+	model                           8
+	ncore_per_chip                  8
+	ncpu_per_chip                   8
+	pg_id                           1
+	pkg_core_id                     0
+	snaptime                        120.971135132
+	socket_type                     Unknown
+	state                           on-line
+	state_begin                     1553482276
+	stepping                        2
+	supported_frequencies_Hz        3692643590
+	supported_max_cstates           0
+	vendor_id                       AuthenticAMD
+
+module: cpu_info                        instance: 1
+name:   cpu_info1                       class:    misc
+	brand                           AMD Ryzen 7 2700X Eight-Core Processor
+	cache_id                        1
+	chip_id                         0
+	clock_MHz                       3693
+	clog_id                         1
+	core_id                         1
+	cpu_type                        i386
+	crtime                          23.863703266
+	current_clock_Hz                3692643590
+	current_cstate                  1
+	family                          23
+	fpu_type                        i387 compatible
+	implementation                  x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+	model                           8
+	ncore_per_chip                  8
+	ncpu_per_chip                   8
+	pg_id                           1
+	pkg_core_id                     1
+	snaptime                        120.971170484
+	socket_type                     Unknown
+	state                           on-line
+	state_begin                     1553482278
+	stepping                        2
+	supported_frequencies_Hz        3692643590
+	supported_max_cstates           0
+	vendor_id                       AuthenticAMD
+
+module: cpu_info                        instance: 2
+name:   cpu_info2                       class:    misc
+	brand                           AMD Ryzen 7 2700X Eight-Core Processor
+	cache_id                        2
+	chip_id                         0
+	clock_MHz                       3693
+	clog_id                         2
+	core_id                         2
+	cpu_type                        i386
+	crtime                          23.994498867
+	current_clock_Hz                3692643590
+	current_cstate                  1
+	family                          23
+	fpu_type                        i387 compatible
+	implementation                  x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+	model                           8
+	ncore_per_chip                  8
+	ncpu_per_chip                   8
+	pg_id                           1
+	pkg_core_id                     2
+	snaptime                        120.971189070
+	socket_type                     Unknown
+	state                           on-line
+	state_begin                     1553482278
+	stepping                        2
+	supported_frequencies_Hz        3692643590
+	supported_max_cstates           0
+	vendor_id                       AuthenticAMD
+
+module: cpu_info                        instance: 3
+name:   cpu_info3                       class:    misc
+	brand                           AMD Ryzen 7 2700X Eight-Core Processor
+	cache_id                        3
+	chip_id                         0
+	clock_MHz                       3693
+	clog_id                         3
+	core_id                         3
+	cpu_type                        i386
+	crtime                          24.017804979
+	current_clock_Hz                3692643590
+	current_cstate                  1
+	family                          23
+	fpu_type                        i387 compatible
+	implementation                  x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+	model                           8
+	ncore_per_chip                  8
+	ncpu_per_chip                   8
+	pg_id                           1
+	pkg_core_id                     3
+	snaptime                        120.971207156
+	socket_type                     Unknown
+	state                           on-line
+	state_begin                     1553482278
+	stepping                        2
+	supported_frequencies_Hz        3692643590
+	supported_max_cstates           0
+	vendor_id                       AuthenticAMD
+
+module: cpu_info                        instance: 4
+name:   cpu_info4                       class:    misc
+	brand                           AMD Ryzen 7 2700X Eight-Core Processor
+	cache_id                        4
+	chip_id                         0
+	clock_MHz                       3693
+	clog_id                         4
+	core_id                         4
+	cpu_type                        i386
+	crtime                          24.041752356
+	current_clock_Hz                3692643590
+	current_cstate                  1
+	family                          23
+	fpu_type                        i387 compatible
+	implementation                  x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+	model                           8
+	ncore_per_chip                  8
+	ncpu_per_chip                   8
+	pg_id                           1
+	pkg_core_id                     4
+	snaptime                        120.971225032
+	socket_type                     Unknown
+	state                           on-line
+	state_begin                     1553482278
+	stepping                        2
+	supported_frequencies_Hz        3692643590
+	supported_max_cstates           0
+	vendor_id                       AuthenticAMD
+
+module: cpu_info                        instance: 5
+name:   cpu_info5                       class:    misc
+	brand                           AMD Ryzen 7 2700X Eight-Core Processor
+	cache_id                        5
+	chip_id                         0
+	clock_MHz                       3693
+	clog_id                         5
+	core_id                         5
+	cpu_type                        i386
+	crtime                          24.066863826
+	current_clock_Hz                3692643590
+	current_cstate                  1
+	family                          23
+	fpu_type                        i387 compatible
+	implementation                  x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+	model                           8
+	ncore_per_chip                  8
+	ncpu_per_chip                   8
+	pg_id                           1
+	pkg_core_id                     5
+	snaptime                        120.971242408
+	socket_type                     Unknown
+	state                           on-line
+	state_begin                     1553482278
+	stepping                        2
+	supported_frequencies_Hz        3692643590
+	supported_max_cstates           0
+	vendor_id                       AuthenticAMD
+
+module: cpu_info                        instance: 6
+name:   cpu_info6                       class:    misc
+	brand                           AMD Ryzen 7 2700X Eight-Core Processor
+	cache_id                        6
+	chip_id                         0
+	clock_MHz                       3693
+	clog_id                         6
+	core_id                         6
+	cpu_type                        i386
+	crtime                          24.091703430
+	current_clock_Hz                3692643590
+	current_cstate                  1
+	family                          23
+	fpu_type                        i387 compatible
+	implementation                  x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+	model                           8
+	ncore_per_chip                  8
+	ncpu_per_chip                   8
+	pg_id                           1
+	pkg_core_id                     6
+	snaptime                        120.971259954
+	socket_type                     Unknown
+	state                           on-line
+	state_begin                     1553482278
+	stepping                        2
+	supported_frequencies_Hz        3692643590
+	supported_max_cstates           0
+	vendor_id                       AuthenticAMD
+
+module: cpu_info                        instance: 7
+name:   cpu_info7                       class:    misc
+	brand                           AMD Ryzen 7 2700X Eight-Core Processor
+	cache_id                        7
+	chip_id                         0
+	clock_MHz                       3693
+	clog_id                         7
+	core_id                         7
+	cpu_type                        i386
+	crtime                          24.115896038
+	current_clock_Hz                3692643590
+	current_cstate                  0
+	family                          23
+	fpu_type                        i387 compatible
+	implementation                  x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+	model                           8
+	ncore_per_chip                  8
+	ncpu_per_chip                   8
+	pg_id                           1
+	pkg_core_id                     7
+	snaptime                        120.971277400
+	socket_type                     Unknown
+	state                           on-line
+	state_begin                     1553482278
+	stepping                        2
+	supported_frequencies_Hz        3692643590
+	supported_max_cstates           0
+	vendor_id                       AuthenticAMD
+
+
+
+
+
+dmesg:
+===============================================================================
+
+March 24, 2019 at 07:52:55 PM PDT
+Mar 24 19:51:16 openindiana unix: [ID 168242 kern.info] mem = 4193852K (0xfff8f000)
+Mar 24 19:51:16 openindiana acpica: [ID 153848 kern.notice] ACPI: RSDP 0x0000000007EBC258 000024 (v02 VBOX  )
+Mar 24 19:51:16 openindiana acpica: [ID 949098 kern.notice] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Mar 24 19:51:16 openindiana acpica: [ID 389613 kern.notice] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Mar 24 19:51:16 openindiana acpica: [ID 957854 kern.notice] ACPI: DSDT 0x00000000DFFF04A0 0022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Mar 24 19:51:16 openindiana acpica: [ID 525142 kern.notice] ACPI: FACS 0x00000000DFFF0200 000040
+Mar 24 19:51:16 openindiana last message repeated 1 time
+Mar 24 19:51:16 openindiana acpica: [ID 438983 kern.notice] ACPI: APIC 0x00000000DFFF0240 00008C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Mar 24 19:51:16 openindiana acpica: [ID 868198 kern.notice] ACPI: SSDT 0x00000000DFFF02D0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Mar 24 19:51:16 openindiana acpica: [ID 190582 kern.notice] ACPI: Executed 1 blocks of module-level executable AML code
+Mar 24 19:51:16 openindiana acpica: [ID 542867 kern.notice] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Mar 24 19:51:16 openindiana acpica: [ID 100000 kern.notice]
+Mar 24 19:51:16 openindiana acpica: [ID 823235 kern.notice] ACPI: Enabled 2 GPEs in block 00 to 07
+Mar 24 19:51:16 openindiana unix: [ID 190185 kern.info] SMBIOS v2.5 loaded (449 bytes)
+Mar 24 19:51:16 openindiana unix: [ID 972737 kern.info] Skipping psm: xpv_psm
+Mar 24 19:51:16 openindiana rootnex: [ID 466748 kern.info] root nexus = i86pc
+Mar 24 19:51:16 openindiana iommulib: [ID 321598 kern.info] NOTICE: iommulib_nexus_register: rootnex-1: Succesfully registered NEXUS i86pc nexops=fffffffffbd2d480
+Mar 24 19:51:16 openindiana rootnex: [ID 349649 kern.info] pseudo0 at root
+Mar 24 19:51:16 openindiana genunix: [ID 936769 kern.info] pseudo0 is /pseudo
+Mar 24 19:51:16 openindiana rootnex: [ID 349649 kern.info] scsi_vhci0 at root
+Mar 24 19:51:16 openindiana genunix: [ID 936769 kern.info] scsi_vhci0 is /scsi_vhci
+Mar 24 19:51:16 openindiana genunix: [ID 596552 kern.info] Reading Intel IOMMU boot options
+Mar 24 19:51:16 openindiana rootnex: [ID 349649 kern.info] pci0 at root: space 0 offset 0
+Mar 24 19:51:16 openindiana genunix: [ID 936769 kern.info] pci0 is /pci@0,0
+Mar 24 19:51:16 openindiana pci: [ID 370704 kern.info] PCI-device: isa@1, isa0
+Mar 24 19:51:16 openindiana pcplusmp: [ID 468339 kern.info] NOTICE: apic: Using ACPI (MADT) for SMP configuration
+Mar 24 19:51:16 openindiana pcplusmp: [ID 179576 kern.info] NOTICE: apic: Using APIC interrupt routing mode
+Mar 24 19:51:16 openindiana pcplusmp: [ID 801116 kern.info] NOTICE: ACPI HPET table query failed
+Mar 24 19:51:16 openindiana pcplusmp: [ID 419660 kern.info] pcplusmp: irq 0x9 vector 0x80 ioapic 0x8 intin 0x9 is bound to cpu 1
+Mar 24 19:51:16 openindiana amd_iommu: [ID 251261 kern.info] NOTICE: amd_iommu: No AMD IOMMU ACPI IVRS table
+Mar 24 19:51:16 openindiana pseudo: [ID 129642 kern.info] pseudo-device: acpippm0
+Mar 24 19:51:16 openindiana genunix: [ID 936769 kern.info] acpippm0 is /pseudo/acpippm@0
+Mar 24 19:51:16 openindiana pseudo: [ID 129642 kern.info] pseudo-device: ppm0
+Mar 24 19:51:16 openindiana genunix: [ID 936769 kern.info] ppm0 is /pseudo/ppm@0
+Mar 24 19:51:16 openindiana ahci: [ID 405770 kern.info] NOTICE: ahci0: hba AHCI version = 1.10
+Mar 24 19:51:16 openindiana pcplusmp: [ID 805372 kern.info] pcplusmp: pciclass,010601 (ahci) instance 0 irq 0x15 vector 0x40 ioapic 0x8 intin 0x15 is bound to cpu 2
+Mar 24 19:51:16 openindiana sata: [ID 663010 kern.info] /pci@0,0/pci8086,2829@d :
+Mar 24 19:51:16 openindiana sata: [ID 761595 kern.info] 	SATA disk device at port 0
+Mar 24 19:51:16 openindiana sata: [ID 846691 kern.info] 	model VBOX HARDDISK
+Mar 24 19:51:16 openindiana sata: [ID 693010 kern.info] 	firmware 1.0
+Mar 24 19:51:16 openindiana sata: [ID 163988 kern.info] 	serial number VBa5628ba0-efe972a2
+Mar 24 19:51:16 openindiana sata: [ID 594940 kern.info] 	supported features:
+Mar 24 19:51:16 openindiana sata: [ID 981177 kern.info] 	 48-bit LBA, DMA, Native Command Queueing
+Mar 24 19:51:16 openindiana sata: [ID 643337 kern.info] 	SATA Gen2 signaling speed (3.0Gbps)
+Mar 24 19:51:16 openindiana sata: [ID 349649 kern.info] 	Supported queue depth 32
+Mar 24 19:51:16 openindiana sata: [ID 349649 kern.info] 	capacity = 125829120 sectors
+Mar 24 19:51:16 openindiana ahci: [ID 296163 kern.warning] WARNING: ahci0: ahci port 0 has task file error
+Mar 24 19:51:16 openindiana ahci: [ID 687168 kern.warning] WARNING: ahci0: ahci port 0 is trying to do error recovery
+Mar 24 19:51:16 openindiana ahci: [ID 693748 kern.warning] WARNING: ahci0: ahci port 0 task_file_status = 0x441
+Mar 24 19:51:16 openindiana ahci: [ID 332577 kern.warning] WARNING: ahci0: the below command (s) on port 0 are aborted
+Mar 24 19:51:16 openindiana ahci: [ID 117845 kern.warning] WARNING: satapkt 0xffffff024b3927e8: cmd_reg = 0xe3 features_reg = 0x0 sec_count_msb = 0x0 lba_low_msb = 0x0 lba_mid_msb = 0x0 lba_high_msb = 0x0 sec_count_lsb = 0x0 lba_low_lsb = 0x0 lba_mid_lsb = 0x0 lba_high_lsb = 0x0 device_reg = 0x0 addr_type = 0x0 cmd_flags = 0x4010011
+Mar 24 19:51:16 openindiana ahci: [ID 657156 kern.warning] WARNING: ahci0: error recovery for port 0 succeed
+Mar 24 19:51:16 openindiana scsi: [ID 583861 kern.info] sd0 at ahci0: target 0 lun 0
+Mar 24 19:51:16 openindiana genunix: [ID 936769 kern.info] sd0 is /pci@0,0/pci8086,2829@d/disk@0,0
+Mar 24 19:51:16 openindiana genunix: [ID 408114 kern.info] /pci@0,0/pci8086,2829@d/disk@0,0 (sd0) online
+Mar 24 19:51:16 openindiana genunix: [ID 308332 kern.info] root on rpool/ROOT/openindiana fstype zfs
+Mar 24 19:51:16 openindiana rootnex: [ID 349649 kern.info] acpinex0 at root
+Mar 24 19:51:16 openindiana genunix: [ID 936769 kern.info] acpinex0 is /fw
+Mar 24 19:51:17 openindiana pseudo: [ID 129642 kern.info] pseudo-device: dld0
+Mar 24 19:51:17 openindiana genunix: [ID 936769 kern.info] dld0 is /pseudo/dld@0
+Mar 24 19:51:17 openindiana pcplusmp: [ID 805372 kern.info] pcplusmp: i8042 (i8042) instance 0 irq 0x1 vector 0x41 ioapic 0x8 intin 0x1 is bound to cpu 3
+Mar 24 19:51:17 openindiana pcplusmp: [ID 805372 kern.info] pcplusmp: i8042 (i8042) instance 0 irq 0xc vector 0x42 ioapic 0x8 intin 0xc is bound to cpu 4
+Mar 24 19:51:17 openindiana pcplusmp: [ID 805372 kern.info] pcplusmp: pciclass,0c0310 (ohci) instance 0 irq 0x16 vector 0x81 ioapic 0x8 intin 0x16 is bound to cpu 5
+Mar 24 19:51:17 openindiana pci: [ID 370704 kern.info] PCI-device: pci106b,3f@6, ohci0
+Mar 24 19:51:17 openindiana genunix: [ID 936769 kern.info] ohci0 is /pci@0,0/pci106b,3f@6
+Mar 24 19:51:18 openindiana i8042: [ID 526150 kern.info] 8042 device:  keyboard@0, kb8042 # 0
+Mar 24 19:51:18 openindiana genunix: [ID 936769 kern.info] kb80420 is /pci@0,0/isa@1/i8042@1,60/keyboard@0
+Mar 24 19:51:18 openindiana i8042: [ID 526150 kern.info] 8042 device:  mouse@1, mouse8042 # 0
+Mar 24 19:51:18 openindiana genunix: [ID 936769 kern.info] mouse80420 is /pci@0,0/isa@1/i8042@1,60/mouse@1
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu0: x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu0: AMD Ryzen 7 2700X Eight-Core Processor
+Mar 24 19:51:18 openindiana unix: [ID 551322 kern.info] KPTI enabled (PCID not supported, INVPCID not supported)
+Mar 24 19:51:18 openindiana pseudo: [ID 129642 kern.info] pseudo-device: audio0
+Mar 24 19:51:18 openindiana genunix: [ID 936769 kern.info] audio0 is /pseudo/audio@0
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu1: x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu1: AMD Ryzen 7 2700X Eight-Core Processor
+Mar 24 19:51:18 openindiana unix: [ID 557947 kern.info] cpu1 initialization complete - online
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu2: x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu2: AMD Ryzen 7 2700X Eight-Core Processor
+Mar 24 19:51:18 openindiana unix: [ID 557947 kern.info] cpu2 initialization complete - online
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu3: x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu3: AMD Ryzen 7 2700X Eight-Core Processor
+Mar 24 19:51:18 openindiana unix: [ID 557947 kern.info] cpu3 initialization complete - online
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu4: x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu4: AMD Ryzen 7 2700X Eight-Core Processor
+Mar 24 19:51:18 openindiana unix: [ID 557947 kern.info] cpu4 initialization complete - online
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu5: x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu5: AMD Ryzen 7 2700X Eight-Core Processor
+Mar 24 19:51:18 openindiana unix: [ID 557947 kern.info] cpu5 initialization complete - online
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu6: x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu6: AMD Ryzen 7 2700X Eight-Core Processor
+Mar 24 19:51:18 openindiana unix: [ID 557947 kern.info] cpu6 initialization complete - online
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu7: x86 (chipid 0x0 AuthenticAMD 800F82 family 23 model 8 step 2 clock 3693 MHz)
+Mar 24 19:51:18 openindiana unix: [ID 950921 kern.info] cpu7: AMD Ryzen 7 2700X Eight-Core Processor
+Mar 24 19:51:18 openindiana unix: [ID 557947 kern.info] cpu7 initialization complete - online
+Mar 24 19:51:18 openindiana usba: [ID 912658 kern.info] USB 1.10 device (usb80ee,21) operating at full speed (USB 1.x) on USB 1.10 root hub: input@1, hid0 at bus address 2
+Mar 24 19:51:18 openindiana usba: [ID 349649 kern.info] VirtualBox USB Tablet
+Mar 24 19:51:18 openindiana genunix: [ID 936769 kern.info] hid0 is /pci@0,0/pci106b,3f@6/input@1
+Mar 24 19:51:18 openindiana genunix: [ID 408114 kern.info] /pci@0,0/pci106b,3f@6/input@1 (hid0) online
+Mar 24 19:51:18 openindiana pseudo: [ID 129642 kern.info] pseudo-device: stmf_sbd0
+Mar 24 19:51:18 openindiana genunix: [ID 936769 kern.info] stmf_sbd0 is /pseudo/stmf_sbd@0
+Mar 24 19:51:23 openindiana pseudo: [ID 129642 kern.info] pseudo-device: zfs0
+Mar 24 19:51:23 openindiana genunix: [ID 936769 kern.info] zfs0 is /pseudo/zfs@0
+Mar 24 19:51:25 openindiana genunix: [ID 227219 kern.info] This Solaris instance has UUID 299eb4f7-5fe7-ee1c-ce3a-8a2c8bcb3ce9
+Mar 24 19:51:25 openindiana mac: [ID 469746 kern.info] NOTICE: e1000g0 registered
+Mar 24 19:51:25 openindiana pcplusmp: [ID 805372 kern.info] pcplusmp: pci8086,100e (e1000g) instance 0 irq 0x13 vector 0x60 ioapic 0x8 intin 0x13 is bound to cpu 6
+Mar 24 19:51:25 openindiana genunix: [ID 454863 kern.info] dump on /dev/zvol/dsk/rpool/dump size 2047 MB
+Mar 24 19:51:26 openindiana ac97: [ID 750319 kern.info] audio810#0: AC'97 codec id SigmaTel STAC9700 (83847600, 2 channels, caps 0)
+Mar 24 19:51:26 openindiana pci: [ID 370704 kern.info] PCI-device: pci8086,0@5, audio8100
+Mar 24 19:51:26 openindiana genunix: [ID 936769 kern.info] audio8100 is /pci@0,0/pci8086,0@5
+Mar 24 19:51:26 openindiana pseudo: [ID 129642 kern.info] pseudo-device: pm0
+Mar 24 19:51:26 openindiana genunix: [ID 936769 kern.info] pm0 is /pseudo/pm@0
+Mar 24 19:51:27 openindiana pseudo: [ID 129642 kern.info] pseudo-device: power0
+Mar 24 19:51:27 openindiana genunix: [ID 936769 kern.info] power0 is /pseudo/power@0
+Mar 24 19:51:27 openindiana pseudo: [ID 129642 kern.info] pseudo-device: srn0
+Mar 24 19:51:27 openindiana genunix: [ID 936769 kern.info] srn0 is /pseudo/srn@0
+Mar 24 19:51:27 openindiana pseudo: [ID 129642 kern.info] pseudo-device: devinfo0
+Mar 24 19:51:27 openindiana genunix: [ID 936769 kern.info] devinfo0 is /pseudo/devinfo@0
+Mar 24 19:51:27 openindiana rootnex: [ID 349649 kern.info] iscsi0 at root
+Mar 24 19:51:27 openindiana genunix: [ID 936769 kern.info] iscsi0 is /iscsi
+Mar 24 19:51:27 openindiana mac: [ID 435574 kern.info] NOTICE: e1000g0 link up, 1000 Mbps, full duplex
+Mar 24 19:51:27 openindiana pseudo: [ID 129642 kern.info] pseudo-device: eventfd0
+Mar 24 19:51:27 openindiana genunix: [ID 936769 kern.info] eventfd0 is /pseudo/eventfd@0
+Mar 24 19:51:27 openindiana nwamd[116]: [ID 290356 daemon.error] 6: sysevent_subscribe_event: Invalid argument
+Mar 24 19:51:29 openindiana pseudo: [ID 129642 kern.info] pseudo-device: pool0
+Mar 24 19:51:29 openindiana genunix: [ID 936769 kern.info] pool0 is /pseudo/pool@0
+Mar 24 19:51:31 openindiana pseudo: [ID 129642 kern.info] pseudo-device: dtrace0
+Mar 24 19:51:31 openindiana genunix: [ID 936769 kern.info] dtrace0 is /pseudo/dtrace@0
+Mar 24 19:51:31 openindiana console-kit-daemon[522]: [ID 702911 daemon.warning] WARNING: signal "open_session_request" (from "OpenSessionRequest") exported but not found in object class "CkSeat"
+Mar 24 19:51:31 openindiana console-kit-daemon[522]: [ID 702911 daemon.warning] WARNING: signal "close_session_request" (from "CloseSessionRequest") exported but not found in object class "CkSeat"
+Mar 24 19:51:32 openindiana ipf: [ID 774698 kern.info] IP Filter: v4.1.9, running.
+Mar 24 19:51:33 openindiana last message repeated 1 time
+Mar 24 19:51:35 openindiana /sbin/dhcpagent[151]: [ID 778557 daemon.warning] configure_v4_lease: no IP broadcast specified for e1000g0, making best guess
+Mar 24 19:51:35 openindiana rootnex: [ID 349649 kern.info] xsvc0 at root: space 0 offset 0
+Mar 24 19:51:35 openindiana genunix: [ID 936769 kern.info] xsvc0 is /xsvc@0,0
+Mar 24 19:51:40 openindiana pseudo: [ID 129642 kern.info] pseudo-device: ucode0
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] ucode0 is /pseudo/ucode@0
+Mar 24 19:51:40 openindiana acpinex: [ID 328922 kern.info] acpinex: sb@0, acpinex1
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] acpinex1 is /fw/sb@0
+Mar 24 19:51:40 openindiana pseudo: [ID 129642 kern.info] pseudo-device: pseudo1
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] pseudo1 is /pseudo/zconsnex@1
+Mar 24 19:51:40 openindiana isa: [ID 202937 kern.info] ISA-device: pit_beep0
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] pit_beep0 is /pci@0,0/isa@1/pit_beep
+Mar 24 19:51:40 openindiana pseudo: [ID 129642 kern.info] pseudo-device: dcpc0
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] dcpc0 is /pseudo/dcpc@0
+Mar 24 19:51:40 openindiana pseudo: [ID 129642 kern.info] pseudo-device: fasttrap0
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] fasttrap0 is /pseudo/fasttrap@0
+Mar 24 19:51:40 openindiana pseudo: [ID 129642 kern.info] pseudo-device: fbt0
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] fbt0 is /pseudo/fbt@0
+Mar 24 19:51:40 openindiana pseudo: [ID 129642 kern.info] pseudo-device: fcp0
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] fcp0 is /pseudo/fcp@0
+Mar 24 19:51:40 openindiana pseudo: [ID 129642 kern.info] pseudo-device: fcsm0
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] fcsm0 is /pseudo/fcsm@0
+Mar 24 19:51:40 openindiana pseudo: [ID 129642 kern.info] pseudo-device: fct0
+Mar 24 19:51:40 openindiana genunix: [ID 936769 kern.info] fct0 is /pseudo/fct@0
+Mar 24 19:51:41 openindiana pseudo: [ID 129642 kern.info] pseudo-device: llc10
+Mar 24 19:51:41 openindiana genunix: [ID 936769 kern.info] llc10 is /pseudo/llc1@0
+Mar 24 19:51:41 openindiana pseudo: [ID 129642 kern.info] pseudo-device: lockstat0
+Mar 24 19:51:41 openindiana genunix: [ID 936769 kern.info] lockstat0 is /pseudo/lockstat@0
+Mar 24 19:51:41 openindiana pseudo: [ID 129642 kern.info] pseudo-device: lofi0
+Mar 24 19:51:41 openindiana genunix: [ID 936769 kern.info] lofi0 is /pseudo/lofi@0
+Mar 24 19:51:41 openindiana pseudo: [ID 129642 kern.info] pseudo-device: nvidia255
+Mar 24 19:51:41 openindiana genunix: [ID 936769 kern.info] nvidia255 is /pseudo/nvidia@255
+Mar 24 19:51:41 openindiana pseudo: [ID 129642 kern.info] pseudo-device: profile0
+Mar 24 19:51:41 openindiana genunix: [ID 936769 kern.info] profile0 is /pseudo/profile@0
+Mar 24 19:51:41 openindiana pseudo: [ID 129642 kern.info] pseudo-device: ramdisk1024
+Mar 24 19:51:41 openindiana genunix: [ID 936769 kern.info] ramdisk1024 is /pseudo/ramdisk@1024
+Mar 24 19:51:41 openindiana pseudo: [ID 129642 kern.info] pseudo-device: sdt0
+Mar 24 19:51:41 openindiana genunix: [ID 936769 kern.info] sdt0 is /pseudo/sdt@0
+Mar 24 19:51:42 openindiana pseudo: [ID 129642 kern.info] pseudo-device: stmf0
+Mar 24 19:51:42 openindiana genunix: [ID 936769 kern.info] stmf0 is /pseudo/stmf@0
+Mar 24 19:51:42 openindiana pseudo: [ID 129642 kern.info] pseudo-device: systrace0
+Mar 24 19:51:42 openindiana genunix: [ID 936769 kern.info] systrace0 is /pseudo/systrace@0
+Mar 24 19:51:42 openindiana pseudo: [ID 129642 kern.info] pseudo-device: bpf0
+Mar 24 19:51:42 openindiana genunix: [ID 936769 kern.info] bpf0 is /pseudo/bpf@0
+Mar 24 19:51:42 openindiana pseudo: [ID 129642 kern.info] pseudo-device: fssnap0
+Mar 24 19:51:42 openindiana genunix: [ID 936769 kern.info] fssnap0 is /pseudo/fssnap@0
+Mar 24 19:51:42 openindiana fuse: [ID 983544 kern.info] Fuse kernel 1.3.1 interface 7.8
+Mar 24 19:51:42 openindiana fuse: [ID 295230 kern.info] Fuse kernel init at 0xfffffffff8aaa590, vfs_modldrv at 0xffffffffc0430160
+Mar 24 19:51:42 openindiana ipf: [ID 774698 kern.info] IP Filter: v4.1.9, running.
+Mar 24 19:51:42 openindiana pseudo: [ID 129642 kern.info] pseudo-device: nsmb0
+Mar 24 19:51:42 openindiana genunix: [ID 936769 kern.info] nsmb0 is /pseudo/nsmb@0
+Mar 24 19:51:42 openindiana pseudo: [ID 129642 kern.info] pseudo-device: signalfd0
+Mar 24 19:51:42 openindiana genunix: [ID 936769 kern.info] signalfd0 is /pseudo/signalfd@0
+Mar 24 19:51:42 openindiana pseudo: [ID 129642 kern.info] pseudo-device: timerfd0
+Mar 24 19:51:42 openindiana genunix: [ID 936769 kern.info] timerfd0 is /pseudo/timerfd@0
+Mar 24 19:51:42 openindiana pseudo: [ID 129642 kern.info] pseudo-device: winlock0
+Mar 24 19:51:42 openindiana genunix: [ID 936769 kern.info] winlock0 is /pseudo/winlock@0
+Mar 24 19:51:44 openindiana rootnex: [ID 349649 kern.info] xsvc0 at root: space 0 offset 0
+Mar 24 19:51:44 openindiana genunix: [ID 936769 kern.info] xsvc0 is /xsvc@0,0
+Mar 24 19:51:45 openindiana pseudo: [ID 129642 kern.info] pseudo-device: devinfo0
+Mar 24 19:51:45 openindiana genunix: [ID 936769 kern.info] devinfo0 is /pseudo/devinfo@0
+Mar 24 19:51:45 openindiana console-kit-daemon[522]: [ID 702911 daemon.warning] WARNING: signal "open_session_request" (from "OpenSessionRequest") exported but not found in object class "CkSeat"
+Mar 24 19:51:45 openindiana console-kit-daemon[522]: [ID 702911 daemon.warning] WARNING: signal "close_session_request" (from "CloseSessionRequest") exported but not found in object class "CkSeat"
+Mar 24 19:52:01 openindiana console-kit-daemon[522]: [ID 702911 daemon.crit] GLib-GObject-CRITICAL: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Mar 24 19:52:02 openindiana mate-session[1536]: [ID 702911 daemon.warning] WARNING: Unable to find provider '' of required component 'dock'
+Mar 24 19:52:05 openindiana pulseaudio[1601]: [ID 295310 user.error] [(null)] stdin-util.c: Unable to read or parse data from client.
+Mar 24 19:52:05 openindiana pulseaudio[1601]: [ID 295310 user.error] [(null)] module.c: Failed to load module "module-gsettings" (argument: ""): initialization failed.
+Mar 24 19:52:06 openindiana pulseaudio[1631]: [ID 295310 user.error] [(null)] pid.c: Daemon already running.
+Mar 24 19:52:06 openindiana pulseaudio[1633]: [ID 295310 user.error] [(null)] pid.c: Daemon already running.

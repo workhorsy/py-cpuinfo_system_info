@@ -1,0 +1,408 @@
+sys.executable:
+===============================================================================
+/usr/bin/python
+
+
+
+sys.version_info:
+===============================================================================
+sys.version_info(major=2, minor=7, micro=13, releaselevel='final', serial=0)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+1
+
+
+
+platform.uname:
+===============================================================================
+('Linux', 'lattes', '4.9.0-2-marvell', '#1 Debian 4.9.18-1 (2017-03-30)', 'armv5tel', '')
+
+
+
+platform.architecture:
+===============================================================================
+('32bit', '')
+
+
+
+platform.system:
+===============================================================================
+Linux
+
+
+
+platform.machine:
+===============================================================================
+armv5tel
+
+
+
+cat /proc/cpuinfo:
+===============================================================================
+processor	: 0
+model name	: Feroceon rev 0 (v5l)
+BogoMIPS	: 264.70
+Features	: swp half thumb fastmult edsp
+CPU implementer	: 0x41
+CPU architecture: 5TEJ
+CPU variant	: 0x0
+CPU part	: 0x926
+CPU revision	: 0
+
+Hardware	: Marvell Orion5x (Flattened Device Tree)
+Revision	: 0000
+Serial		: 0000000000000000
+
+
+
+
+sysctl machdep.cpu hw.cpufrequency:
+===============================================================================
+
+
+
+
+sysctl hw.model hw.machine:
+===============================================================================
+
+
+
+
+lscpu:
+===============================================================================
+Architecture:          armv5tel
+Byte Order:            Little Endian
+CPU(s):                1
+On-line CPU(s) list:   0
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             1
+Model:                 0
+Model name:            Feroceon rev 0 (v5l)
+BogoMIPS:              264.70
+Flags:                 swp half thumb fastmult edsp
+
+
+
+
+dmesg:
+===============================================================================
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.9.0-2-marvell (debian-kernel@lists.debian.org) (gcc version 6.3.0 20170321 (Debian 6.3.0-11) ) #1 Debian 4.9.18-1 (2017-03-30)
+[    0.000000] CPU: Feroceon [41069260] revision 0 (ARMv5TEJ), cr=a005317f
+[    0.000000] CPU: VIVT data cache, VIVT instruction cache
+[    0.000000] OF: fdt:Machine model: Buffalo/Revogear Kurobox Pro
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] On node 0 totalpages: 32768
+[    0.000000] free_area_init_node: node 0, pgdat c05924d4, node_mem_map c7ef9000
+[    0.000000]   Normal zone: 256 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 32768 pages, LIFO batch:7
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+[    0.000000] Kernel command line: console=ttyS0,115200 zswap.enabled=1
+[    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+[    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Memory: 120996K/131072K available (3776K kernel code, 370K rwdata, 1128K rodata, 296K init, 248K bss, 10076K reserved, 0K cma-reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+                   vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+                   fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+                   vmalloc : 0xc8800000 - 0xff800000   ( 880 MB)
+                   lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+                   pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+                   modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+                     .text : 0xc0008000 - 0xc03b82b0   (3777 kB)
+                     .init : 0xc04f4000 - 0xc053e000   ( 296 kB)
+                     .data : 0xc053e000 - 0xc059aba8   ( 371 kB)
+                      .bss : 0xc059aba8 - 0xc05d8bec   ( 249 kB)
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] clocksource: orion_clocksource: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 11467562657 ns
+[    0.000021] sched_clock: 32 bits at 166MHz, resolution 6ns, wraps every 12884901885ns
+[    0.001371] Console: colour dummy device 80x30
+[    0.001432] Calibrating delay loop... 264.70 BogoMIPS (lpj=529408)
+[    0.036145] pid_max: default: 32768 minimum: 301
+[    0.036598] Security Framework initialized
+[    0.036629] Yama: disabled by default; enable with sysctl kernel.yama.*
+[    0.037008] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.037045] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.039466] CPU: Testing write buffer coherency: ok
+[    0.039763] ftrace: allocating 16904 entries in 34 pages
+[    0.156725] Setting up static identity map for 0x8200 - 0x823c
+[    0.163813] devtmpfs: initialized
+[    0.172594] VFP support v0.3: not present
+[    0.173015] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.173066] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    0.173612] pinctrl core: initialized pinctrl subsystem
+[    0.176228] NET: Registered protocol family 16
+[    0.177262] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.180932] cpuidle: using governor ladder
+[    0.180968] cpuidle: using governor menu
+[    0.181059] Orion ID: MV88F5182-A2. TCLK=0.
+[    0.192512] No ATAGs?
+[    0.209798] clocksource: Switched to clocksource orion_clocksource
+[    0.260227] VFS: Disk quotas dquot_6.6.0
+[    0.260417] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.287787] NET: Registered protocol family 2
+[    0.290049] TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.290124] TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.290178] TCP: Hash tables configured (established 1024 bind 1024)
+[    0.290365] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.290439] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.290975] NET: Registered protocol family 1
+[    0.291067] PCI: CLS 0 bytes, default 32
+[    0.291729] Unpacking initramfs...
+[    1.085845] random: fast init done
+[    5.054758] Freeing initrd memory: 2888K (c2000000 - c22d2000)
+[    5.056524] audit: initializing netlink subsys (disabled)
+[    5.056697] audit: type=2000 audit(4.988:1): initialized
+[    5.057677] workingset: timestamp_bits=30 max_order=15 bucket_order=0
+[    5.057980] zbud: loaded
+[    5.063046] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+[    5.063482] io scheduler noop registered
+[    5.063720] io scheduler cfq registered (default)
+[    5.065453] orion-pinctrl f1010000.pinctrl: registered pinctrl driver
+[    5.068783] mv_xor f1060900.dma-controller: Marvell shared XOR driver
+[    5.113656] mv_xor f1060900.dma-controller: Marvell XOR (Registers Mode): ( xor cpy intr )
+[    5.114740] Serial: 8250/16550 driver, 2 ports, IRQ sharing disabled
+[    5.117523] console [ttyS0] disabled
+[    5.117665] f1012000.serial: ttyS0 at MMIO 0xf1012000 (irq = 23, base_baud = 10416666) is a 16550A
+[    5.546450] console [ttyS0] enabled
+[    5.551442] f1012100.serial: ttyS1 at MMIO 0xf1012100 (irq = 24, base_baud = 10416666) is a 16550A
+[    5.563212] nand: device found, Manufacturer ID: 0x20, Chip ID: 0xda
+[    5.569648] nand: ST Micro NAND 256MiB 3,3V 8-bit
+[    5.574414] nand: 256 MiB, SLC, erase size: 128 KiB, page size: 2048, OOB size: 64
+[    5.582038] Scanning device for bad blocks
+[    5.632665] Bad eraseblock 1171 at 0x000009260000
+[    5.672238] 3 ofpart partitions found on MTD device orion_nand
+[    5.678118] Creating 3 MTD partitions on "orion_nand":
+[    5.683314] 0x000000000000-0x000000400000 : "uImage"
+[    5.692263] 0x000000400000-0x000004400000 : "rootfs"
+[    5.702230] 0x000004400000-0x000010000000 : "extra"
+[    5.715793] mousedev: PS/2 mouse device common for all mice
+[    5.722360] i2c /dev entries driver
+[    5.731387] rtc-rs5c372 0-0032: rs5c372a found, 24hr
+[    5.742355] rtc rtc0: invalid alarm value: 2017-4-11 45:65:0
+[    5.748625] rtc-rs5c372 0-0032: rtc core: registered rtc-rs5c372 as rtc0
+[    5.756898] ledtrig-cpu: registered to indicate activity on CPUs
+[    5.763947] Found: SST 39LF020
+[    5.767110] f4000000.flash: Found 1 x8 devices at 0x0 in 8-bit bank
+[    5.773434] number of JEDEC chips: 1
+[    5.793322] 3 ofpart partitions found on MTD device f4000000.flash
+[    5.799585] Creating 3 MTD partitions on "f4000000.flash":
+[    5.805160] 0x000000000000-0x000000030000 : "header"
+[    5.813912] 0x000000030000-0x00000003f000 : "uboot"
+[    5.822558] 0x00000003f000-0x000000040000 : "uboot_env"
+[    5.832516] NET: Registered protocol family 17
+[    5.838850] registered taskstats version 1
+[    5.843149] zswap: loaded using pool lzo/zbud
+[    5.850606] rtc-rs5c372 0-0032: setting system clock to 2017-04-11 04:09:17 UTC (1491883757)
+[    5.862039] Freeing unused kernel memory: 296K (c04f4000 - c053e000)
+[    5.868443] This architecture does not have kernel memory protection.
+[    6.918929] SCSI subsystem initialized
+[    7.020610] libata version 3.00 loaded.
+[    7.038698] sata_mv sata_mv.0: version 1.28
+[    7.038914] sata_mv sata_mv.0: cannot get optional clkdev
+[    7.065482] sata_mv sata_mv.0: slots 32 ports 2
+[    7.130020] scsi host0: sata_mv
+[    7.149771] scsi host1: sata_mv
+[    7.157424] ata1: SATA max UDMA/133 irq 28
+[    7.161624] ata2: SATA max UDMA/133 irq 28
+[    7.641939] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    7.689969] ata1.00: ATA-8: ST31500341AS, CC1H, max UDMA/133
+[    7.695689] ata1.00: 2930277168 sectors, multi 0: LBA48 NCQ (depth 31/32)
+[    7.765999] ata1.00: configured for UDMA/133
+[    7.771493] scsi 0:0:0:0: Direct-Access     ATA      ST31500341AS     CC1H PQ: 0 ANSI: 5
+[    8.101308] ata2: SATA link down (SStatus 0 SControl 300)
+[    8.196866] sd 0:0:0:0: [sda] 2930277168 512-byte logical blocks: (1.50 TB/1.36 TiB)
+[    8.211311] sd 0:0:0:0: [sda] Write Protect is off
+[    8.216206] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    8.216646] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    8.271634]  sda: sda1 sda2 sda3
+[    8.288306] sd 0:0:0:0: [sda] Attached SCSI disk
+[    9.731235] EXT4-fs (sda2): barriers disabled
+[   10.028459] EXT4-fs (sda2): mounted filesystem with writeback data mode. Opts: (null)
+[   11.131186] random: crng init done
+[   11.565464] NET: Registered protocol family 10
+[   11.628706] ip_tables: (C) 2000-2006 Netfilter Core Team
+[   11.767209] systemd[1]: systemd 232 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+[   11.786681] systemd[1]: Detected architecture arm.
+[   11.856622] systemd[1]: Set hostname to <lattes>.
+[   13.889067] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[   13.919262] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[   13.942873] systemd[1]: Listening on RPCbind Server Activation Socket.
+[   13.967567] systemd[1]: Listening on Network Service Netlink Socket.
+[   13.990849] systemd[1]: Listening on fsck to fsckd communication Socket.
+[   14.015317] systemd[1]: Listening on Journal Socket.
+[   14.035102] systemd[1]: Listening on Journal Socket (/dev/log).
+[   15.120849] EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
+[   15.136281] RPC: Registered named UNIX socket transport module.
+[   15.142782] RPC: Registered udp transport module.
+[   15.147544] RPC: Registered tcp transport module.
+[   15.152295] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[   15.525400] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+[   17.027102] systemd-journald[131]: Received request to flush runtime journal from PID 1
+[   19.811299] libphy: Fixed MDIO Bus: probed
+[   19.891092] libphy: orion_mdio_bus: probed
+[   19.911936] usbcore: registered new interface driver usbfs
+[   19.978254] usbcore: registered new interface driver hub
+[   20.026395] usbcore: registered new device driver usb
+[   20.102283] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[   20.123966] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[   20.203687] ehci-orion: EHCI orion driver
+[   20.254483] alg: hash: Test 6 failed for mv-md5
+[   20.259117] 00000000: c4 b2 aa 73 86 13 73 aa d3 73 ee cb 5a 2e fa 5c
+[   20.331075] alg: hash: Partial Test 2 failed for mv-sha1
+[   20.336471] 00000000: 4a 6e 68 4e 50 99 60 a2 90 d0 cb c5 27 6f 94 a8
+[   20.342976] 00000010: f3 13 b2 82
+[   20.572092] alg: hash: setkey failed on test 1 for mv-hmac-md5: ret=2
+[   20.761003] alg: hash: setkey failed on test 1 for mv-hmac-sha1: ret=2
+[   20.793099] marvell-cesa mv_crypto: CESA device successfully registered
+[   20.826319] mv643xx_eth: MV-643xx 10/100/1000 ethernet driver version 1.4
+[   20.851258] orion-ehci f1050000.ehci: EHCI Host Controller
+[   20.886064] orion-ehci f1050000.ehci: new USB bus registered, assigned bus number 1
+[   20.927626] orion-ehci f1050000.ehci: irq 26, io mem 0xf1050000
+[   20.943305] mv643xx_eth_port mv643xx_eth_port.0 eth0: port 0 with MAC address 00:16:01:a4:e5:cd
+[   21.010126] orion-ehci f1050000.ehci: USB 2.0 started, EHCI 1.00
+[   21.042563] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[   21.049444] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   21.056737] usb usb1: Product: EHCI Host Controller
+[   21.061684] usb usb1: Manufacturer: Linux 4.9.0-2-marvell ehci_hcd
+[   21.067923] usb usb1: SerialNumber: f1050000.ehci
+[   21.238477] hub 1-0:1.0: USB hub found
+[   21.278075] hub 1-0:1.0: 1 port detected
+[   21.306364] orion-ehci f10a0000.ehci: EHCI Host Controller
+[   21.353722] orion-ehci f10a0000.ehci: new USB bus registered, assigned bus number 2
+[   21.401459] orion-ehci f10a0000.ehci: irq 30, io mem 0xf10a0000
+[   21.482063] orion-ehci f10a0000.ehci: USB 2.0 started, EHCI 1.00
+[   21.526541] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[   21.533422] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   21.540716] usb usb2: Product: EHCI Host Controller
+[   21.545664] usb usb2: Manufacturer: Linux 4.9.0-2-marvell ehci_hcd
+[   21.551902] usb usb2: SerialNumber: f10a0000.ehci
+[   21.760730] hub 2-0:1.0: USB hub found
+[   21.785755] hub 2-0:1.0: 1 port detected
+[   22.509012] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   22.667615] Adding 396284k swap on /dev/sda3.  Priority:-1 extents:1 across:396284k FS
+[   23.328224] EXT4-fs (sda1): mounting ext2 file system using the ext4 subsystem
+[   23.415337] EXT4-fs (sda1): mounted filesystem without journal. Opts: errors=remount-ro
+[   24.975769] mv643xx_eth_port mv643xx_eth_port.0 eth0: link up, 1000 Mb/s, full duplex, flow control disabled
+[   24.985758] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   28.933036] NFSD: starting 90-second grace period (net c058bb58)
+[  516.442486] Bluetooth: Core ver 2.22
+[  516.449084] NET: Registered protocol family 31
+[  516.453626] Bluetooth: HCI device and connection manager initialized
+[  516.460055] Bluetooth: HCI socket layer initialized
+[  516.466436] Bluetooth: L2CAP socket layer initialized
+[  516.471681] Bluetooth: SCO socket layer initialized
+[293153.949970] mv643xx_eth_port mv643xx_eth_port.0 eth0: link down
+[293163.947079] mv643xx_eth_port mv643xx_eth_port.0 eth0: link up, 1000 Mb/s, full duplex, flow control disabled
+[293214.654657] mv643xx_eth_port mv643xx_eth_port.0 eth0: link down
+[293217.041077] mv643xx_eth_port mv643xx_eth_port.0 eth0: link up, 1000 Mb/s, full duplex, flow control disabled
+[327610.477153] mv643xx_eth_port mv643xx_eth_port.0 eth0: link down
+[327619.787975] mv643xx_eth_port mv643xx_eth_port.0 eth0: link up, 1000 Mb/s, full duplex, flow control disabled
+[327670.329861] mv643xx_eth_port mv643xx_eth_port.0 eth0: link down
+[327672.683429] mv643xx_eth_port mv643xx_eth_port.0 eth0: link up, 1000 Mb/s, full duplex, flow control disabled
+[495341.131868] mv643xx_eth_port mv643xx_eth_port.0 eth0: link down
+[495349.090588] mv643xx_eth_port mv643xx_eth_port.0 eth0: link up, 1000 Mb/s, full duplex, flow control disabled
+[495399.713199] mv643xx_eth_port mv643xx_eth_port.0 eth0: link down
+[495402.081131] mv643xx_eth_port mv643xx_eth_port.0 eth0: link up, 1000 Mb/s, full duplex, flow control disabled
+[529725.162307] bash (5316): drop_caches: 1
+[534371.129865] blk_update_request: I/O error, dev mtdblock0, sector 256
+[534371.138534] __nand_correct_data: uncorrectable ECC error
+[534371.144249] blk_update_request: I/O error, dev mtdblock0, sector 264
+[534371.152752] blk_update_request: I/O error, dev mtdblock0, sector 272
+[534371.160687] __nand_correct_data: uncorrectable ECC error
+[534371.166320] blk_update_request: I/O error, dev mtdblock0, sector 280
+[534371.175275] __nand_correct_data: uncorrectable ECC error
+[534371.180777] blk_update_request: I/O error, dev mtdblock0, sector 288
+[534371.188672] __nand_correct_data: uncorrectable ECC error
+[534371.194162] blk_update_request: I/O error, dev mtdblock0, sector 296
+[534371.201872] __nand_correct_data: uncorrectable ECC error
+[534371.207369] blk_update_request: I/O error, dev mtdblock0, sector 304
+[534371.215083] __nand_correct_data: uncorrectable ECC error
+[534371.220582] blk_update_request: I/O error, dev mtdblock0, sector 312
+[534371.228591] __nand_correct_data: uncorrectable ECC error
+[534371.234062] __nand_correct_data: uncorrectable ECC error
+[534371.239541] blk_update_request: I/O error, dev mtdblock0, sector 320
+[534371.247665] __nand_correct_data: uncorrectable ECC error
+[534371.253164] blk_update_request: I/O error, dev mtdblock0, sector 328
+[534371.260952] __nand_correct_data: uncorrectable ECC error
+[534371.266420] __nand_correct_data: uncorrectable ECC error
+[534371.273176] __nand_correct_data: uncorrectable ECC error
+[534371.278822] __nand_correct_data: uncorrectable ECC error
+[534371.284296] __nand_correct_data: uncorrectable ECC error
+[534371.291392] __nand_correct_data: uncorrectable ECC error
+[534371.297690] __nand_correct_data: uncorrectable ECC error
+[534371.303985] __nand_correct_data: uncorrectable ECC error
+[534371.310749] __nand_correct_data: uncorrectable ECC error
+[534371.316245] __nand_correct_data: uncorrectable ECC error
+[534371.322917] __nand_correct_data: uncorrectable ECC error
+[534371.328408] __nand_correct_data: uncorrectable ECC error
+[534371.335082] __nand_correct_data: uncorrectable ECC error
+[534371.341685] __nand_correct_data: uncorrectable ECC error
+[534371.347976] __nand_correct_data: uncorrectable ECC error
+[534371.354430] __nand_correct_data: uncorrectable ECC error
+[534371.360783] __nand_correct_data: uncorrectable ECC error
+[534371.366437] __nand_correct_data: uncorrectable ECC error
+[534371.373200] __nand_correct_data: uncorrectable ECC error
+[534371.378671] __nand_correct_data: uncorrectable ECC error
+[534371.445847] Buffer I/O error on dev mtdblock0, logical block 32, async page read
+[534371.467998] __nand_correct_data: uncorrectable ECC error
+[534371.480628] __nand_correct_data: uncorrectable ECC error
+[534371.504651] __nand_correct_data: uncorrectable ECC error
+[534371.520458] __nand_correct_data: uncorrectable ECC error
+[534371.529496] __nand_correct_data: uncorrectable ECC error
+[534371.535277] __nand_correct_data: uncorrectable ECC error
+[534371.552430] __nand_correct_data: uncorrectable ECC error
+[534371.557891] __nand_correct_data: uncorrectable ECC error
+[534371.566878] __nand_correct_data: uncorrectable ECC error
+[534371.572504] __nand_correct_data: uncorrectable ECC error
+[534371.593974] __nand_correct_data: uncorrectable ECC error
+[534371.599453] __nand_correct_data: uncorrectable ECC error
+[534371.606210] __nand_correct_data: uncorrectable ECC error
+[534371.617818] __nand_correct_data: uncorrectable ECC error
+[534371.629698] __nand_correct_data: uncorrectable ECC error
+[534371.644425] __nand_correct_data: uncorrectable ECC error
+[534371.664461] __nand_correct_data: uncorrectable ECC error
+[534371.669928] __nand_correct_data: uncorrectable ECC error
+[534371.683100] __nand_correct_data: uncorrectable ECC error
+[534371.688743] __nand_correct_data: uncorrectable ECC error
+[534371.702165] __nand_correct_data: uncorrectable ECC error
+[534371.707643] __nand_correct_data: uncorrectable ECC error
+[534371.714713] __nand_correct_data: uncorrectable ECC error
+[534371.724586] __nand_correct_data: uncorrectable ECC error
+[534371.740427] __nand_correct_data: uncorrectable ECC error
+[534371.749130] __nand_correct_data: uncorrectable ECC error
+[534371.764451] __nand_correct_data: uncorrectable ECC error
+[534371.773105] __nand_correct_data: uncorrectable ECC error
+[534371.778594] __nand_correct_data: uncorrectable ECC error
+[534371.793645] __nand_correct_data: uncorrectable ECC error
+[534371.804432] __nand_correct_data: uncorrectable ECC error
+[534371.809896] __nand_correct_data: uncorrectable ECC error
+[534371.828466] __nand_correct_data: uncorrectable ECC error
+[534371.839246] __nand_correct_data: uncorrectable ECC error
+[534371.844733] __nand_correct_data: uncorrectable ECC error
+[534371.854617] __nand_correct_data: uncorrectable ECC error
+[534371.860341] __nand_correct_data: uncorrectable ECC error
+[534371.865799] __nand_correct_data: uncorrectable ECC error
+[534371.877844] __nand_correct_data: uncorrectable ECC error
+[534372.319660] __nand_correct_data: uncorrectable ECC error
+[534372.330635] __nand_correct_data: uncorrectable ECC error
+[534372.342690] __nand_correct_data: uncorrectable ECC error
+[534372.348183] __nand_correct_data: uncorrectable ECC error
+[534372.358416] __nand_correct_data: uncorrectable ECC error
+[534372.364081] __nand_correct_data: uncorrectable ECC error
+[534372.374513] __nand_correct_data: uncorrectable ECC error
+[534372.380239] __nand_correct_data: uncorrectable ECC error
+[534372.385692] __nand_correct_data: uncorrectable ECC error
+[534372.397355] __nand_correct_data: uncorrectable ECC error
+[534372.403007] __nand_correct_data: uncorrectable ECC error
+[534372.413026] __nand_correct_data: uncorrectable ECC error
+[534372.418514] __nand_correct_data: uncorrectable ECC error
+[534372.428445] __nand_correct_data: uncorrectable ECC error
+[534372.434244] __nand_correct_data: uncorrect
