@@ -1,0 +1,135 @@
+sys.executable:
+===============================================================================
+/bin/python
+
+
+
+sys.version_info:
+===============================================================================
+sys.version_info(major=2, minor=7, micro=14, releaselevel='final', serial=0)
+
+
+
+sys.maxsize:
+===============================================================================
+9223372036854775807 (64 bit)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+2
+
+
+
+os.sysconf('SC_NPROCESSORS_ONLN'):
+===============================================================================
+2
+
+
+
+platform.uname:
+===============================================================================
+('Haiku', 'shredder', '1', 'hrev52295+96 Sep 27 2018 18:48:', 'x86_64', 'x86_64')
+
+
+
+sys.executable:
+===============================================================================
+/bin/python
+
+
+
+sys.version_info:
+===============================================================================
+sys.version_info(major=2, minor=7, micro=14, releaselevel='final', serial=0)
+
+
+
+sys.maxsize:
+===============================================================================
+9223372036854775807 (64 bit)
+
+
+
+multiprocessing.cpu_count:
+===============================================================================
+2
+
+
+
+os.sysconf('SC_NPROCESSORS_ONLN'):
+===============================================================================
+2
+
+
+
+platform.uname:
+===============================================================================
+('Haiku', 'shredder', '1', 'hrev52295+96 Sep 27 2018 18:48:', 'x86_64', 'x86_64')
+
+
+
+platform.architecture:
+===============================================================================
+('64bit', '')
+
+
+
+platform.system:
+===============================================================================
+Haiku
+
+
+
+platform.machine:
+===============================================================================
+x86_64
+
+
+
+sysinfo -cpu:
+===============================================================================
+2 AMD Ryzen 7, revision 800f82 running at 3693MHz
+
+CPU #0: "AMD Ryzen 7 2700X Eight-Core Processor         "
+	Signature: 0x800f82; Type 0, family 23, model 8, stepping 2
+	Features: 0x178bfbff
+		FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT
+		PSE36 CFLUSH MMX FXSTR SSE SSE2 HTT
+	Extended Features (0x00000001): 0x56d82203
+		SSE3 PCLMULDQ SSSE3 CX16 SSE4.1 SSE4.2 MOVEB POPCNT AES XSAVE AVX RDRND
+	Extended Features (0x80000001): 0x2bd3fb7f
+		SCE NX AMD-MMX FXSR FFXSR RDTSCP 64
+	Extended Features (0x80000007): 0x00000100
+		ITSC
+	Extended Features (0x80000008): 0x00000000
+
+	Inst TLB: 2M/4M-byte pages, 64 entries, fully associative
+	Data TLB: 2M/4M-byte pages, 64 entries, fully associative
+	Inst TLB: 4K-byte pages, 64 entries, fully associative
+	Data TLB: 4K-byte pages, 64 entries, fully associative
+	L1 inst cache: 32 KB, 8-way set associative, 1 lines/tag, 64 bytes/line
+	L1 data cache: 64 KB, 4-way set associative, 1 lines/tag, 64 bytes/line
+	L2 cache: 512 KB, 8-way set associative, 1 lines/tag, 64 bytes/line
+
+CPU #1: "AMD Ryzen 7 2700X Eight-Core Processor         "
+	Signature: 0x800f82; Type 0, family 23, model 8, stepping 2
+	Features: 0x178bfbff
+		FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT
+		PSE36 CFLUSH MMX FXSTR SSE SSE2 HTT
+	Extended Features (0x00000001): 0x56d82203
+		SSE3 PCLMULDQ SSSE3 CX16 SSE4.1 SSE4.2 MOVEB POPCNT AES XSAVE AVX RDRND
+	Extended Features (0x80000001): 0x2bd3fb7f
+		SCE NX AMD-MMX FXSR FFXSR RDTSCP 64
+	Extended Features (0x80000007): 0x00000100
+		ITSC
+	Extended Features (0x80000008): 0x00000000
+
+	Inst TLB: 2M/4M-byte pages, 64 entries, fully associative
+	Data TLB: 2M/4M-byte pages, 64 entries, fully associative
+	Inst TLB: 4K-byte pages, 64 entries, fully associative
+	Data TLB: 4K-byte pages, 64 entries, fully associative
+	L1 inst cache: 32 KB, 8-way set associative, 1 lines/tag, 64 bytes/line
+	L1 data cache: 64 KB, 4-way set associative, 1 lines/tag, 64 bytes/line
+	L2 cache: 512 KB, 8-way set associative, 1 lines/tag, 64 bytes/line
